@@ -1,24 +1,30 @@
 package ca.cmpt213.courseplanner.model;
 
+/**
+ * Represents a university course
+ * 
+ */
 public class Course {
 	
-	private int semesterId;
+	private String semesterId;
 	private String subject;
-	private int catalogId;
+	private String catalogId;
 	private String location;
-	private int enrollmentNumber;
+	private int enrollmentCapacity;
+	private int enrollmentTotal;
 	private String instuctorName;
 	private String courseType;
-	
-	public Course(int semesterId, String subject, int catalogId,
-			String location, int enrollmentNumber, String instuctorName,
-			String courseType) {
+
+	public Course(String semesterId, String subject, String catalogId,
+			String location, int enrollmentCapacity, int enrollmentTotal,
+			String instuctorName, String courseType) {
 		super();
 		this.semesterId = semesterId;
 		this.subject = subject;
 		this.catalogId = catalogId;
 		this.location = location;
-		this.enrollmentNumber = enrollmentNumber;
+		this.enrollmentCapacity = enrollmentCapacity;
+		this.enrollmentTotal = enrollmentTotal;
 		this.instuctorName = instuctorName;
 		this.courseType = courseType;
 	}
