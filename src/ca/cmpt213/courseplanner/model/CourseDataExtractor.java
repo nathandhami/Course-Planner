@@ -9,16 +9,19 @@ import java.util.Scanner;
 
 /**
  * 
- * Gather input from excel file and store data in business logic
+ * Extract input from excel file and store data in business logic
  *
  */
 public class CourseDataExtractor {
 
 	private static CourseList courses = new CourseList();
+//	private static CourseOffering courseOffering;
+	private static ArrayList<Course> coursesOffered = new ArrayList<Course>();
 
 	public static void main(String args[]) {
 
 		loadCoursesFromExcelFile();
+		
 
 	}
 
@@ -102,6 +105,18 @@ public class CourseDataExtractor {
 			System.out.println("File not found");
 		}
 	}
+	
+	
+//	public void dumpModel(){
+//		coursesOffered = courses.getCourseList();
+//		
+//		for(int i = 0; i < courses.size();i++){
+//			
+//			if(coursesOffered.get(i).equals("cmpt"
+//		}
+//		
+//		
+//	}
 	
 	
 	

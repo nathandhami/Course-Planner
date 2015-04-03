@@ -15,6 +15,7 @@ public class Course {
 	private String instuctorName;
 	private String courseType;
 
+
 	public Course(String semesterId, String subject, String catalogId,
 			String location, String enrollmentCapacity, String enrollmentTotal,
 			String instuctorName, String courseType) {
@@ -28,6 +29,10 @@ public class Course {
 		this.instuctorName = instuctorName;
 		this.courseType = courseType;
 	}
+	
+	public String getFullCourseName(){
+		return subject + " " + catalogId;
+	}
 
 	public boolean isCourseEnrollmentEmpty() throws Exception {
 		if (Integer.parseInt(enrollmentTotal) == 0) {
@@ -39,4 +44,45 @@ public class Course {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "Course [semesterId=" + semesterId + ", subject=" + subject
+				+ ", catalogId=" + catalogId + ", location=" + location
+				+ ", enrollmentCapacity=" + enrollmentCapacity
+				+ ", enrollmentTotal=" + enrollmentTotal + ", instuctorName="
+				+ instuctorName + ", courseType=" + courseType + "]";
+	}
+	
+	public String getSemesterId() {
+		return semesterId;
+	}
+	
+	public String getSubject() {
+		return subject;
+	}
+	
+	public String getCatalogId() {
+		return catalogId;
+	}
+	
+	public String getLocation() {
+		return location;
+	}
+	
+	public String getEnrollmentCapacity() {
+		return enrollmentCapacity;
+	}
+	
+	public String getEnrollmentTotal() {
+		return enrollmentTotal;
+	}
+	
+	public String getInstuctorName() {
+		return instuctorName;
+	}
+	
+	public String getCourseType() {
+		return courseType;
+	}
+	
 }

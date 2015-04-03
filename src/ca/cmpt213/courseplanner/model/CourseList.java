@@ -22,7 +22,7 @@ public class CourseList implements Iterable<Course> {
 		notifyOfferingChangeObservers();
 	}
 	
-	public ArrayList<Course> getCourses(){
+	public ArrayList<Course> getCourseList(){
 		
 		return courses;
 	}
