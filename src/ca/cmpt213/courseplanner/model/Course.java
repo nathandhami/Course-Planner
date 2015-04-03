@@ -5,18 +5,18 @@ package ca.cmpt213.courseplanner.model;
  * 
  */
 public class Course {
-	
+
 	private String semesterId;
 	private String subject;
 	private String catalogId;
 	private String location;
-	private int enrollmentCapacity;
-	private int enrollmentTotal;
+	private String enrollmentCapacity;
+	private String enrollmentTotal;
 	private String instuctorName;
 	private String courseType;
 
 	public Course(String semesterId, String subject, String catalogId,
-			String location, int enrollmentCapacity, int enrollmentTotal,
+			String location, String enrollmentCapacity, String enrollmentTotal,
 			String instuctorName, String courseType) {
 		super();
 		this.semesterId = semesterId;
@@ -28,9 +28,15 @@ public class Course {
 		this.instuctorName = instuctorName;
 		this.courseType = courseType;
 	}
-	
-	
-	
-	
+
+	public boolean isCourseEnrollmentEmpty() throws Exception {
+		if (Integer.parseInt(enrollmentTotal) == 0) {
+			return true;
+		}
+
+		else {
+			return false;
+		}
+	}
 
 }

@@ -26,6 +26,11 @@ public class CourseList implements Iterable<Course> {
 		
 		return courses;
 	}
+	
+	public int size(){
+		
+		return courses.size();
+	}
 
 	@Override
 	public Iterator<Course> iterator() {
