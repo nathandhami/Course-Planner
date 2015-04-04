@@ -1,5 +1,7 @@
 package ca.cmpt213.courseplanner.model;
 
+import java.util.Comparator;
+
 /**
  * Represents a university course
  * 
@@ -26,7 +28,14 @@ public class Course {
 		this.location = location;
 		this.enrollmentCapacity = enrollmentCapacity;
 		this.enrollmentTotal = enrollmentTotal;
-		this.instuctorName = instuctorName;
+		
+		if(instuctorName.equals("(null)")){
+			this.instuctorName = "-unknown-";
+		}
+		else{
+			this.instuctorName = instuctorName;
+		}
+		
 		this.courseType = courseType;
 	}
 	
@@ -84,5 +93,15 @@ public class Course {
 	public String getCourseType() {
 		return courseType;
 	}
+	
+	public static Comparator<Course> CourseNameComparator = new Comparator<Course>() {
+
+		public int compare(Course c1, Course c2) {
+		   String first = c1.getFullCourseName();
+		   String second = c2.getFullCourseName();
+
+		   return first.compareTo(second);
+
+	 }};
 	
 }
