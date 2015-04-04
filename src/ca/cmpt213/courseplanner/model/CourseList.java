@@ -23,12 +23,10 @@ public class CourseList implements Iterable<Course> {
 	}
 	
 	public ArrayList<Course> getCourseList(){
-		
 		return courses;
 	}
 	
 	public int size(){
-		
 		return courses.size();
 	}
 

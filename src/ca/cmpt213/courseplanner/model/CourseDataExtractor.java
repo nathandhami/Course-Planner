@@ -22,6 +22,9 @@ public class CourseDataExtractor {
 
 		loadCoursesFromExcelFile();
 		
+		
+		Department dep = new Department(courses);
+		dep.getAllCoursesFromDeparment("CMPT");
 
 	}
 
