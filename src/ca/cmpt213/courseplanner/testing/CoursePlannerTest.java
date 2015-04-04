@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.Semester;
+import ca.cmpt213.courseplanner.ui.CoursePlannerFrame;
 
 public class CoursePlannerTest {
 
@@ -50,5 +51,10 @@ public class CoursePlannerTest {
 		String expectedResult = "CMPT 300";
 		assertEquals(expectedResult,course.getFullCourseName());
 	}
+//	@Test
+//	public void testCoursePlannerFrame(){
+//		CoursePlannerFrame frame = new CoursePlannerFrame("FAS Course Planner");
+//		
+//	}
 
 }
