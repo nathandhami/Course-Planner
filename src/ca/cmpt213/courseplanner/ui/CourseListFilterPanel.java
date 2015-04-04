@@ -3,7 +3,6 @@ package ca.cmpt213.courseplanner.ui;
 import java.awt.BorderLayout;
 import java.awt.Checkbox;
 import java.awt.Component;
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.util.Vector;
 
@@ -28,7 +27,6 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		Vector<String> options = new Vector<String>();
 		options.add("First");
 		options.add("Second");
-		filterPanel.setPreferredSize(new Dimension(300,100));
 		comboBox =  new JComboBox<String>(options);
 		comboBox.setName("DDD");
 		modifyUserContentPanel();
@@ -37,42 +35,19 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 	@Override
 	void modifyUserContentPanel() {
 		JPanel panel = new JPanel();
-		JPanel panel2 = new JPanel();
 		panel.setLayout(new BoxLayout(panel,BoxLayout.LINE_AXIS));
 		panel.add(new JLabel("Department "));
 		panel.add(comboBox);
-		setComponentToFixedSize(panel);
-		
+		setComponentSizeToFixedVerticalSize(panel);
+		JPanel panel2 = new JPanel();
 		panel2.setLayout(new BoxLayout(panel2,BoxLayout.PAGE_AXIS));
 		panel2.add(checkBox1);
 		panel2.add(checkBox2);
-		setComponentToFixedSize(panel2);
-		
-		
-		panel.add(Box.createVerticalGlue());
-		panel2.add(Box.createVerticalGlue());
-//		panel.setLayout(new BoxLayout(panel,BoxLayout.LINE_AXIS));
-//		panel.add(new JLabel("Department "));
-//		panel.add(comboBox);
-//		JPanel panel2 = new JPanel();
-//		panel2.setLayout(new BoxLayout(panel2,BoxLayout.PAGE_AXIS));
-//		panel2.add(checkBox1);
-//		panel2.add(checkBox2);
-//		setComponentSizeToFixedVerticalSize(panel2);
-
-		
-		
+		setComponentSizeToFixedVerticalSize(button);
 		filterPanel.setLayout(new BoxLayout(filterPanel,BoxLayout.PAGE_AXIS));
 		filterPanel.add(panel);
-		filterPanel.add(checkBox1);
-		filterPanel.add(checkBox2);
-		setComponentToFixedSize(button);
+		filterPanel.add(panel2);
 		filterPanel.add(button);
-//		filterPanel.add(Box.createVerticalGlue());
-		
-		
-//		filterPanel.add(panel2);
-//		filterPanel.add(button);
 		makeUserContentPanel(filterPanel);
 	}
 	

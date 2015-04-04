@@ -31,7 +31,7 @@ public abstract class CoursePlannerPanel extends JPanel{
 	
 	public void makeUserContentPanel(JPanel component){
 //		userContentPanel.add(component);
-		setBorder(component);	
+		setBorder(component);
 		add(component,BorderLayout.CENTER);
 	}
 	
@@ -42,7 +42,7 @@ public abstract class CoursePlannerPanel extends JPanel{
 		return label;
 	}
 	
-	public void setComponentToFixedSize(Component component){
+	public void setComponentSizeToFixedVerticalSize(Component component){
 		Dimension prefSize = component.getPreferredSize();
 		Dimension newSize = new Dimension(
 		Integer.MAX_VALUE,

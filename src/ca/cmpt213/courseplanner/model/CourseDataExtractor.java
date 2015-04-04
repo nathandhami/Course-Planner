@@ -1,3 +1,4 @@
+
 package ca.cmpt213.courseplanner.model;
 
 import java.io.File;
@@ -25,6 +26,7 @@ public class CourseDataExtractor {
 		
 		Department dep = new Department(courses);
 		dep.getAllCoursesFromDeparment("CMPT");
+		dumpModel();
 
 	}
 
@@ -110,17 +112,14 @@ public class CourseDataExtractor {
 	}
 	
 	
-//	public void dumpModel(){
-//		coursesOffered = courses.getCourseList();
-//		
-//		for(int i = 0; i < courses.size();i++){
-//			
-//			if(coursesOffered.get(i).equals("cmpt"
-//		}
-//		
-//		
-//	}
+	public static void dumpModel(){
+		
+		courses.sortByName();
+		courses.displayCourses();
+		
+	}
 	
 	
 	
 }
+
