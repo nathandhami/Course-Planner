@@ -12,10 +12,10 @@ public class CoursePlannerFrame extends JFrame{
 	
 	public CoursePlannerFrame(String title){
 		
-		setName(title);
+		setTitle(title);
 		setLayout(new BorderLayout());
 		add(new CourseListFilterPanel("Course List Filter Panel"),BorderLayout.NORTH);
-		
+		add(new CourseListPanel("Course List"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();
 		setVisible(true);
