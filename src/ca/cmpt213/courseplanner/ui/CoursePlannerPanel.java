@@ -42,10 +42,18 @@ public abstract class CoursePlannerPanel extends JPanel{
 		return label;
 	}
 	
-	public void setComponentSizeToFixedVerticalSize(Component component){
+	public void setComponentToFixedSize(Component component){
 		Dimension prefSize = component.getPreferredSize();
 		Dimension newSize = new Dimension(
 		Integer.MAX_VALUE,
+		(int)prefSize.getHeight());
+		component.setMaximumSize(newSize);
+	}
+	
+	public void setSize(Component component){
+		Dimension prefSize = component.getPreferredSize();
+		Dimension newSize = new Dimension(
+		(int)prefSize.getWidth(),
 		(int)prefSize.getHeight());
 		component.setMaximumSize(newSize);
 	}
