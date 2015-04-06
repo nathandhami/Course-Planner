@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,27 +15,18 @@ import ca.cmpt213.courseplanner.ui.CoursePlannerFrame;
 /**
  * 
  * Extract input from excel file and store data in business logic
- *
+ * MAIN MODEL
+ * 
  */
 public class CourseDataExtractor {
 
-	private static CourseList courses = new CourseList();
+	private CourseList courses = new CourseList();
 //	private static CourseOffering courseOffering;
-	private static ArrayList<Course> coursesOffered = new ArrayList<Course>();
-	private static ArrayList<String> allDeps = new ArrayList<String>();
+	private ArrayList<Course> coursesOffered = new ArrayList<Course>();
+	private ArrayList<String> allDeps = new ArrayList<String>();
 
-	public static void main(String args[]) {
 
-		loadCoursesFromExcelFile();
-		allDeps = courses.getDepartments();
-		CoursePlannerFrame coursePlanner = new CoursePlannerFrame("Course Planner");
-		
-		
-		//dumpModel();
-
-	}
-
-	public static void loadCoursesFromExcelFile() {
+	public void loadCoursesFromExcelFile() {
 
 		final int semesterId= 0;
 		final int subject = 1;
@@ -116,18 +108,17 @@ public class CourseDataExtractor {
 	}
 	
 	
-	public static void dumpModel(){
-		
+	public void dumpModel(){
 		courses.sortByName();
 		courses.displayCourses();
-		
 	}
 	
-	public static CourseList getCourses(){
+	public CourseList getCourses(){
 		return courses;
 	}
 	
-	public static ArrayList<String> getDepartmentNames(){
+	public ArrayList<String> getDepartmentNames(){
+		allDeps = courses.getDepartments();
 		return allDeps;
 	}
 	

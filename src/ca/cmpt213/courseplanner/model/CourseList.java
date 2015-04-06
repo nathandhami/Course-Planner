@@ -90,10 +90,10 @@ public class CourseList implements Iterable<Course> {
 		
 	}
 	
-	public ArrayList<Course> getCoursesfromDepartment(String d){
-		Department dep = new Department(CourseDataExtractor.getCourses());
-		return dep.getAllCoursesFromDeparment(d);
-	}
+//	public ArrayList<Course> getCoursesfromDepartment(String d){
+//		Department dep = new Department(CourseDataExtractor.getCourses());
+//		return dep.getAllCoursesFromDeparment(d);
+//	}
 	
 	public void displayCourses(){
 		

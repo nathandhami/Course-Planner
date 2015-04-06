@@ -11,13 +11,17 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.BevelBorder;
 
+import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+
 @SuppressWarnings("serial")
 public abstract class CoursePlannerPanel extends JPanel{
 	
 	private String title;
+	private CourseDataExtractor model;
 	
-	public CoursePlannerPanel(String title){
+	public CoursePlannerPanel(String title,CourseDataExtractor model){
 		this.title = title;
+		this.model = model;
 		setLayout(new BorderLayout());
 		add(makeLabel(title),BorderLayout.NORTH);
 	}
@@ -56,6 +60,11 @@ public abstract class CoursePlannerPanel extends JPanel{
 		(int)prefSize.getWidth(),
 		(int)prefSize.getHeight());
 		component.setMaximumSize(newSize);
+	}
+	
+	public CourseDataExtractor getModel(){
+		
+		return model;
 	}
 	
 	abstract void modifyUserContentPanel();

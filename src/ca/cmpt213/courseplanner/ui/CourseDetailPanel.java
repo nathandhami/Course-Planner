@@ -6,10 +6,12 @@ import java.awt.Dimension;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 
+import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+
 public class CourseDetailPanel extends CoursePlannerPanel{
 
-	public CourseDetailPanel(String title) {
-		super(title);
+	public CourseDetailPanel(String title, CourseDataExtractor model) {
+		super(title,model);
 		// TODO Auto-generated constructor stub
 		modifyUserContentPanel();
 		setPreferredSize(new Dimension(200,200));

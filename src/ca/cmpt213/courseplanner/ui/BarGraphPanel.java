@@ -5,10 +5,12 @@ import java.awt.Color;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 
+import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+
 public class BarGraphPanel extends CoursePlannerPanel {
 
-	public BarGraphPanel(String title) {
-		super(title);
+	public BarGraphPanel(String title,CourseDataExtractor model) {
+		super(title,model);
 		// TODO Auto-generated constructor stub
 		modifyUserContentPanel();
 	}

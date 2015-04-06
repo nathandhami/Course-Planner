@@ -28,20 +28,18 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 	private JPanel filterPanel = new JPanel();
 	private Vector<String> options = new Vector<String>();
 	
-	public CourseListFilterPanel(String title) {
-		super(title);
-		
+	public CourseListFilterPanel(String title, CourseDataExtractor model) {
+		super(title,model);
 		getAllDepartments();
 		comboBox =  new JComboBox<String>(options);
 		modifyUserContentPanel();
 		whichDepartment();
-		
 	}
 
 	public void getAllDepartments(){
 		
 		ArrayList<String> lst = new ArrayList<String>();
-		lst = CourseDataExtractor.getDepartmentNames();
+		lst = getModel().getDepartmentNames();
 		
 		for(int i=0; i<lst.size(); i++){
 			options.add(lst.get(i));
@@ -54,6 +52,7 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		System.out.println(selectedDep);
 		return null;
 	}
+	
 	
 	@Override
 	void modifyUserContentPanel() {

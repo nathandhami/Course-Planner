@@ -9,11 +9,13 @@ import javax.swing.BoxLayout;
 import javax.swing.JList;
 import javax.swing.JPanel;
 
+import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+
 @SuppressWarnings("serial")
 public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
-	public CourseOfferingBySemesterPanel(String title) {
-		super(title);
+	public CourseOfferingBySemesterPanel(String title, CourseDataExtractor model) {
+		super(title,model);
 		// TODO Auto-generated constructor stub
 		modifyUserContentPanel();
 	}

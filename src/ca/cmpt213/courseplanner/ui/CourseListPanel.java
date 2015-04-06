@@ -20,9 +20,8 @@ public class CourseListPanel extends CoursePlannerPanel {
 	private JList<String> list;
 	private CourseList listCourses = new CourseList();
 
-	public CourseListPanel(String title) {
-		super(title);
-		
+	public CourseListPanel(String title,CourseDataExtractor model) {
+		super(title,model);
 		getCoursesFromExtractor();
 		
 		ArrayList<Course> courses = new ArrayList<Course>();
@@ -41,7 +40,7 @@ public class CourseListPanel extends CoursePlannerPanel {
 	}
 
 	public void getCoursesFromExtractor(){
-		listCourses = CourseDataExtractor.getCourses();
+		listCourses = getModel().getCourses();
 		
 	}
 	
