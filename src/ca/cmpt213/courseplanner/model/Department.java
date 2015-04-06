@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class Department {
 	
 	private ArrayList<Course> courses = new ArrayList<Course>();
-	private ArrayList<String> departments = new ArrayList<String>();
+	private ArrayList<Course> departments = new ArrayList<Course>();
 	
 	
 	public Department(CourseList courseList){
@@ -21,17 +21,17 @@ public class Department {
 	}
 	
 	
-	public void getAllCoursesFromDeparment(String departmentName){
+	public ArrayList<Course> getAllCoursesFromDeparment(String departmentName){
 		
 		for(int i =0; i < courses.size(); i++){
 			if(courses.get(i).getSubject().equals(departmentName)){
-				departments.add(courses.get(i).getSubject());
+				departments.add(courses.get(i));
 			}
 		}
 		
 		for(int i =0; i < departments.size(); i++){
 			
-			String courseName = departments.get(i);
+			String courseName = departments.get(i).getSubject();
 			
 			for(int j =0; j < departments.size();j++){
 				if(courseName.equals(departments.get(j)) && i !=j){
@@ -42,6 +42,8 @@ public class Department {
 		
 		for(int i =0; i < departments.size(); i++)
 		System.out.println(departments.get(i));
+		
+		return departments;
 	}
 	
 	

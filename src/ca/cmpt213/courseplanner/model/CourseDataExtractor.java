@@ -8,6 +8,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+import ca.cmpt213.courseplanner.ui.CourseListPanel;
+import ca.cmpt213.courseplanner.ui.CoursePlannerFrame;
+
 /**
  * 
  * Extract input from excel file and store data in business logic
@@ -18,15 +21,16 @@ public class CourseDataExtractor {
 	private static CourseList courses = new CourseList();
 //	private static CourseOffering courseOffering;
 	private static ArrayList<Course> coursesOffered = new ArrayList<Course>();
+	private static ArrayList<String> allDeps = new ArrayList<String>();
 
 	public static void main(String args[]) {
 
 		loadCoursesFromExcelFile();
+		allDeps = courses.getDepartments();
+		CoursePlannerFrame coursePlanner = new CoursePlannerFrame("Course Planner");
 		
 		
-		Department dep = new Department(courses);
-		dep.getAllCoursesFromDeparment("CMPT");
-		dumpModel();
+		//dumpModel();
 
 	}
 
@@ -118,6 +122,16 @@ public class CourseDataExtractor {
 		courses.displayCourses();
 		
 	}
+	
+	public static CourseList getCourses(){
+		return courses;
+	}
+	
+	public static ArrayList<String> getDepartmentNames(){
+		return allDeps;
+	}
+	
+
 	
 	
 	

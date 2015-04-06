@@ -22,6 +22,7 @@ public class CourseList implements Iterable<Course> {
 	private List<CourseListObserver> courseChangeObservers = new ArrayList<CourseListObserver>();
 	private List<CourseListObserver> offeringChangeObservers = new ArrayList<CourseListObserver>();
 	
+	
 	public void insert(Course course){
 		courses.add(course);
 		notifyCourseChangeObservers();
@@ -62,9 +63,36 @@ public class CourseList implements Iterable<Course> {
 		}
 	}
 	
+	public ArrayList<String> getDepartments(){
+		
+		ArrayList<String> deps = new ArrayList<String>();
+		
+		for(int i=0; i<courses.size(); i++){
+			
+			if(deps.isEmpty()){
+				deps.add(courses.get(i).getSubject());
+			}
+			else{
+				if(!deps.contains(courses.get(i).getSubject())){
+					deps.add(courses.get(i).getSubject());
+				}
+			}
+		}
+		
+			System.out.println(deps);
+		
+		
+		return deps;
+	}
+	
 	public void sortByName(){
 		Collections.sort(courses,Course.CourseNameComparator);
 		
+	}
+	
+	public ArrayList<Course> getCoursesfromDepartment(String d){
+		Department dep = new Department(CourseDataExtractor.getCourses());
+		return dep.getAllCoursesFromDeparment(d);
 	}
 	
 	public void displayCourses(){
