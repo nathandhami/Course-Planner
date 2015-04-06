@@ -27,6 +27,7 @@ public class CourseDataExtractor {
 	public void courseDataExtractorInit(){
 
 		loadCoursesFromExcelFile();
+		courses.sortByName();
 		allDeps = courses.getDepartments();
 		dumpModel();
 		for(String s:allDeps){
@@ -114,7 +115,6 @@ public class CourseDataExtractor {
 	
 	public void dumpModel(){
 		
-		courses.sortByName();
 		courses.displayCourses();
 		
 	}

@@ -25,7 +25,8 @@ public class CourseListPanel extends CoursePlannerPanel {
 	public CourseListPanel(String title,CourseDataExtractor model) {
 		super(title,model);
 		getCoursesFromExtractor();
-		//courses = listCourses.getCoursesfromDepartment("CMPT");
+
+		
 		String listData[] = new String[listCourses.size()];
 		
 		for(int i=0; i<listCourses.size(); i++){

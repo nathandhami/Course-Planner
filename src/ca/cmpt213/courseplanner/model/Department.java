@@ -40,8 +40,6 @@ public class Department {
 			}
 		}
 		
-		for(int i =0; i < departments.size(); i++)
-		System.out.println(departments.get(i));
 		
 		return departments;
 	}
