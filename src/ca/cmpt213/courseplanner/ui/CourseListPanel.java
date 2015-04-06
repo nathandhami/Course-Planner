@@ -11,6 +11,7 @@ import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 
 import ca.cmpt213.courseplanner.model.Course;
+import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 import ca.cmpt213.courseplanner.model.CourseList;
 import ca.cmpt213.courseplanner.model.CourseListObserver;
@@ -19,19 +20,16 @@ import ca.cmpt213.courseplanner.model.CourseListObserver;
 public class CourseListPanel extends CoursePlannerPanel {
 	
 	private JList<String> list;
-	private CourseList listCourses = new CourseList();
+	private ArrayList<CourseByNames> listCourses = new ArrayList<CourseByNames>();
 
 	public CourseListPanel(String title,CourseDataExtractor model) {
 		super(title,model);
 		getCoursesFromExtractor();
-		
-		ArrayList<Course> courses = new ArrayList<Course>();
-		courses = listCourses.getCourseList();
 		//courses = listCourses.getCoursesfromDepartment("CMPT");
-		String listData[] = new String[courses.size()];
+		String listData[] = new String[listCourses.size()];
 		
-		for(int i=0; i<courses.size(); i++){
-			listData[i] = courses.get(i).getFullCourseName();
+		for(int i=0; i<listCourses.size(); i++){
+			listData[i] = listCourses.get(i).getCourseName();
 		}
 		
 		list = new JList<String>(listData);
@@ -42,7 +40,7 @@ public class CourseListPanel extends CoursePlannerPanel {
 	}
 
 	public void getCoursesFromExtractor(){
-		listCourses = getModel().getCourses();
+		listCourses = getModel().getSingleCourses();
 		
 	}
 	

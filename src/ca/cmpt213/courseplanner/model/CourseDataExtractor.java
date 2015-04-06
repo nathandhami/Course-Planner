@@ -20,21 +20,19 @@ import ca.cmpt213.courseplanner.ui.CoursePlannerFrame;
 public class CourseDataExtractor {
 
 	private CourseList courses = new CourseList();
-//	private static CourseOffering courseOffering;
 	private ArrayList<String> allDeps = new ArrayList<String>();
+	private ArrayList<Course> coursesOffered = new ArrayList<Course>();
+	private ArrayList<CourseByNames> singleCourses = new ArrayList<CourseByNames>();
+	
+	public void courseDataExtractorInit(){
 
-//	public static void main(String args[]) {
-//
-//		loadCoursesFromExcelFile();
-//		allDeps = courses.getDepartments();
-//		allDeps.remove(0);
-//		Collections.sort(allDeps);
-//		CoursePlannerFrame coursePlanner = new CoursePlannerFrame("Course Planner");
-//		
-//		
-//		//dumpModel();
-//
-//	}
+		loadCoursesFromExcelFile();
+		allDeps = courses.getDepartments();
+		dumpModel();
+		for(String s:allDeps){
+			joinSameCourses(s);
+		}
+	}
 
 	public void loadCoursesFromExcelFile() {
 
@@ -91,13 +89,9 @@ public class CourseDataExtractor {
 						}
 
 						System.out.println(words.get(i));
-
 					}
-
 					System.out.println(words.size());
-
 					System.out.println();
-
 				}
 
 				courses.insert(new Course(words.get(semesterId), words
@@ -125,21 +119,43 @@ public class CourseDataExtractor {
 		
 	}
 	
+	public ArrayList<Course> getCoursesFromDepartment(String d){
+		Department dep = new Department(getCourses());
+		return dep.getAllCoursesFromDeparment(d);
+	}
+	
 	public CourseList getCourses(){
 		return courses;
 	}
 	
+	public ArrayList<CourseByNames> getSingleCourses(){
+		return singleCourses;
+	}
+	
 	
 	public ArrayList<String> getDepartmentNames(){
-		allDeps = courses.getDepartments();
-		allDeps.remove(0);
-		Collections.sort(allDeps);
 		return allDeps;
 	}
 	
-
-	
-	
-	
+	private void joinSameCourses(String dep) {
+        
+        ArrayList<String> done = new ArrayList<String>();
+        coursesOffered = getCoursesFromDepartment(dep);
+        
+        for(int i=0; i<coursesOffered.size(); i++){
+                
+                if(done.isEmpty() || !done.contains(coursesOffered.get(i).getFullCourseName())){
+                        CourseByNames c = new CourseByNames(coursesOffered.get(i).getFullCourseName());
+                        c.addCourses(coursesOffered);
+                        singleCourses.add(c);
+                        done.add(coursesOffered.get(i).getFullCourseName());
+                }
+                
+        }
+	}
+        
+        
+        
 }
-
+	
+	

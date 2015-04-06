@@ -8,12 +8,15 @@ import ca.cmpt213.courseplanner.model.CourseDataExtractor;
  *
  */
 public class MainUI {
-
+	
 	public static void main(String[] args) {
 		
 		CourseDataExtractor model = new CourseDataExtractor();
 		
-		model.loadCoursesFromExcelFile();
+		model.courseDataExtractorInit();
+		
+		
+		
 		
 //		model.dumpModel();
 		

@@ -63,6 +63,7 @@ public class CourseList implements Iterable<Course> {
 		}
 	}
 	
+	
 	public ArrayList<String> getDepartments(){
 		
 		ArrayList<String> deps = new ArrayList<String>();

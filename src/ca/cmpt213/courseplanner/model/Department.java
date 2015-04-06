@@ -9,13 +9,13 @@ import java.util.ArrayList;
  * Example: CMPT is the department name
  * 			CMPT 213, CMPT 300, etc. are the courses for that department
  */
-public class DepartmentList {
+public class Department {
 	
 	private ArrayList<Course> courses = new ArrayList<Course>();
 	private ArrayList<Course> departments = new ArrayList<Course>();
 	
 	
-	public DepartmentList(CourseList courseList){
+	public Department(CourseList courseList){
 		
 		this.courses = courseList.getCourseList();
 	}
