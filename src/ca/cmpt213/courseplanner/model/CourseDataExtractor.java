@@ -16,15 +16,25 @@ import ca.cmpt213.courseplanner.ui.CoursePlannerFrame;
  * 
  * Extract input from excel file and store data in business logic
  * MAIN MODEL
- * 
  */
 public class CourseDataExtractor {
 
 	private CourseList courses = new CourseList();
 //	private static CourseOffering courseOffering;
-	private ArrayList<Course> coursesOffered = new ArrayList<Course>();
 	private ArrayList<String> allDeps = new ArrayList<String>();
 
+//	public static void main(String args[]) {
+//
+//		loadCoursesFromExcelFile();
+//		allDeps = courses.getDepartments();
+//		allDeps.remove(0);
+//		Collections.sort(allDeps);
+//		CoursePlannerFrame coursePlanner = new CoursePlannerFrame("Course Planner");
+//		
+//		
+//		//dumpModel();
+//
+//	}
 
 	public void loadCoursesFromExcelFile() {
 
@@ -109,16 +119,21 @@ public class CourseDataExtractor {
 	
 	
 	public void dumpModel(){
+		
 		courses.sortByName();
 		courses.displayCourses();
+		
 	}
 	
 	public CourseList getCourses(){
 		return courses;
 	}
 	
+	
 	public ArrayList<String> getDepartmentNames(){
 		allDeps = courses.getDepartments();
+		allDeps.remove(0);
+		Collections.sort(allDeps);
 		return allDeps;
 	}
 	

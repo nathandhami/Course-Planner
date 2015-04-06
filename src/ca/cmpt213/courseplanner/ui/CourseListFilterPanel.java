@@ -4,6 +4,8 @@ import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Vector;
@@ -33,7 +35,17 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		getAllDepartments();
 		comboBox =  new JComboBox<String>(options);
 		modifyUserContentPanel();
-		whichDepartment();
+		
+		button.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
+				 whichDepartment();
+				
+			}
+		});
 	}
 
 	public void getAllDepartments(){
@@ -50,7 +62,7 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		//need to get department from filter and pass it to courseListPanel
 		String selectedDep = (String) comboBox.getSelectedItem();
 		System.out.println(selectedDep);
-		return null;
+		return selectedDep;
 	}
 	
 	

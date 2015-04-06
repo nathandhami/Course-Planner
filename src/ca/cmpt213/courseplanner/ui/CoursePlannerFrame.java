@@ -23,7 +23,7 @@ public class CoursePlannerFrame extends JFrame{
 	
 	public CoursePlannerFrame(String title,CourseDataExtractor model){
 		setTitle(title);
-		setLayout(new BoxLayout(getContentPane(),BoxLayout.LINE_AXIS));
+		setLayout(new BorderLayout());
 //		add(new CourseListFilterPanel("Course List Filter"));
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
@@ -35,9 +35,9 @@ public class CoursePlannerFrame extends JFrame{
 		panel2.add(new BarGraphPanel("Statistics",model));
 		panel2.add(new CourseDetailPanel("Details of Course Offering",model));
 		
-		add(panel);
-		add(new CourseOfferingBySemesterPanel("Course Offerings By Semester",model));
-		add(panel2);
+		add(panel,BorderLayout.WEST);
+		add(new CourseOfferingBySemesterPanel("Course Offerings By Semester",model),BorderLayout.CENTER);
+		add(panel2,BorderLayout.EAST);
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		pack();

@@ -13,6 +13,7 @@ import javax.swing.ListSelectionModel;
 import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 import ca.cmpt213.courseplanner.model.CourseList;
+import ca.cmpt213.courseplanner.model.CourseListObserver;
 
 @SuppressWarnings("serial")
 public class CourseListPanel extends CoursePlannerPanel {
@@ -37,11 +38,27 @@ public class CourseListPanel extends CoursePlannerPanel {
 //		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
 		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		modifyUserContentPanel();
+		registerAsObserver();
 	}
 
 	public void getCoursesFromExtractor(){
 		listCourses = getModel().getCourses();
 		
+	}
+	
+	private void updateCourseList(){
+		
+	}
+	
+	private void registerAsObserver(){
+		getModel().getCourses().addCourseChangeObserver(new CourseListObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				updateCourseList();
+			}
+		});
 	}
 	
 	
