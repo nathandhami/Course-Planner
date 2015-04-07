@@ -24,6 +24,7 @@ public class CourseDataExtractor {
 	private ArrayList<Course> coursesOffered = new ArrayList<Course>();
 	private ArrayList<String> coursesForDep = new ArrayList<String>();
 	private ArrayList<CourseByNames> singleCourses = new ArrayList<CourseByNames>();
+	private CourseByNames selOfferedCourse;
 	private List<CourseDataExtractorObserver> courseChangeObservers = new ArrayList<CourseDataExtractorObserver>();
 	private List<CourseDataExtractorObserver> offeringChangeObservers = new ArrayList<CourseDataExtractorObserver>();
 	private List<CourseDataExtractorObserver> departmentChangeObservers = new ArrayList<CourseDataExtractorObserver>();
@@ -228,6 +229,23 @@ public class CourseDataExtractor {
 	public ArrayList<String> getCouresForDep(){
 		return coursesForDep;
 	}
+	
+	public CourseByNames getSelOfferedCourse(){
+		return selOfferedCourse;
+		
+	}
+	
+	public void setSelOfferedCourse(String s){
+		
+		for(int i=0; i<singleCourses.size(); i++){
+			
+			if(singleCourses.get(i).getCourseName().equals(s)){
+				selOfferedCourse = singleCourses.get(i);
+				break;
+			}
+		}
+		
+	}
 
 	
 	/*
@@ -237,11 +255,12 @@ public class CourseDataExtractor {
 		departmentChangeObservers.add(observer);
 	}
 	public void addOfferingChangeObserver(CourseDataExtractorObserver observer) {
-		courseChangeObservers.add(observer);
+		offeringChangeObservers.add(observer);
 	}
 	
 	public void addCourseChangeObserver(CourseDataExtractorObserver observer) {
-		offeringChangeObservers.add(observer);
+		
+		courseChangeObservers.add(observer);
 	}
 	
 	public void notifyDepartmentChangeObservers() {
@@ -251,8 +270,10 @@ public class CourseDataExtractor {
 	}
 	
 	public void notifyCourseChangeObservers() {
+		
 		for (CourseDataExtractorObserver observer : courseChangeObservers) {
 			observer.stateChanged();
+			
 		}
 	}
 	

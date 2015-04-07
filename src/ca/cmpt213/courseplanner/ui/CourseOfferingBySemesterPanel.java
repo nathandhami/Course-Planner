@@ -4,22 +4,51 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.util.ArrayList;
 
 import javax.swing.BoxLayout;
 import javax.swing.JList;
 import javax.swing.JPanel;
 
+import ca.cmpt213.courseplanner.model.Course;
+import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
 
 @SuppressWarnings("serial")
 public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
+	CourseByNames selectedCourse;
+	ArrayList<Course> coursesBySemester = new ArrayList<Course>();
+	
 	public CourseOfferingBySemesterPanel(String title, CourseDataExtractor model) {
 		super(title,model);
 		// TODO Auto-generated constructor stub
+		registerAsObserver();
 		modifyUserContentPanel();
 	}
 
+	private void updateCourseOffering(){
+		
+		selectedCourse = getModel().getSelOfferedCourse();
+		coursesBySemester = selectedCourse.getIndividualCourses();
+		for(Course c : coursesBySemester){
+			System.out.println(c.getSemesterId());
+		}
+	}
+	
+	private void registerAsObserver(){
+		getModel().addCourseChangeObserver(new CourseDataExtractorObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				updateCourseOffering();
+
+			}
+		});
+	}
+	
 	@Override
 	void modifyUserContentPanel() {
 		// TODO Auto-generated method stub

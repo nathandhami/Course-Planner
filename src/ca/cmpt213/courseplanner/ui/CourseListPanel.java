@@ -42,6 +42,8 @@ public class CourseListPanel extends CoursePlannerPanel {
 			public void valueChanged(ListSelectionEvent e) {
 				selectedCourse = list.getSelectedValue();
 				System.out.println(selectedCourse);
+				getModel().setSelOfferedCourse(selectedCourse);
+				getModel().notifyCourseChangeObservers();
 			}
 		});
 	}
