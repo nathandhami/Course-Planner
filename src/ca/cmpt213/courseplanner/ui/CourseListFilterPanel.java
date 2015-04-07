@@ -36,6 +36,7 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		super(title,model);
 		getAllDepartments();
 		comboBox =  new JComboBox<String>(options);
+		checkBox1.setSelected(true);
 		modifyUserContentPanel();
 		
 		button.addActionListener(new ActionListener() {

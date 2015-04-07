@@ -25,17 +25,11 @@ public class CourseListPanel extends CoursePlannerPanel {
 
 	public CourseListPanel(String title,CourseDataExtractor model) {
 		super(title,model);
-		getCoursesFromExtractor();
-
 		
-		String listData[] = new String[listCourses.size()];
-		
-		for(int i=0; i<listCourses.size(); i++){
-			listData[i] = listCourses.get(i);
-		}
-		
-		list = new JList<String>(listData);
-//		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+		list = new JList<String>();
+		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+		list.setVisibleRowCount(-1);
+		list.setFixedCellWidth(100);
 		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		modifyUserContentPanel();
 		registerAsObserver();
@@ -48,7 +42,6 @@ public class CourseListPanel extends CoursePlannerPanel {
 	
 	private void updateCourseList(){
 		getCoursesFromExtractor();
-
 		
 		String listData[] = new String[listCourses.size()];
 		
@@ -57,10 +50,6 @@ public class CourseListPanel extends CoursePlannerPanel {
 		}
 		
 		list.setListData(listData);
-		
-//		list = new JList<String>(listData);
-//		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
-//		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 	}
 	
 	private void registerAsObserver(){
