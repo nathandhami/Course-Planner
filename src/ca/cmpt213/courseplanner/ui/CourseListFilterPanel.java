@@ -29,6 +29,8 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 	private JButton button = new JButton("Update Course List");
 	private JPanel filterPanel = new JPanel();
 	private Vector<String> options = new Vector<String>();
+	boolean includeUnderGrad = true;
+	boolean includeGrad = true;
 	
 	public CourseListFilterPanel(String title, CourseDataExtractor model) {
 		super(title,model);
@@ -44,6 +46,15 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 				// TODO Auto-generated method stub
 				
 				 getModel().setSingleCoursesForDepartment(whichDepartment());
+				 
+				 if(!isGradInclude()){
+					getModel().excludeGradCourses(); 
+				 }
+				 if(!isUnderGradInclude()){
+					getModel().excludeUnderGradCourses(); 
+				 }
+				 getModel().notifyDepartmentChangeObservers();
+				 
 			}
 		});
 	}
@@ -63,6 +74,14 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		String selectedDep = (String) comboBox.getSelectedItem();
 		System.out.println(selectedDep);
 		return selectedDep;
+	}
+	
+	public boolean isGradInclude(){
+		return includeGrad = checkBox2.isSelected();
+	}
+	
+	public boolean isUnderGradInclude(){
+		return includeUnderGrad = checkBox1.isSelected();
 	}
 	
 	

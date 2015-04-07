@@ -169,11 +169,62 @@ public class CourseDataExtractor {
                 }
         }
         
-        notifyDepartmentChangeObservers();
         
   
-}
+	}
 	
+	public void excludeGradCourses(){
+		
+		for(int i=0; i<singleCourses.size(); i++){
+			
+			for(int j=0; j<coursesForDep.size(); j++){
+				
+				if(singleCourses.get(i).getCourseName().equals(coursesForDep.get(j))){
+					
+					int num = getStringValue(singleCourses.get(i).getIndividualCourses().get(0)
+							.getCatalogId());
+					
+					
+					if(num >= 500 ){
+						
+						coursesForDep.remove(j); 
+						j--;
+					}
+					
+					
+				}
+			}
+		}
+	}
+
+	
+	public void excludeUnderGradCourses(){
+		
+		for(int i=0; i<singleCourses.size(); i++){
+			
+			for(int j=0; j<coursesForDep.size(); j++){
+				
+				if(singleCourses.get(i).getCourseName().equals(coursesForDep.get(j))){
+					
+					int num = getStringValue(singleCourses.get(i).getIndividualCourses().get(0)
+							.getCatalogId());
+					
+					if(num < 500){
+						coursesForDep.remove(j);
+						j--;
+					}
+					
+					
+				}
+			}
+		}
+	}
+	
+	
+	private int getStringValue(String str) {
+		 return Integer.valueOf("0" + str.replaceAll("(\\d*).*", "$1"));
+	}
+
 	public ArrayList<String> getCouresForDep(){
 		return coursesForDep;
 	}
@@ -193,19 +244,19 @@ public class CourseDataExtractor {
 		offeringChangeObservers.add(observer);
 	}
 	
-	private void notifyDepartmentChangeObservers() {
+	public void notifyDepartmentChangeObservers() {
 		for (CourseDataExtractorObserver observer : departmentChangeObservers) {
 			observer.stateChanged();
 		}
 	}
 	
-	private void notifyCourseChangeObservers() {
+	public void notifyCourseChangeObservers() {
 		for (CourseDataExtractorObserver observer : courseChangeObservers) {
 			observer.stateChanged();
 		}
 	}
 	
-	private void notifyOfferingChangeObservers() {
+	public void notifyOfferingChangeObservers() {
 		for (CourseDataExtractorObserver observer : offeringChangeObservers) {
 			observer.stateChanged();
 		}
