@@ -160,6 +160,7 @@ public class CourseDataExtractor {
 	
 	public void setSingleCoursesForDepartment(String d){
         
+		coursesForDep.clear();
         
         for(int i=0; i<singleCourses.size(); i++){
                 
