@@ -99,7 +99,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 						
 						
 						int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
-						System.out.println(y+ " hh");
 						if(y == i){
 							centerPanel.add(new JButton("content"),c);
 							System.out.println("adding button to i="+i+" j="+j);
