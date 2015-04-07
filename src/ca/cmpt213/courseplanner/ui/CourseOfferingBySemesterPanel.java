@@ -18,6 +18,7 @@ import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
+import ca.cmpt213.courseplanner.model.Semester;
 
 @SuppressWarnings("serial")
 public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
@@ -27,6 +28,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 	private final int NUM_OF_COLS = 3;
 	private int firstRow = 0;
 	private final int NUM_OF_ROWS = 15;
+	private JPanel centerPanel = new JPanel();
 	
 	public CourseOfferingBySemesterPanel(String title, CourseDataExtractor model) {
 		super(title,model);
@@ -42,6 +44,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		for(Course c : coursesBySemester){
 			System.out.println(c.getSemesterId());
 		}
+		modifyUserContentPanel();
 	}
 	
 	private void registerAsObserver(){
@@ -78,28 +81,38 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		
 		for(int i =0 ; i <= NUM_OF_ROWS; i++){
 			int year = 2000 + i;
-		westPanel.add(new JLabel(String.valueOf(year)),makeConstraints(0,i));
+			westPanel.add(new JLabel(String.valueOf(year)),makeConstraints(0,i));
 		}
 		
-		JPanel centerPanel = new JPanel();
-		
+		Semester sem;
 		centerPanel.setLayout(new GridBagLayout());
 		setPreferredSize(new Dimension(500,500));
 		
 			for(int i =0; i <= NUM_OF_ROWS; i++){
-			
-			for(int j =0; j < NUM_OF_COLS; j++){
-				GridBagConstraints c = makeConstraints(j,i);
-				c.fill = GridBagConstraints.BOTH;
-				centerPanel.add(new JButton("content"),c);
 				
-			}
+				
+				for(int j =0; j < NUM_OF_COLS; j++){
+					GridBagConstraints c = makeConstraints(j,i);
+					c.fill = GridBagConstraints.BOTH;
+					
+					for(int t=0; t<coursesBySemester.size(); t++){
+						
+						
+						int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
+						System.out.println(y+ " hh");
+						if(y == i){
+							centerPanel.add(new JButton("content"),c);
+							System.out.println("adding button to i="+i+" j="+j);
+						}
+					}
+					
+				}
 		}
 			
 			mainPanel.add(topPanel,BorderLayout.NORTH);
 			mainPanel.add(westPanel,BorderLayout.WEST);
 			mainPanel.add(centerPanel,BorderLayout.CENTER);
-		makeUserContentPanel(mainPanel);
+			makeUserContentPanel(mainPanel);
 		
 	}
 	
