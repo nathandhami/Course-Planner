@@ -9,6 +9,8 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.CourseByNames;
@@ -22,6 +24,8 @@ public class CourseListPanel extends CoursePlannerPanel {
 	
 	private JList<String> list;
 	private ArrayList<String> listCourses = new ArrayList<String>();
+	private String selectedCourse;
+	private String listData[];
 
 	public CourseListPanel(String title,CourseDataExtractor model) {
 		super(title,model);
@@ -33,6 +37,13 @@ public class CourseListPanel extends CoursePlannerPanel {
 		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		modifyUserContentPanel();
 		registerAsObserver();
+		list.addListSelectionListener(new ListSelectionListener() {
+			@Override
+			public void valueChanged(ListSelectionEvent e) {
+				selectedCourse = list.getSelectedValue();
+				System.out.println(selectedCourse);
+			}
+		});
 	}
 
 	public void getCoursesFromExtractor(){
@@ -43,14 +54,19 @@ public class CourseListPanel extends CoursePlannerPanel {
 	private void updateCourseList(){
 		getCoursesFromExtractor();
 		
-		String listData[] = new String[listCourses.size()];
+		listData = new String[listCourses.size()];
 		
 		for(int i=0; i<listCourses.size(); i++){
 			listData[i] = listCourses.get(i);
 		}
 		
 		list.setListData(listData);
+		
+		
+		
+		
 	}
+	
 	
 	private void registerAsObserver(){
 		getModel().addDepartmentChangeObserver(new CourseDataExtractorObserver() {
