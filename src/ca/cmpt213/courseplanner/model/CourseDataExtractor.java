@@ -22,7 +22,11 @@ public class CourseDataExtractor {
 	private CourseList courses = new CourseList();
 	private ArrayList<String> allDeps = new ArrayList<String>();
 	private ArrayList<Course> coursesOffered = new ArrayList<Course>();
+	private ArrayList<String> coursesForDep = new ArrayList<String>();
 	private ArrayList<CourseByNames> singleCourses = new ArrayList<CourseByNames>();
+	private List<CourseDataExtractorObserver> courseChangeObservers = new ArrayList<CourseDataExtractorObserver>();
+	private List<CourseDataExtractorObserver> offeringChangeObservers = new ArrayList<CourseDataExtractorObserver>();
+	private List<CourseDataExtractorObserver> departmentChangeObservers = new ArrayList<CourseDataExtractorObserver>();
 	
 	public void courseDataExtractorInit(){
 
@@ -152,6 +156,58 @@ public class CourseDataExtractor {
                 }
                 
         }
+	}
+	
+	public void setSingleCoursesForDepartment(String d){
+        
+        
+        for(int i=0; i<singleCourses.size(); i++){
+                
+                if(singleCourses.get(i).getCourseName().contains(d)){
+                        coursesForDep.add(singleCourses.get(i).getCourseName());
+                }
+        }
+        
+        notifyDepartmentChangeObservers();
+        
+  
+}
+	
+	public ArrayList<String> getCouresForDep(){
+		return coursesForDep;
+	}
+
+	
+	/*
+	 * OBSERVER METHODS
+	 */
+	public void addDepartmentChangeObserver(CourseDataExtractorObserver observer) {
+		departmentChangeObservers.add(observer);
+	}
+	public void addOfferingChangeObserver(CourseDataExtractorObserver observer) {
+		courseChangeObservers.add(observer);
+	}
+	
+	public void addCourseChangeObserver(CourseDataExtractorObserver observer) {
+		offeringChangeObservers.add(observer);
+	}
+	
+	private void notifyDepartmentChangeObservers() {
+		for (CourseDataExtractorObserver observer : departmentChangeObservers) {
+			observer.stateChanged();
+		}
+	}
+	
+	private void notifyCourseChangeObservers() {
+		for (CourseDataExtractorObserver observer : courseChangeObservers) {
+			observer.stateChanged();
+		}
+	}
+	
+	private void notifyOfferingChangeObservers() {
+		for (CourseDataExtractorObserver observer : offeringChangeObservers) {
+			observer.stateChanged();
+		}
 	}
         
         

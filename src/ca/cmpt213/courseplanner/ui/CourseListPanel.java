@@ -13,6 +13,7 @@ import javax.swing.ListSelectionModel;
 import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
 import ca.cmpt213.courseplanner.model.CourseList;
 import ca.cmpt213.courseplanner.model.CourseListObserver;
 
@@ -20,7 +21,7 @@ import ca.cmpt213.courseplanner.model.CourseListObserver;
 public class CourseListPanel extends CoursePlannerPanel {
 	
 	private JList<String> list;
-	private ArrayList<CourseByNames> listCourses = new ArrayList<CourseByNames>();
+	private ArrayList<String> listCourses = new ArrayList<String>();
 
 	public CourseListPanel(String title,CourseDataExtractor model) {
 		super(title,model);
@@ -30,7 +31,7 @@ public class CourseListPanel extends CoursePlannerPanel {
 		String listData[] = new String[listCourses.size()];
 		
 		for(int i=0; i<listCourses.size(); i++){
-			listData[i] = listCourses.get(i).getCourseName();
+			listData[i] = listCourses.get(i);
 		}
 		
 		list = new JList<String>(listData);
@@ -41,21 +42,35 @@ public class CourseListPanel extends CoursePlannerPanel {
 	}
 
 	public void getCoursesFromExtractor(){
-		listCourses = getModel().getSingleCourses();
+		listCourses = getModel().getCouresForDep();
 		
 	}
 	
 	private void updateCourseList(){
+		getCoursesFromExtractor();
+
 		
+		String listData[] = new String[listCourses.size()];
+		
+		for(int i=0; i<listCourses.size(); i++){
+			listData[i] = listCourses.get(i);
+		}
+		
+		list.setListData(listData);
+		
+//		list = new JList<String>(listData);
+//		list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+//		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 	}
 	
 	private void registerAsObserver(){
-		getModel().getCourses().addCourseChangeObserver(new CourseListObserver() {
+		getModel().addDepartmentChangeObserver(new CourseDataExtractorObserver() {
 			
 			@Override
 			public void stateChanged() {
 				// TODO Auto-generated method stub
 				updateCourseList();
+
 			}
 		});
 	}

@@ -38,12 +38,12 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		
 		button.addActionListener(new ActionListener() {
 			
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				
-				 whichDepartment();
-				
+				 getModel().setSingleCoursesForDepartment(whichDepartment());
 			}
 		});
 	}

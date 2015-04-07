@@ -16,8 +16,6 @@ public class MainUI {
 		model.courseDataExtractorInit();
 		
 		
-		
-		
 //		model.dumpModel();
 		
 		new CoursePlannerFrame("FAS Course Planner",model);
