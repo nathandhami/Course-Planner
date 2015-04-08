@@ -2,6 +2,7 @@ package ca.cmpt213.courseplanner.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.ComponentOrientation;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -122,33 +123,39 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 				for(int j =0; j < NUM_OF_COLS; j++){
 					GridBagConstraints c = makeConstraints(j,i);
 					c.fill = GridBagConstraints.BOTH;
+					
 					JLabel label = new JLabel();
 					label.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 					centerPanel.add(label,c);
 					
+					JPanel add_panel = new JPanel();
+					add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.Y_AXIS));
+					
 					for(int t=0; t<coursesBySemester.size(); t++){
 						
-						
 						int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
+						
 						if(y == i){
 							
 							int mon = Integer.parseInt(coursesBySemester.get(t).
 										getSemesterId().substring(3, 4));
 							if(mon == 1 && j == 0){
-								centerPanel.add(new JButton(coursesBySemester.get(t).getSemesterId()),c);
+								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 4 && j == 1){
-								centerPanel.add(new JButton(coursesBySemester.get(t).getSemesterId()),c);
+								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 7 && j == 2){
-								centerPanel.add(new JButton(coursesBySemester.get(t).getSemesterId()),c);
+								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 				
 						}
 					}
+					c.fill = GridBagConstraints.HORIZONTAL;
+					centerPanel.add(add_panel,c);
 					
 				}
 			}
@@ -181,7 +188,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		c.gridy = i;
 		
 		//Other settings on c go here.
-		c.ipady = 10;
 		c.weightx = 1;
 		c.weighty = 1;
 		
