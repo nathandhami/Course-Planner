@@ -62,6 +62,12 @@ public class Course {
 				+ instuctorName + ", courseType=" + courseType + "]";
 	}
 	
+	public String getCourseAndCampus(){
+		String fullCourseName = getFullCourseName();
+		
+		return fullCourseName + " - " + location;
+	}
+	
 	public String getSemesterId() {
 		return semesterId;
 	}

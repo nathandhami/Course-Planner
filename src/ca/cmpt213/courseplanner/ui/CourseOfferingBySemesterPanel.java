@@ -37,6 +37,8 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 	private JPanel centerPanel = new JPanel();
 	private JPanel westPanel = new JPanel();
 	
+	private GridBagConstraints c = new GridBagConstraints();
+	
 	public CourseOfferingBySemesterPanel(String title, CourseDataExtractor model) {
 		super(title,model);
 
@@ -107,7 +109,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		for(int i=Row_Start; i <= Row_End; i++){
 			
 			for(int j=0; j<NUM_OF_COLS; j++){
-				GridBagConstraints c = makeConstraints(j,i);
+			    c = makeConstraints(j,i);
 				c.fill = GridBagConstraints.BOTH;
 
 			}
@@ -121,7 +123,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			for(int i =Row_Start; i <= Row_End; i++){
 			
 				for(int j =0; j < NUM_OF_COLS; j++){
-					GridBagConstraints c = makeConstraints(j,i);
+					 c = makeConstraints(j,i);
 					c.fill = GridBagConstraints.BOTH;
 					
 					JLabel label = new JLabel();
@@ -129,7 +131,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 					centerPanel.add(label,c);
 					
 					JPanel add_panel = new JPanel();
-					add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.Y_AXIS));
+					add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.PAGE_AXIS));
 					
 					for(int t=0; t<coursesBySemester.size(); t++){
 						
@@ -140,25 +142,46 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 							int mon = Integer.parseInt(coursesBySemester.get(t).
 										getSemesterId().substring(3, 4));
 							if(mon == 1 && j == 0){
-								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
+								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 4 && j == 1){
-								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
+								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 7 && j == 2){
-								add_panel.add(new JButton(coursesBySemester.get(t).getSemesterId()));
+								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
+							
 				
 						}
 					}
-					c.fill = GridBagConstraints.HORIZONTAL;
+					
+					
 					centerPanel.add(add_panel,c);
+//					c.fill = GridBagConstraints.HORIZONTAL;
 					
 				}
 			}
+	}
+	
+	
+	private JButton makeButton(String label){
+		JButton button = new JButton(label);
+		setComponentToFixedSize(button);
+		return button;
+	}
+	
+	private JPanel returnGridPanel(String label){
+		
+	        JPanel panel = new JPanel();
+	        panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
+	        JButton button = new JButton(label);
+	        setComponentToFixedSize(button);
+	        panel.add(button);
+	        return panel;
+
 	}
 	
 	private void setRows(){
