@@ -94,6 +94,15 @@ public class Course {
 		return courseType;
 	}
 	
+	public void setEnrollmentTotal(int val){
+		enrollmentTotal = String.valueOf(Integer.parseInt(enrollmentTotal) + val);
+	}
+	
+	public void setEnrollmentCapacity(int val){
+		enrollmentCapacity = String.valueOf(Integer.parseInt(enrollmentCapacity) + val);
+		
+	}
+	
 	public static Comparator<Course> CourseNameComparator = new Comparator<Course>() {
 
 		public int compare(Course c1, Course c2) {

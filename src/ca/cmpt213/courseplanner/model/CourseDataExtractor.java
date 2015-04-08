@@ -34,6 +34,7 @@ public class CourseDataExtractor {
 		loadCoursesFromExcelFile();
 		courses.sortByName();
 		allDeps = courses.getDepartments();
+		courses.addEnrollment();
 		dumpModel();
 		for(String s:allDeps){
 			joinSameCourses(s);

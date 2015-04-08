@@ -19,14 +19,10 @@ import java.util.List;
 public class CourseList implements Iterable<Course> {
 	
 	private ArrayList<Course> courses = new ArrayList<Course>();
-	private List<CourseListObserver> courseChangeObservers = new ArrayList<CourseListObserver>();
-	private List<CourseListObserver> offeringChangeObservers = new ArrayList<CourseListObserver>();
-	
 	
 	public void insert(Course course){
 		courses.add(course);
-		notifyCourseChangeObservers();
-		notifyOfferingChangeObservers();
+		
 	}
 	
 	public ArrayList<Course> getCourseList(){
@@ -42,27 +38,6 @@ public class CourseList implements Iterable<Course> {
 		// TODO Auto-generated method stub
 		return Collections.unmodifiableList(courses).iterator();
 	}
-	
-	public void addOfferingChangeObserver(CourseListObserver observer) {
-		courseChangeObservers.add(observer);
-	}
-	
-	public void addCourseChangeObserver(CourseListObserver observer) {
-		offeringChangeObservers.add(observer);
-	}
-	
-	private void notifyCourseChangeObservers() {
-		for (CourseListObserver observer : courseChangeObservers) {
-			observer.stateChanged();
-		}
-	}
-	
-	private void notifyOfferingChangeObservers() {
-		for (CourseListObserver observer : offeringChangeObservers) {
-			observer.stateChanged();
-		}
-	}
-	
 	
 	public ArrayList<String> getDepartments(){
 		
@@ -112,9 +87,11 @@ public class CourseList implements Iterable<Course> {
 			
 			String checkName = courses.get(0).getFullCourseName();
 			String checkSemester = courses.get(0).getSemesterId() + courses.get(0).getLocation();
-			String content = checkName;
+			String checkType = "";
+			String content = checkName + "\n";
 			System.out.println(checkName);
 			bw.write(content + "\n");
+			
 			
 			
 			content = "\t" + courses.get(0).getSemesterId() + " in " + courses.get(0).getLocation()
@@ -125,6 +102,7 @@ public class CourseList implements Iterable<Course> {
 			for(Course c: courses){
 				
 				String courseSemesterAndLocation = c.getSemesterId() + c.getLocation(); 
+				
 				
 				if(c.getFullCourseName().equals(checkName)){
 					
@@ -179,6 +157,32 @@ public class CourseList implements Iterable<Course> {
 		
 		
 		
+	}
+	
+	public void addEnrollment(){
+		
+		String type = " ";
+		
+		for(int i=0; i<courses.size(); i++){
+			
+			if(type.equals("LAB" + courses.get(i).getLocation()) 
+					|| type.equals("TUT" + courses.get(i).getLocation())){
+				
+				if(type.equals(courses.get(i).getCourseType()+courses.get(i).getLocation())){
+					
+					int val = Integer.parseInt(courses.get(i).getEnrollmentCapacity());
+					courses.get(i-1).setEnrollmentCapacity(val);
+					
+					val = Integer.parseInt(courses.get(i).getEnrollmentTotal());
+					courses.get(i-1).setEnrollmentTotal(val);
+					
+					courses.remove(i);
+					i--;
+				}
+			}
+			
+			type = courses.get(i).getCourseType() + courses.get(i).getLocation();
+		}
 	}
 
 
