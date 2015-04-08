@@ -34,6 +34,7 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 	
 	public CourseListFilterPanel(String title, CourseDataExtractor model) {
 		super(title,model);
+		setMaximumSize(new Dimension(250, 250));
 		getAllDepartments();
 		comboBox =  new JComboBox<String>(options);
 		checkBox1.setSelected(true);

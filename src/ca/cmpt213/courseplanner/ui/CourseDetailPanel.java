@@ -20,7 +20,8 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		super(title, model);
 		// TODO Auto-generated constructor stub
 		modifyUserContentPanel();
-		setPreferredSize(new Dimension(200, 200));
+		setPreferredSize(new Dimension(160, 160));
+		setMaximumSize(new Dimension(200, 200));
 		registerAsOfferingChangeObserver();
 		registerAsCourseChangeObserver();
 	}
