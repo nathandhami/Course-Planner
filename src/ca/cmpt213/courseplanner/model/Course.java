@@ -112,8 +112,8 @@ public class Course {
 	public static Comparator<Course> CourseNameComparator = new Comparator<Course>() {
 
 		public int compare(Course c1, Course c2) {
-		   String first = c1.getFullCourseName() + c1.getCourseType();
-		   String second = c2.getFullCourseName() + c2.getCourseType();
+		   String first = c1.getFullCourseName() + c1.getSemesterId() + c1.getCourseType();
+		   String second = c2.getFullCourseName() + c2.getSemesterId() + c2.getCourseType();
 
 		   return first.compareTo(second);
 
