@@ -37,6 +37,7 @@ public abstract class CoursePlannerPanel extends JPanel{
 //		userContentPanel.add(component);
 		setBorder(component);
 		add(component,BorderLayout.CENTER);
+		this.validate();
 	}
 	
 	
