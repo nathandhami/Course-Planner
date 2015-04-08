@@ -104,12 +104,10 @@ CMNS 110
 		 Type=SEC, Enrollment:96/95
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:308/302
-	1047 in SURREY by -unknown-
-		 Type=LEC, Enrollment:43/50
-	1047 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:63/65
 		 Type=TUT, Enrollment:308/275
 	1047 in SURREY by -unknown-
+		 Type=LEC, Enrollment:43/50
 		 Type=TUT, Enrollment:43/50
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:328/360
@@ -119,12 +117,10 @@ CMNS 110
 		 Type=SEC, Enrollment:119/120
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:317/299
-	1057 in SURREY by -unknown-
-		 Type=LEC, Enrollment:44/51
-	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:65/65
 		 Type=TUT, Enrollment:317/300
 	1057 in SURREY by -unknown-
+		 Type=LEC, Enrollment:44/51
 		 Type=TUT, Enrollment:44/51
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:296/306
@@ -134,12 +130,10 @@ CMNS 110
 		 Type=SEC, Enrollment:108/120
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:344/360
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:73/72
-	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:63/65
 		 Type=TUT, Enrollment:344/360
 	1067 in SURREY by -unknown-
+		 Type=LEC, Enrollment:73/72
 		 Type=TUT, Enrollment:73/72
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:318/360
@@ -149,12 +143,10 @@ CMNS 110
 		 Type=SEC, Enrollment:108/120
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:349/360
-	1077 in SURREY by -unknown-
-		 Type=LEC, Enrollment:65/72
-	1077 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:64/65
 		 Type=TUT, Enrollment:351/360
 	1077 in SURREY by -unknown-
+		 Type=LEC, Enrollment:65/72
 		 Type=TUT, Enrollment:65/72
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:349/360
@@ -164,14 +156,12 @@ CMNS 110
 		 Type=SEC, Enrollment:112/120
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:356/360
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:74/72
-	1087 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:25/30
-	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:62/65
 		 Type=TUT, Enrollment:356/360
+	1087 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:25/30
 	1087 in SURREY by -unknown-
+		 Type=LEC, Enrollment:74/72
 		 Type=TUT, Enrollment:74/72
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:359/360
@@ -220,30 +210,25 @@ CMNS 130
 		 Type=TUT, Enrollment:295/275
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:263/288
-	1051 in SURREY by -unknown-
-		 Type=LEC, Enrollment:40/51
-	1051 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:66/65
 		 Type=TUT, Enrollment:263/288
 	1051 in SURREY by -unknown-
+		 Type=LEC, Enrollment:40/51
 		 Type=TUT, Enrollment:40/51
 	1054 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:120/120
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:221/221
-	1057 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:25/25
-	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:64/65
 		 Type=TUT, Enrollment:221/240
+	1057 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:25/25
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:197/198
-	1061 in SURREY by -unknown-
-		 Type=LEC, Enrollment:48/54
-	1061 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:67/65
 		 Type=TUT, Enrollment:197/154
 	1061 in SURREY by -unknown-
+		 Type=LEC, Enrollment:48/54
 		 Type=TUT, Enrollment:48/54
 	1064 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:118/120
@@ -253,12 +238,10 @@ CMNS 130W
 		 Type=TUT, Enrollment:269/270
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:178/210
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:37/45
-	1071 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:38/40
 		 Type=TUT, Enrollment:178/210
 	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:37/45
 		 Type=TUT, Enrollment:37/45
 	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:87/90
@@ -268,12 +251,10 @@ CMNS 130W
 		 Type=TUT, Enrollment:244/256
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:227/240
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:41/64
-	1081 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:40/40
 		 Type=TUT, Enrollment:227/240
 	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:41/64
 		 Type=TUT, Enrollment:41/48
 	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:83/90
@@ -283,14 +264,12 @@ CMNS 130W
 		 Type=TUT, Enrollment:252/256
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:250/256
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:41/48
-	1091 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:25/27
-	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:40/40
 		 Type=TUT, Enrollment:250/256
+	1091 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:25/27
 	1091 in SURREY by -unknown-
+		 Type=LEC, Enrollment:41/48
 		 Type=TUT, Enrollment:41/48
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:83/89
@@ -388,11 +367,10 @@ CMNS 210
 	1084 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:104/108
 		 Type=TUT, Enrollment:104/108
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:59/54
 	1091 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:25/27
 	1091 in SURREY by -unknown-
+		 Type=LEC, Enrollment:59/54
 		 Type=TUT, Enrollment:59/54
 	1094 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:96/108
@@ -501,14 +479,12 @@ CMNS 221
 	1071 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:128/144
 		 Type=TUT, Enrollment:128/144
-	1077 in SURREY by -unknown-
-		 Type=LEC, Enrollment:54/54
 	1077 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:75/90
-	1077 in SURREY by -unknown-
-		 Type=TUT, Enrollment:54/54
-	1077 in HRBRCNTR by -unknown-
 		 Type=TUT, Enrollment:75/90
+	1077 in SURREY by -unknown-
+		 Type=LEC, Enrollment:54/54
+		 Type=TUT, Enrollment:54/54
 	1081 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:114/110
 		 Type=TUT, Enrollment:114/109
@@ -555,14 +531,12 @@ CMNS 223
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:133/136
 		 Type=TUT, Enrollment:133/136
-	1064 in SURREY by -unknown-
-		 Type=LEC, Enrollment:16/36
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:100/108
-	1064 in SURREY by -unknown-
-		 Type=TUT, Enrollment:16/36
-	1064 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:100/108
+	1064 in SURREY by -unknown-
+		 Type=LEC, Enrollment:16/36
+		 Type=TUT, Enrollment:16/36
 CMNS 223W
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:110/122
@@ -575,11 +549,9 @@ CMNS 223W
 		 Type=TUT, Enrollment:95/96
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:89/96
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:32/48
-	1081 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:89/81
 	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:32/48
 		 Type=TUT, Enrollment:32/48
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:97/96
@@ -816,14 +788,12 @@ CMNS 253
 		 Type=CNV, Enrollment:0/29997
 	1017 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
-	1021 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:33/71
 	1021 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:76/90
-	1021 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:33/71
-	1021 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:76/90
+	1021 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:33/71
+		 Type=LEC, Enrollment:33/71
 	1027 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:46/90
 		 Type=LEC, Enrollment:46/108
@@ -846,11 +816,10 @@ CMNS 253
 	1054 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:81/90
 		 Type=LEC, Enrollment:81/90
-	1057 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:61/55
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:20/18
 	1057 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:61/55
 		 Type=LEC, Enrollment:81/72
 	1061 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:108/110
@@ -874,14 +843,12 @@ CMNS 253W
 	1081 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:77/75
 		 Type=LEC, Enrollment:77/75
-	1087 in SURREY by -unknown-
-		 Type=LAB, Enrollment:64/64
 	1087 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:47/51
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:64/64
-	1087 in HRBRCNTR by -unknown-
 		 Type=OLC, Enrollment:47/48
+	1087 in SURREY by -unknown-
+		 Type=LAB, Enrollment:64/64
+		 Type=LEC, Enrollment:64/64
 	1091 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:80/96
 		 Type=LEC, Enrollment:114/128
@@ -1538,11 +1505,10 @@ CMNS 334
 	1031 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:61/62
 		 Type=TUT, Enrollment:61/62
-	1037 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:69/89
 	1037 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:1/5
 	1037 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:69/89
 		 Type=TUT, Enrollment:69/89
 	1047 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:34/36
@@ -1705,11 +1671,10 @@ CMNS 353
 	1051 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:50/72
 		 Type=LEC, Enrollment:50/57
-	1061 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:60/60
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:0/0
 	1061 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:60/60
 		 Type=LEC, Enrollment:60/60
 	1071 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:61/75
@@ -1984,10 +1949,10 @@ CMNS 371
 		 Type=SEC, Enrollment:92/120
 	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:40/120
-	1077 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:38/40
 	1077 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:49/60
+	1077 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:38/40
 	1081 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:69/70
 	1084 in BURNABY by -unknown-
@@ -2090,11 +2055,10 @@ CMNS 375
 	1037 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:76/71
 		 Type=TUT, Enrollment:76/71
-	1041 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:96/96
 	1041 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:1/1
 	1041 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:96/96
 		 Type=TUT, Enrollment:96/78
 	1044 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:75/70
@@ -2111,11 +2075,10 @@ CMNS 375
 	1057 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:113/72
 		 Type=TUT, Enrollment:113/76
-	1061 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:75/64
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:66/64
 	1061 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:75/64
 		 Type=TUT, Enrollment:141/72
 	1064 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:145/147
@@ -2159,11 +2122,10 @@ CMNS 386
 	1021 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:59/60
 		 Type=TUT, Enrollment:59/60
-	1027 in HRBRCNTR by -unknown-
-		 Type=SEM, Enrollment:56/72
 	1027 in BURNABY by -unknown-
 		 Type=SEM, Enrollment:1/5
 	1027 in HRBRCNTR by -unknown-
+		 Type=SEM, Enrollment:56/72
 		 Type=TUT, Enrollment:56/72
 	1034 in HRBRCNTR by -unknown-
 		 Type=SEM, Enrollment:20/29
@@ -2581,46 +2543,40 @@ CMNS 428
 		 Type=SEM, Enrollment:20/25
 	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:19/11
-	1061 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:41/25
 	1061 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:2/10
-	1064 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:46/47
+	1061 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:41/25
 	1064 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:2/20
 		 Type=SEM, Enrollment:11/15
+	1064 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:46/47
 	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/10
 	1067 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:60/50
-	1071 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:21/30
-		 Type=SEC, Enrollment:74/25
 	1071 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:8/22
 	1071 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:21/30
+		 Type=SEC, Enrollment:74/25
 		 Type=TUT, Enrollment:21/30
 	1074 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:12/15
-	1074 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:50/50
-	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/20
 		 Type=SEM, Enrollment:12/15
+	1074 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:50/50
 	1077 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:12/20
+		 Type=SEC, Enrollment:12/30
 	1077 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:51/40
-	1077 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1081 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:23/25
-	1081 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:60/50
-	1081 in BURNABY by -unknown-
 		 Type=SEM, Enrollment:23/25
 	1081 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:60/50
 		 Type=SEM, Enrollment:47/60
 	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
@@ -2628,11 +2584,10 @@ CMNS 428
 		 Type=SEC, Enrollment:65/50
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:11/25
-	1087 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:73/50
-	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
 		 Type=SEM, Enrollment:24/38
+	1087 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:73/50
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:11/10
 	1091 in HRBRCNTR by -unknown-
@@ -3189,11 +3144,10 @@ CMNS 458
 		 Type=SEC, Enrollment:4/10
 	1034 in HRBRCNTR by -unknown-
 		 Type=SEM, Enrollment:8/30
-	1037 in HRBRCNTR by -unknown-
-		 Type=OPL, Enrollment:17/15
 	1037 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1037 in HRBRCNTR by -unknown-
+		 Type=OPL, Enrollment:17/15
 		 Type=SEM, Enrollment:17/15
 	1041 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/20
@@ -3244,10 +3198,9 @@ CMNS 458
 		 Type=SEM, Enrollment:8/16
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/5
+		 Type=SEM, Enrollment:15/15
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/5
-	1091 in BURNABY by -unknown-
-		 Type=SEM, Enrollment:15/15
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:3/10
 	1094 in OFF by -unknown-
@@ -3255,10 +3208,10 @@ CMNS 458
 CMNS 460
 	1074 in HRBRCNTR by -unknown-
 		 Type=SEM, Enrollment:12/10
-	1077 in HRBRCNTR by -unknown-
-		 Type=SEM, Enrollment:0/1
 	1077 in BURNABY by -unknown-
 		 Type=SEM, Enrollment:4/15
+	1077 in HRBRCNTR by -unknown-
+		 Type=SEM, Enrollment:0/1
 	1084 in HRBRCNTR by -unknown-
 		 Type=SEM, Enrollment:13/15
 	1094 in HRBRCNTR by -unknown-
@@ -3333,11 +3286,11 @@ CMNS 473
 	1021 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:32/30
 		 Type=LEC, Enrollment:32/30
+	1027 in BURNABY by -unknown-
+		 Type=LEC, Enrollment:0/5
 	1027 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:33/27
 		 Type=LEC, Enrollment:33/27
-	1027 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:0/5
 	1031 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:43/30
 		 Type=LEC, Enrollment:43/30
@@ -3480,10 +3433,10 @@ CMNS 478
 		 Type=SEM, Enrollment:14/20
 	1067 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:57/55
-	1071 in HRBRCNTR by -unknown-
-		 Type=SEC, Enrollment:17/48
 	1071 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/5
+	1071 in HRBRCNTR by -unknown-
+		 Type=SEC, Enrollment:17/48
 	1074 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:15/20
 	1077 in HRBRCNTR by -unknown-
@@ -3495,14 +3448,14 @@ CMNS 478
 	1087 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:16/20
 		 Type=SEM, Enrollment:26/25
-	1091 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1091 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:23/25
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+	1091 in OFF by -unknown-
+		 Type=SEC, Enrollment:0/5
 	1094 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:8/10
+	1094 in OFF by -unknown-
+		 Type=SEC, Enrollment:0/10
 CMNS 479
 	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:15/15
@@ -3516,10 +3469,10 @@ CMNS 479
 		 Type=SEC, Enrollment:23/25
 	1084 in OFF by -unknown-
 		 Type=SEC, Enrollment:22/20
-	1087 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
 	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:18/15
+	1087 in OFF by -unknown-
+		 Type=SEC, Enrollment:2/15
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:23/15
 	1091 in OFF by -unknown-
@@ -3584,10 +3537,10 @@ CMNS 480
 		 Type=SEC, Enrollment:18/25
 	1084 in OFF by -unknown-
 		 Type=SEC, Enrollment:14/20
-	1087 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/20
 	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/20
+	1087 in OFF by -unknown-
+		 Type=SEC, Enrollment:2/20
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:24/15
 	1091 in OFF by -unknown-
@@ -3649,10 +3602,10 @@ CMNS 481
 		 Type=SEC, Enrollment:9/25
 	1084 in OFF by -unknown-
 		 Type=SEC, Enrollment:12/20
-	1087 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/20
 	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/20
+	1087 in OFF by -unknown-
+		 Type=SEC, Enrollment:1/20
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:9/15
 	1091 in OFF by -unknown-
@@ -3714,20 +3667,20 @@ CMNS 482
 		 Type=SEC, Enrollment:33/25
 	1084 in OFF by -unknown-
 		 Type=SEC, Enrollment:17/20
-	1087 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/25
 	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:19/25
+	1087 in OFF by -unknown-
+		 Type=SEC, Enrollment:1/25
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:24/15
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/15
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:23/10
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/10
 	1094 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:1/10
+	1094 in OFF by -unknown-
+		 Type=SEC, Enrollment:2/10
 CMNS 483
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -3779,14 +3732,14 @@ CMNS 483
 		 Type=SEC, Enrollment:12/20
 	1081 in OFF by -unknown-
 		 Type=SEC, Enrollment:14/25
-	1084 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/20
 	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:3/5
-	1087 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/20
+	1084 in OFF by -unknown-
+		 Type=SEC, Enrollment:6/20
 	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:6/20
+	1087 in OFF by -unknown-
+		 Type=SEC, Enrollment:2/20
 	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/15
 	1091 in OFF by -unknown-
@@ -4680,12 +4633,12 @@ CMNS 851
 		 Type=SEC, Enrollment:0/20
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/20
+	1094 in BURNABY by -unknown-
+		 Type=SEC, Enrollment:0/15
 	1094 in HRBRCNTR by -unknown-
 		 Type=SEC, Enrollment:3/10
 	1094 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
-	1094 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:0/15
 CMNS 855
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -4715,10 +4668,10 @@ CMNS 855
 		 Type=SEM, Enrollment:4/20
 	1064 in HRBRCNTR by -unknown-
 		 Type=SEM, Enrollment:0/5
-	1067 in HRBRCNTR by -unknown-
-		 Type=SEM, Enrollment:0/2
 	1067 in BURNABY by -unknown-
 		 Type=SEM, Enrollment:1/5
+	1067 in HRBRCNTR by -unknown-
+		 Type=SEM, Enrollment:0/2
 	1071 in SEGAL by -unknown-
 		 Type=SEM, Enrollment:10/12
 	1081 in HRBRCNTR by -unknown-
@@ -5580,31 +5533,28 @@ CMPT 110
 		 Type=SEC, Enrollment:70/160
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:60/100
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:40/53
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:43/75
 	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:40/53
 		 Type=LEC, Enrollment:40/53
 	1064 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:68/75
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:60/75
-	1071 in SURREY by -unknown-
-		 Type=LAB, Enrollment:58/58
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:49/75
 	1071 in SURREY by -unknown-
+		 Type=LAB, Enrollment:58/58
 		 Type=LEC, Enrollment:58/58
 	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:47/75
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:64/75
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:12/24
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:37/75
 	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:12/24
 		 Type=LEC, Enrollment:12/48
 	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:63/75
@@ -5701,165 +5651,131 @@ CMPT 120
 		 Type=TUT, Enrollment:423/464
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:74/250
-	1051 in SURREY by -unknown-
-		 Type=LEC, Enrollment:15/50
-	1051 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/250
 	1051 in SURREY by -unknown-
+		 Type=LEC, Enrollment:15/50
 		 Type=TUT, Enrollment:15/50
 	1054 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:44/75
 		 Type=LEC, Enrollment:44/75
-	1057 in SURREY by -unknown-
-		 Type=LAB, Enrollment:499/544
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:119/180
 		 Type=LEC, Enrollment:119/150
 	1057 in SURREY by -unknown-
+		 Type=LAB, Enrollment:499/544
 		 Type=LEC, Enrollment:499/568
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:23/24
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:67/100
 		 Type=LEC, Enrollment:67/100
 	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:23/24
 		 Type=LEC, Enrollment:23/24
 	1064 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:52/75
 		 Type=LEC, Enrollment:52/75
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:170/180
-	1067 in SURREY by -unknown-
-		 Type=LAB, Enrollment:266/336
-	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:170/180
 	1067 in SURREY by -unknown-
+		 Type=LAB, Enrollment:266/336
 		 Type=LEC, Enrollment:266/384
+	1071 in BURNABY by -unknown-
+		 Type=LEC, Enrollment:103/110
 	1071 in SURREY by -unknown-
 		 Type=LAB, Enrollment:72/72
 		 Type=LEC, Enrollment:72/96
-	1071 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:103/110
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:65/77
 		 Type=LEC, Enrollment:65/75
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:186/220
-	1077 in SURREY by -unknown-
-		 Type=LAB, Enrollment:116/128
-	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:186/220
 	1077 in SURREY by -unknown-
+		 Type=LAB, Enrollment:116/128
 		 Type=LEC, Enrollment:116/192
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:123/130
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:52/64
-	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:123/130
 	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:52/64
 		 Type=LEC, Enrollment:52/96
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:111/120
 		 Type=LEC, Enrollment:111/122
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:251/253
-	1087 in SURREY by -unknown-
-		 Type=LAB, Enrollment:169/176
-	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:251/253
 	1087 in SURREY by -unknown-
+		 Type=LAB, Enrollment:169/176
 		 Type=LEC, Enrollment:169/200
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:138/152
-	1091 in SURREY by -unknown-
-		 Type=LAB, Enrollment:73/84
-	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:138/150
 	1091 in SURREY by -unknown-
+		 Type=LAB, Enrollment:73/84
 		 Type=LEC, Enrollment:73/84
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:114/130
 		 Type=LEC, Enrollment:114/130
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:277/291
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:189/201
-	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:277/291
 	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:189/201
 		 Type=LEC, Enrollment:189/200
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:179/182
-	1101 in SURREY by -unknown-
-		 Type=LAB, Enrollment:79/96
+		 Type=LEC, Enrollment:179/182
 	1101 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:30/28
-	1101 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:179/182
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:79/96
-	1101 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:30/28
+	1101 in SURREY by -unknown-
+		 Type=LAB, Enrollment:79/96
+		 Type=LEC, Enrollment:79/96
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:154/170
 		 Type=LEC, Enrollment:154/169
 	1107 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:145/150
+		 Type=LAB, Enrollment:292/301
+		 Type=LEC, Enrollment:292/300
+	1107 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:25/26
+		 Type=LEC, Enrollment:25/26
 	1107 in SURREY by -unknown-
 		 Type=LAB, Enrollment:101/101
-	1107 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:147/151
-	1107 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:25/26
-	1107 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:145/150
-	1107 in SURREY by -unknown-
 		 Type=LEC, Enrollment:101/101
-	1107 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:147/150
-	1107 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:25/26
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:182/182
-	1111 in SURREY by -unknown-
-		 Type=LAB, Enrollment:120/128
+		 Type=LEC, Enrollment:182/182
 	1111 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:25/26
-	1111 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:182/182
-	1111 in SURREY by -unknown-
-		 Type=LEC, Enrollment:120/128
-	1111 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:25/26
+	1111 in SURREY by -unknown-
+		 Type=LAB, Enrollment:120/128
+		 Type=LEC, Enrollment:120/128
 	1114 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:198/208
 		 Type=LEC, Enrollment:198/208
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:63/68
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:346/360
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:63/68
 		 Type=LEC, Enrollment:63/68
-	1121 in SURREY by John Edgar
-		 Type=LAB, Enrollment:82/95
 	1121 in BURNABY by Kevin McQuiggin
 		 Type=LEC, Enrollment:180/180
 	1121 in SURREY by John Edgar
+		 Type=LAB, Enrollment:82/95
 		 Type=LEC, Enrollment:82/95
-	1124 in SURREY by Brian Fraser
-		 Type=LAB, Enrollment:68/75
 	1124 in BURNABY by Hassan Khosravi
 		 Type=LEC, Enrollment:184/192
 	1124 in SURREY by Brian Fraser
+		 Type=LAB, Enrollment:68/75
 		 Type=LEC, Enrollment:68/75
 	1127 in BURNABY by Diana Cukierman
 		 Type=LAB, Enrollment:356/364
+		 Type=LEC, Enrollment:356/364
 	1127 in HRBRCNTR by William Havens
 		 Type=LAB, Enrollment:25/26
-	1127 in BURNABY by Diana Cukierman
-		 Type=LEC, Enrollment:356/364
-	1127 in HRBRCNTR by Martin Ester, William Havens
 		 Type=LEC, Enrollment:25/26
 	1131 in BURNABY by Diana Cukierman
 		 Type=LAB, Enrollment:176/182
@@ -5888,22 +5804,20 @@ CMPT 125
 	1051 in SURREY by -unknown-
 		 Type=LEC, Enrollment:275/384
 		 Type=TUT, Enrollment:275/384
-	1054 in SURREY by -unknown-
-		 Type=LAB, Enrollment:13/24
 	1054 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:24/150
 		 Type=LEC, Enrollment:24/150
 	1054 in SURREY by -unknown-
+		 Type=LAB, Enrollment:13/24
 		 Type=LEC, Enrollment:13/24
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:42/100
 		 Type=LEC, Enrollment:42/60
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:200/210
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:83/125
 		 Type=LEC, Enrollment:83/125
 	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:200/210
 		 Type=LEC, Enrollment:200/210
 	1064 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:41/75
@@ -5911,31 +5825,26 @@ CMPT 125
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:48/75
 		 Type=LEC, Enrollment:48/75
-	1071 in SURREY by -unknown-
-		 Type=LAB, Enrollment:80/120
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:79/100
 		 Type=LEC, Enrollment:79/100
 	1071 in SURREY by -unknown-
+		 Type=LAB, Enrollment:80/120
 		 Type=LEC, Enrollment:80/192
-	1074 in SURREY by -unknown-
-		 Type=LAB, Enrollment:11/72
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:32/36
-	1074 in SURREY by -unknown-
-		 Type=LEC, Enrollment:11/48
-	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:32/35
+	1074 in SURREY by -unknown-
+		 Type=LAB, Enrollment:11/72
+		 Type=LEC, Enrollment:11/48
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:47/76
 		 Type=LEC, Enrollment:47/75
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:79/100
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:49/72
-	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:79/100
 	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:49/72
 		 Type=LEC, Enrollment:49/96
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:48/50
@@ -5945,11 +5854,9 @@ CMPT 125
 		 Type=LEC, Enrollment:54/57
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:111/120
-	1091 in SURREY by -unknown-
-		 Type=LAB, Enrollment:32/42
-	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:111/120
 	1091 in SURREY by -unknown-
+		 Type=LAB, Enrollment:32/42
 		 Type=LEC, Enrollment:32/42
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:35/50
@@ -5959,48 +5866,38 @@ CMPT 125
 		 Type=LEC, Enrollment:74/78
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:111/125
-	1101 in SURREY by -unknown-
-		 Type=LAB, Enrollment:34/48
-	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:110/125
 	1101 in SURREY by -unknown-
+		 Type=LAB, Enrollment:34/48
 		 Type=LEC, Enrollment:34/48
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:52/52
-	1104 in SURREY by -unknown-
-		 Type=LAB, Enrollment:35/48
-	1104 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:52/52
 	1104 in SURREY by -unknown-
+		 Type=LAB, Enrollment:35/48
 		 Type=LEC, Enrollment:35/48
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:104/104
 		 Type=LEC, Enrollment:104/104
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:122/124
-	1111 in SURREY by -unknown-
-		 Type=LAB, Enrollment:68/73
-	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:122/124
 	1111 in SURREY by -unknown-
+		 Type=LAB, Enrollment:68/73
 		 Type=LEC, Enrollment:68/73
 	1114 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:44/72
-	1114 in SURREY by -unknown-
-		 Type=LAB, Enrollment:44/50
-	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:44/52
 	1114 in SURREY by -unknown-
+		 Type=LAB, Enrollment:44/50
 		 Type=LEC, Enrollment:44/50
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:99/104
 	1121 in BURNABY by Diana Cukierman
 		 Type=LAB, Enrollment:146/150
-	1121 in SURREY by Toby Donaldson
-		 Type=LAB, Enrollment:37/40
-	1121 in BURNABY by Diana Cukierman
 		 Type=LEC, Enrollment:146/150
 	1121 in SURREY by Toby Donaldson
+		 Type=LAB, Enrollment:37/40
 		 Type=LEC, Enrollment:37/40
 	1124 in SURREY by Toby Donaldson
 		 Type=LAB, Enrollment:39/45
@@ -6031,12 +5928,11 @@ CMPT 126
 		 Type=LEC, Enrollment:47/160
 	1054 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:18/40
-	1057 in SURREY by -unknown-
-		 Type=LAB, Enrollment:8/24
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:37/80
 		 Type=LEC, Enrollment:37/60
 	1057 in SURREY by -unknown-
+		 Type=LAB, Enrollment:8/24
 		 Type=LEC, Enrollment:8/48
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:36/40
@@ -6046,15 +5942,13 @@ CMPT 126
 		 Type=LEC, Enrollment:19/30
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:43/75
-	1067 in SURREY by -unknown-
-		 Type=LAB, Enrollment:8/40
-	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:43/75
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:8/40
 	1067 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:7/20
 		 Type=TUT, Enrollment:7/20
+	1067 in SURREY by -unknown-
+		 Type=LAB, Enrollment:8/40
+		 Type=LEC, Enrollment:8/40
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:22/50
 		 Type=LEC, Enrollment:22/50
@@ -6063,11 +5957,9 @@ CMPT 126
 		 Type=LEC, Enrollment:17/21
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:53/95
-	1077 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:7/18
-	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:53/75
 	1077 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:7/18
 		 Type=LEC, Enrollment:7/18
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:28/30
@@ -6077,11 +5969,9 @@ CMPT 126
 		 Type=LEC, Enrollment:22/28
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:57/75
-	1087 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:9/30
-	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:57/75
 	1087 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:9/30
 		 Type=LEC, Enrollment:9/30
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:22/20
@@ -6091,11 +5981,9 @@ CMPT 126
 		 Type=LEC, Enrollment:22/26
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:42/78
-	1097 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:16/24
-	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:42/78
 	1097 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:16/24
 		 Type=LEC, Enrollment:16/24
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:24/26
@@ -6105,11 +5993,9 @@ CMPT 126
 		 Type=LEC, Enrollment:26/26
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:29/36
-	1107 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:15/20
-	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:29/40
 	1107 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:15/20
 		 Type=LEC, Enrollment:15/20
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:25/26
@@ -6134,11 +6020,9 @@ CMPT 126
 		 Type=LEC, Enrollment:21/26
 	1137 in BURNABY by Scott Kristjanson
 		 Type=LAB, Enrollment:67/78
-	1137 in HRBRCNTR by Ruiwen Chen
-		 Type=LAB, Enrollment:41/52
-	1137 in BURNABY by Scott Kristjanson
 		 Type=LEC, Enrollment:67/78
 	1137 in HRBRCNTR by Ruiwen Chen
+		 Type=LAB, Enrollment:41/52
 		 Type=LEC, Enrollment:41/52
 	1144 in BURNABY by Ruiwen Chen
 		 Type=LAB, Enrollment:49/52
@@ -6162,44 +6046,36 @@ CMPT 128
 		 Type=LEC, Enrollment:120/150
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:172/195
-	1077 in SURREY by -unknown-
-		 Type=LAB, Enrollment:80/88
-	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:172/195
 	1077 in SURREY by -unknown-
+		 Type=LAB, Enrollment:80/88
 		 Type=LEC, Enrollment:80/96
 	1084 in SURREY by -unknown-
 		 Type=LAB, Enrollment:43/48
 		 Type=LEC, Enrollment:43/48
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:196/216
-	1087 in SURREY by -unknown-
-		 Type=LAB, Enrollment:94/128
-	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:196/213
 	1087 in SURREY by -unknown-
+		 Type=LAB, Enrollment:94/128
 		 Type=LEC, Enrollment:94/125
 	1094 in SURREY by -unknown-
 		 Type=LAB, Enrollment:44/48
 		 Type=LEC, Enrollment:44/48
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:233/267
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:80/100
-	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:233/264
 	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:80/100
 		 Type=LEC, Enrollment:80/100
 	1104 in SURREY by -unknown-
 		 Type=LAB, Enrollment:59/72
 		 Type=LEC, Enrollment:59/72
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:240/260
-	1107 in SURREY by -unknown-
-		 Type=LAB, Enrollment:81/90
-	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:240/260
 	1107 in SURREY by -unknown-
+		 Type=LAB, Enrollment:81/90
 		 Type=LEC, Enrollment:81/90
 	1111 in SURREY by -unknown-
 		 Type=LAB, Enrollment:63/66
@@ -6209,11 +6085,9 @@ CMPT 128
 		 Type=LEC, Enrollment:31/52
 	1117 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:198/208
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:65/66
-	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:198/208
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:65/66
 		 Type=LEC, Enrollment:65/66
 	1121 in SURREY by John Edgar
 		 Type=LAB, Enrollment:21/21
@@ -6305,11 +6179,9 @@ CMPT 150
 		 Type=TUT, Enrollment:98/160
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:91/160
-	1047 in SURREY by -unknown-
-		 Type=LEC, Enrollment:29/72
-	1047 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:91/160
 	1047 in SURREY by -unknown-
+		 Type=LEC, Enrollment:29/72
 		 Type=TUT, Enrollment:29/48
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:139/150
@@ -6323,12 +6195,11 @@ CMPT 150
 	1057 in SURREY by -unknown-
 		 Type=LEC, Enrollment:26/72
 		 Type=TUT, Enrollment:26/50
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:36/44
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:132/150
 		 Type=LEC, Enrollment:137/150
 	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:36/44
 		 Type=LEC, Enrollment:36/44
 	1064 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:73/100
@@ -6339,18 +6210,15 @@ CMPT 150
 	1067 in SURREY by -unknown-
 		 Type=LEC, Enrollment:17/60
 		 Type=TUT, Enrollment:17/40
-	1071 in SURREY by -unknown-
-		 Type=LAB, Enrollment:16/24
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:68/76
+		 Type=LEC, Enrollment:68/150
 	1071 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:10/20
-	1071 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:68/150
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:16/48
-	1071 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:10/20
+	1071 in SURREY by -unknown-
+		 Type=LAB, Enrollment:16/24
+		 Type=LEC, Enrollment:16/48
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:50/102
 		 Type=LEC, Enrollment:50/60
@@ -6362,34 +6230,27 @@ CMPT 150
 		 Type=TUT, Enrollment:15/24
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:117/127
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:38/48
+		 Type=LEC, Enrollment:117/150
 	1081 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:9/25
-	1081 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:117/150
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:38/48
-	1081 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:9/25
+	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:38/48
+		 Type=LEC, Enrollment:38/48
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:67/92
 		 Type=LEC, Enrollment:67/92
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:67/100
-	1087 in SURREY by -unknown-
-		 Type=LAB, Enrollment:20/24
-	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:67/100
 	1087 in SURREY by -unknown-
+		 Type=LAB, Enrollment:20/24
 		 Type=LEC, Enrollment:20/48
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:109/130
-	1091 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:13/25
-	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:109/130
 	1091 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:13/25
 		 Type=LEC, Enrollment:13/25
 	1094 in SURREY by -unknown-
 		 Type=LAB, Enrollment:39/48
@@ -6399,16 +6260,13 @@ CMPT 150
 		 Type=LEC, Enrollment:103/104
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:119/130
-	1101 in SURREY by -unknown-
-		 Type=LAB, Enrollment:39/48
+		 Type=LEC, Enrollment:119/130
 	1101 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:9/25
-	1101 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:119/130
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:39/48
-	1101 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:9/25
+	1101 in SURREY by -unknown-
+		 Type=LAB, Enrollment:39/48
+		 Type=LEC, Enrollment:39/48
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:78/104
 		 Type=LEC, Enrollment:78/104
@@ -6417,16 +6275,13 @@ CMPT 150
 		 Type=LEC, Enrollment:103/122
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:148/150
-	1111 in SURREY by -unknown-
-		 Type=LAB, Enrollment:67/72
+		 Type=LEC, Enrollment:148/150
 	1111 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:26/26
-	1111 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:148/150
-	1111 in SURREY by -unknown-
-		 Type=LEC, Enrollment:67/72
-	1111 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:26/26
+	1111 in SURREY by -unknown-
+		 Type=LAB, Enrollment:67/72
+		 Type=LEC, Enrollment:67/72
 	1114 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:65/90
 		 Type=LEC, Enrollment:65/90
@@ -6435,14 +6290,12 @@ CMPT 150
 		 Type=LEC, Enrollment:96/120
 	1121 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:152/156
+		 Type=LEC, Enrollment:152/156
 	1121 in HRBRCNTR by Diana Cukierman
 		 Type=LAB, Enrollment:16/50
-	1121 in BURNABY by Anthony Dixon
-		 Type=LEC, Enrollment:152/156
+		 Type=LEC, Enrollment:16/30
 	1121 in SURREY by Louis Hafer
 		 Type=LEC, Enrollment:39/40
-	1121 in HRBRCNTR by Diana Cukierman
-		 Type=LEC, Enrollment:16/30
 	1124 in BURNABY by Bobby Chan
 		 Type=LAB, Enrollment:104/104
 		 Type=LEC, Enrollment:104/104
@@ -6451,16 +6304,13 @@ CMPT 150
 		 Type=LEC, Enrollment:103/122
 	1131 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:152/156
-	1131 in SURREY by Louis Hafer
-		 Type=LAB, Enrollment:40/44
+		 Type=LEC, Enrollment:152/156
 	1131 in HRBRCNTR by Diana Cukierman
 		 Type=LAB, Enrollment:44/52
-	1131 in BURNABY by Anthony Dixon
-		 Type=LEC, Enrollment:152/156
-	1131 in SURREY by Louis Hafer
-		 Type=LEC, Enrollment:40/45
-	1131 in HRBRCNTR by Diana Cukierman
 		 Type=LEC, Enrollment:44/52
+	1131 in SURREY by Louis Hafer
+		 Type=LAB, Enrollment:40/44
+		 Type=LEC, Enrollment:40/45
 	1134 in BURNABY by Bobby Chan
 		 Type=LAB, Enrollment:99/104
 		 Type=LEC, Enrollment:99/104
@@ -6469,14 +6319,12 @@ CMPT 150
 		 Type=LEC, Enrollment:104/104
 	1141 in BURNABY by Bradley Bart
 		 Type=LAB, Enrollment:151/156
-	1141 in SURREY by Harinder Khangura
-		 Type=LAB, Enrollment:66/70
-	1141 in BURNABY by Bradley Bart
 		 Type=LEC, Enrollment:151/156
-	1141 in SURREY by Harinder Khangura
-		 Type=LEC, Enrollment:66/70
 	1141 in HRBRCNTR by Bobby Chan
 		 Type=LEC, Enrollment:31/35
+	1141 in SURREY by Harinder Khangura
+		 Type=LAB, Enrollment:66/70
+		 Type=LEC, Enrollment:66/70
 	1144 in BURNABY by Geoffrey Tien
 		 Type=LAB, Enrollment:103/104
 		 Type=LEC, Enrollment:103/104
@@ -6485,11 +6333,9 @@ CMPT 150
 		 Type=LEC, Enrollment:103/104
 	1151 in BURNABY by Bobby Chan
 		 Type=LAB, Enrollment:155/156
-	1151 in SURREY by Harinder Khangura
-		 Type=LAB, Enrollment:59/65
-	1151 in BURNABY by . Faculty, Bobby Chan
 		 Type=LEC, Enrollment:155/156
 	1151 in SURREY by Harinder Khangura
+		 Type=LAB, Enrollment:59/65
 		 Type=LEC, Enrollment:59/65
 CMPT 165
 	1007 in BURNABY by -unknown-
@@ -6530,14 +6376,12 @@ CMPT 165
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:96/160
 		 Type=SEC, Enrollment:71/120
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:215/216
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:72/150
-	1061 in SURREY by -unknown-
-		 Type=LEC, Enrollment:215/215
-	1061 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:98/100
+	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:215/216
+		 Type=LEC, Enrollment:215/215
 	1064 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:74/100
 		 Type=LEC, Enrollment:74/100
@@ -6546,105 +6390,81 @@ CMPT 165
 		 Type=LAB, Enrollment:91/150
 		 Type=LEC, Enrollment:91/150
 		 Type=SEC, Enrollment:72/100
-	1071 in SURREY by -unknown-
-		 Type=LAB, Enrollment:108/144
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:97/125
 		 Type=LEC, Enrollment:186/245
 	1071 in SURREY by -unknown-
+		 Type=LAB, Enrollment:108/144
 		 Type=LEC, Enrollment:108/192
-	1074 in SURREY by -unknown-
-		 Type=LAB, Enrollment:28/96
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:56/56
 		 Type=LEC, Enrollment:56/75
-	1074 in SURREY by -unknown-
-		 Type=LEC, Enrollment:28/72
-	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:112/120
+	1074 in SURREY by -unknown-
+		 Type=LAB, Enrollment:28/96
+		 Type=LEC, Enrollment:28/72
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:146/151
 		 Type=LEC, Enrollment:146/151
 		 Type=SEC, Enrollment:97/100
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:159/165
+		 Type=LEC, Enrollment:159/165
+		 Type=SEC, Enrollment:133/150
 	1081 in SURREY by -unknown-
 		 Type=LAB, Enrollment:39/48
-	1081 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:159/165
-	1081 in SURREY by -unknown-
 		 Type=LEC, Enrollment:39/96
-	1081 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:133/150
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:98/117
+		 Type=LEC, Enrollment:98/112
+		 Type=SEC, Enrollment:116/125
 	1084 in SURREY by -unknown-
 		 Type=LAB, Enrollment:24/32
-	1084 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:98/112
-	1084 in SURREY by -unknown-
 		 Type=LEC, Enrollment:24/48
-	1084 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:116/125
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:150/152
+		 Type=LEC, Enrollment:150/152
+		 Type=SEC, Enrollment:145/150
 	1087 in SURREY by -unknown-
 		 Type=LAB, Enrollment:67/72
-	1087 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:150/152
-	1087 in SURREY by -unknown-
 		 Type=LEC, Enrollment:67/72
-	1087 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:145/150
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:189/190
 		 Type=LEC, Enrollment:188/190
 		 Type=SEC, Enrollment:149/155
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:135/142
+		 Type=LEC, Enrollment:135/142
+		 Type=SEC, Enrollment:129/150
 	1094 in SURREY by -unknown-
 		 Type=LAB, Enrollment:53/88
-	1094 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:135/142
-	1094 in SURREY by -unknown-
 		 Type=LEC, Enrollment:53/64
-	1094 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:129/150
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:146/150
 		 Type=LEC, Enrollment:317/325
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:230/234
-	1101 in SURREY by -unknown-
-		 Type=LAB, Enrollment:41/48
-	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:230/234
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:41/48
-	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:138/150
 	1101 in KAM by -unknown-
 		 Type=SEC, Enrollment:6/12
+	1101 in SURREY by -unknown-
+		 Type=LAB, Enrollment:41/48
+		 Type=LEC, Enrollment:41/48
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:173/175
+		 Type=LEC, Enrollment:173/175
+		 Type=SEC, Enrollment:143/150
 	1104 in SURREY by -unknown-
 		 Type=LAB, Enrollment:113/120
-	1104 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:173/175
-	1104 in SURREY by -unknown-
 		 Type=LEC, Enrollment:113/120
-	1104 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:143/150
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:178/182
+		 Type=LEC, Enrollment:178/182
+		 Type=SEC, Enrollment:164/175
 	1107 in SURREY by -unknown-
 		 Type=LAB, Enrollment:93/101
-	1107 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:178/182
-	1107 in SURREY by -unknown-
 		 Type=LEC, Enrollment:93/101
-	1107 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:164/175
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:202/208
 		 Type=LEC, Enrollment:202/208
@@ -6655,35 +6475,25 @@ CMPT 165
 		 Type=SEC, Enrollment:143/150
 	1117 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:208/208
+		 Type=LEC, Enrollment:208/208
+		 Type=SEC, Enrollment:170/175
 	1117 in SURREY by -unknown-
 		 Type=LAB, Enrollment:95/100
-	1117 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:208/208
-	1117 in SURREY by -unknown-
 		 Type=LEC, Enrollment:95/100
-	1117 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:170/175
 	1121 in BURNABY by Bobby Chan
 		 Type=LAB, Enrollment:204/208
+		 Type=LEC, Enrollment:204/268
+		 Type=SEC, Enrollment:176/180
 	1121 in SURREY by Colin Stewart
 		 Type=LAB, Enrollment:117/125
-	1121 in BURNABY by Bobby Chan
-		 Type=LEC, Enrollment:204/208
-	1121 in SURREY by Colin Stewart
 		 Type=LEC, Enrollment:117/125
-	1121 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:0/60
-		 Type=SEC, Enrollment:176/180
 	1124 in BURNABY by Colin Stewart
 		 Type=LAB, Enrollment:197/208
+		 Type=LEC, Enrollment:197/208
+		 Type=SEC, Enrollment:146/150
 	1124 in SURREY by Brian Fraser
 		 Type=LAB, Enrollment:94/100
-	1124 in BURNABY by Colin Stewart
-		 Type=LEC, Enrollment:197/208
-	1124 in SURREY by Brian Fraser
 		 Type=LEC, Enrollment:94/100
-	1124 in BURNABY by Colin Stewart
-		 Type=SEC, Enrollment:146/150
 	1127 in BURNABY by Anne Lavergne
 		 Type=LAB, Enrollment:208/208
 		 Type=LEC, Enrollment:208/208
@@ -6694,47 +6504,36 @@ CMPT 165
 		 Type=SEC, Enrollment:180/200
 	1134 in BURNABY by Anne Lavergne
 		 Type=LAB, Enrollment:206/208
-	1134 in SURREY by Harinder Khangura
-		 Type=LAB, Enrollment:91/100
+		 Type=LEC, Enrollment:206/208
+		 Type=SEC, Enrollment:148/150
 	1134 in HRBRCNTR by Anne Lavergne
 		 Type=LAB, Enrollment:26/26
-	1134 in BURNABY by Anne Lavergne
-		 Type=LEC, Enrollment:206/208
-	1134 in SURREY by Harinder Khangura
-		 Type=LEC, Enrollment:91/100
-	1134 in HRBRCNTR by Anne Lavergne
 		 Type=LEC, Enrollment:26/26
-	1134 in BURNABY by . Faculty, Fred Popowich, Gregory Baker
-		 Type=SEC, Enrollment:148/150
+	1134 in SURREY by Harinder Khangura
+		 Type=LAB, Enrollment:91/100
+		 Type=LEC, Enrollment:91/100
 	1137 in BURNABY by Gregory Baker
 		 Type=LAB, Enrollment:200/208
+		 Type=LEC, Enrollment:200/208
+		 Type=SEC, Enrollment:171/180
 	1137 in SURREY by Bobby Chan
 		 Type=LAB, Enrollment:94/96
-	1137 in BURNABY by Gregory Baker
-		 Type=LEC, Enrollment:200/208
-	1137 in SURREY by Bobby Chan
 		 Type=LEC, Enrollment:94/96
-	1137 in BURNABY by Gregory Baker
-		 Type=SEC, Enrollment:171/180
 	1141 in BURNABY by Gregory Baker
 		 Type=LEC, Enrollment:195/208
 		 Type=SEC, Enrollment:172/180
-	1144 in SURREY by Harinder Khangura
-		 Type=LAB, Enrollment:98/104
 	1144 in BURNABY by Bobby Chan
 		 Type=LEC, Enrollment:206/208
-	1144 in SURREY by Harinder Khangura
-		 Type=LEC, Enrollment:98/104
-	1144 in BURNABY by . Faculty, Gregory Baker
 		 Type=SEC, Enrollment:148/150
-	1147 in SURREY by Harinder Khangura
-		 Type=LAB, Enrollment:67/75
+	1144 in SURREY by Harinder Khangura
+		 Type=LAB, Enrollment:98/104
+		 Type=LEC, Enrollment:98/104
 	1147 in BURNABY by Stephen Makonin
 		 Type=LEC, Enrollment:181/185
-	1147 in SURREY by Harinder Khangura
-		 Type=LEC, Enrollment:67/75
-	1147 in BURNABY by . Faculty, Stephen Makonin
 		 Type=SEC, Enrollment:218/225
+	1147 in SURREY by Harinder Khangura
+		 Type=LAB, Enrollment:67/75
+		 Type=LEC, Enrollment:67/75
 	1151 in BURNABY by Stephen Makonin
 		 Type=LEC, Enrollment:198/206
 		 Type=SEC, Enrollment:220/225
@@ -6907,18 +6706,18 @@ CMPT 218
 	1011 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
 CMPT 225
-	1047 in SURREY by -unknown-
-		 Type=LEC, Enrollment:23/60
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:73/150
+	1047 in SURREY by -unknown-
+		 Type=LEC, Enrollment:23/60
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:82/120
 	1054 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:54/120
-	1057 in SURREY by -unknown-
-		 Type=LEC, Enrollment:21/60
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:101/120
+	1057 in SURREY by -unknown-
+		 Type=LEC, Enrollment:21/60
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:74/100
 		 Type=LEC, Enrollment:74/100
@@ -6927,173 +6726,137 @@ CMPT 225
 		 Type=LEC, Enrollment:77/75
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:64/125
-	1067 in SURREY by -unknown-
-		 Type=LAB, Enrollment:48/48
-	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:64/125
 	1067 in SURREY by -unknown-
+		 Type=LAB, Enrollment:48/48
 		 Type=LEC, Enrollment:48/48
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:62/100
-	1071 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:16/20
-	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:62/100
 	1071 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:16/20
 		 Type=LEC, Enrollment:16/20
-	1074 in SURREY by -unknown-
-		 Type=LAB, Enrollment:35/72
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:66/75
 		 Type=LEC, Enrollment:66/75
 	1074 in SURREY by -unknown-
+		 Type=LAB, Enrollment:35/72
 		 Type=LEC, Enrollment:35/48
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:96/133
-	1077 in SURREY by -unknown-
-		 Type=LAB, Enrollment:16/24
-	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:96/122
 	1077 in SURREY by -unknown-
+		 Type=LAB, Enrollment:16/24
 		 Type=LEC, Enrollment:16/96
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:90/100
-	1081 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:7/25
-	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:90/100
 	1081 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:7/25
 		 Type=LEC, Enrollment:7/25
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:73/100
-	1084 in SURREY by -unknown-
-		 Type=LAB, Enrollment:30/32
-	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:73/100
 	1084 in SURREY by -unknown-
+		 Type=LAB, Enrollment:30/32
 		 Type=LEC, Enrollment:30/48
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:125/132
 		 Type=LEC, Enrollment:125/132
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:58/75
-	1091 in SURREY by -unknown-
-		 Type=LAB, Enrollment:41/48
+		 Type=LEC, Enrollment:58/75
 	1091 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:10/20
-	1091 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:58/75
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:41/48
-	1091 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:10/20
+	1091 in SURREY by -unknown-
+		 Type=LAB, Enrollment:41/48
+		 Type=LEC, Enrollment:41/48
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:98/104
 		 Type=LEC, Enrollment:98/104
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:83/130
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:48/54
-	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:83/110
 	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:48/54
 		 Type=LEC, Enrollment:48/54
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:91/104
-	1101 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:41/50
-	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:91/104
 	1101 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:41/50
 		 Type=LEC, Enrollment:41/50
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:91/104
 		 Type=LEC, Enrollment:91/104
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:102/104
-	1107 in SURREY by -unknown-
-		 Type=LAB, Enrollment:85/90
-	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:102/104
 	1107 in SURREY by -unknown-
+		 Type=LAB, Enrollment:85/90
 		 Type=LEC, Enrollment:85/90
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:100/103
-	1111 in HRBRCNTR by -unknown-
-		 Type=LAB, Enrollment:39/45
-	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:100/103
 	1111 in HRBRCNTR by -unknown-
+		 Type=LAB, Enrollment:39/45
 		 Type=LEC, Enrollment:39/45
 	1114 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:126/130
 		 Type=LEC, Enrollment:126/130
 	1117 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:105/104
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:103/104
-	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:105/104
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:103/104
 		 Type=LEC, Enrollment:103/104
 	1121 in BURNABY by Gregory Mori
 		 Type=LAB, Enrollment:122/123
-	1121 in HRBRCNTR by David Mitchell
-		 Type=LAB, Enrollment:19/50
-	1121 in BURNABY by Gregory Mori
 		 Type=LEC, Enrollment:122/122
 	1121 in HRBRCNTR by David Mitchell
+		 Type=LAB, Enrollment:19/50
 		 Type=LEC, Enrollment:19/50
 	1124 in BURNABY by Anne Lavergne
 		 Type=LAB, Enrollment:125/125
 		 Type=LEC, Enrollment:125/125
 	1127 in BURNABY by David Mitchell
 		 Type=LAB, Enrollment:105/104
-	1127 in SURREY by Toby Donaldson
-		 Type=LAB, Enrollment:51/55
-	1127 in BURNABY by David Mitchell
 		 Type=LEC, Enrollment:105/104
 	1127 in SURREY by Toby Donaldson
+		 Type=LAB, Enrollment:51/55
 		 Type=LEC, Enrollment:51/55
 	1131 in BURNABY by Gregory Mori
 		 Type=LAB, Enrollment:131/130
-	1131 in HRBRCNTR by David Mitchell
-		 Type=LAB, Enrollment:49/52
-	1131 in BURNABY by Gregory Mori
 		 Type=LEC, Enrollment:131/130
 	1131 in HRBRCNTR by David Mitchell
+		 Type=LAB, Enrollment:49/52
 		 Type=LEC, Enrollment:49/52
 	1134 in BURNABY by Anne Lavergne
 		 Type=LAB, Enrollment:84/100
-	1134 in SURREY by John Edgar
-		 Type=LAB, Enrollment:64/78
-	1134 in BURNABY by Anne Lavergne
 		 Type=LEC, Enrollment:84/100
 	1134 in SURREY by John Edgar
+		 Type=LAB, Enrollment:64/78
 		 Type=LEC, Enrollment:64/78
 	1137 in BURNABY by Michael Evans
 		 Type=LAB, Enrollment:99/104
-	1137 in SURREY by John Edgar
-		 Type=LAB, Enrollment:69/78
-	1137 in BURNABY by Michael Evans
 		 Type=LEC, Enrollment:99/104
 	1137 in SURREY by John Edgar
+		 Type=LAB, Enrollment:69/78
 		 Type=LEC, Enrollment:69/78
 	1141 in BURNABY by David Mitchell
 		 Type=LAB, Enrollment:157/156
 		 Type=LEC, Enrollment:157/156
+	1144 in HRBRCNTR by Jeremie Lumbroso
+		 Type=LEC, Enrollment:65/65
 	1144 in SURREY by John Edgar
 		 Type=LAB, Enrollment:107/107
 		 Type=LEC, Enrollment:107/107
-	1144 in HRBRCNTR by Jeremie Lumbroso
-		 Type=LEC, Enrollment:65/65
 	1147 in BURNABY by David Mitchell
 		 Type=LAB, Enrollment:104/104
-	1147 in SURREY by Geoffrey Tien
-		 Type=LAB, Enrollment:89/98
-	1147 in BURNABY by David Mitchell
 		 Type=LEC, Enrollment:104/104
 	1147 in SURREY by Geoffrey Tien
+		 Type=LAB, Enrollment:89/98
 		 Type=LEC, Enrollment:89/98
 	1151 in BURNABY by David Mitchell
 		 Type=LAB, Enrollment:182/182
@@ -7137,29 +6900,24 @@ CMPT 250
 		 Type=TUT, Enrollment:73/160
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:44/160
-	1051 in SURREY by -unknown-
-		 Type=LEC, Enrollment:9/76
-	1051 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:44/161
 	1051 in SURREY by -unknown-
+		 Type=LEC, Enrollment:9/76
 		 Type=TUT, Enrollment:9/72
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:112/110
 		 Type=LEC, Enrollment:112/110
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:9/20
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:43/75
 		 Type=LEC, Enrollment:43/75
 	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:9/20
 		 Type=LEC, Enrollment:9/20
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:103/140
-	1067 in SURREY by -unknown-
-		 Type=LAB, Enrollment:22/40
-	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:103/140
 	1067 in SURREY by -unknown-
+		 Type=LAB, Enrollment:22/40
 		 Type=LEC, Enrollment:22/60
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:45/55
@@ -7169,11 +6927,9 @@ CMPT 250
 		 Type=LEC, Enrollment:109/140
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:42/60
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:25/24
-	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:42/60
 	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:25/24
 		 Type=LEC, Enrollment:25/24
 	1084 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:28/43
@@ -7183,22 +6939,18 @@ CMPT 250
 		 Type=LEC, Enrollment:129/140
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:35/50
-	1091 in SURREY by -unknown-
-		 Type=LAB, Enrollment:32/48
-	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:35/50
 	1091 in SURREY by -unknown-
+		 Type=LAB, Enrollment:32/48
 		 Type=LEC, Enrollment:32/46
 	1094 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:24/30
 		 Type=LEC, Enrollment:24/42
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:107/130
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:28/30
-	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:107/130
 	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:28/30
 		 Type=LEC, Enrollment:28/30
 	1101 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:92/104
@@ -7208,22 +6960,18 @@ CMPT 250
 		 Type=LEC, Enrollment:21/30
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:122/137
-	1107 in SURREY by -unknown-
-		 Type=LAB, Enrollment:35/40
-	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:122/130
 	1107 in SURREY by -unknown-
+		 Type=LAB, Enrollment:35/40
 		 Type=LEC, Enrollment:35/40
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:100/104
 		 Type=LEC, Enrollment:100/104
 	1117 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:129/130
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:52/52
-	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:129/130
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:52/52
 		 Type=LEC, Enrollment:52/52
 	1121 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:104/125
@@ -7232,33 +6980,27 @@ CMPT 250
 		 Type=LEC, Enrollment:75/75
 	1127 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:123/130
-	1127 in SURREY by Brian Fraser
-		 Type=LAB, Enrollment:44/44
-	1127 in BURNABY by Anthony Dixon
 		 Type=LEC, Enrollment:123/130
 	1127 in SURREY by Brian Fraser
+		 Type=LAB, Enrollment:44/44
 		 Type=LEC, Enrollment:44/45
 	1131 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:130/130
 		 Type=LEC, Enrollment:130/130
 	1137 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:122/130
-	1137 in SURREY by Brian Fraser
-		 Type=LAB, Enrollment:88/98
-	1137 in BURNABY by Anthony Dixon
 		 Type=LEC, Enrollment:122/130
 	1137 in SURREY by Brian Fraser
+		 Type=LAB, Enrollment:88/98
 		 Type=LEC, Enrollment:88/98
 	1141 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:156/159
 		 Type=LEC, Enrollment:156/156
 	1147 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:129/130
+		 Type=LEC, Enrollment:129/130
 	1147 in SURREY by . Faculty
 		 Type=LAB, Enrollment:81/82
-	1147 in BURNABY by Anthony Dixon
-		 Type=LEC, Enrollment:129/130
-	1147 in SURREY by Brian Fraser
 		 Type=LEC, Enrollment:81/82
 	1151 in BURNABY by Anthony Dixon
 		 Type=LAB, Enrollment:151/156
@@ -7331,10 +7073,10 @@ CMPT 275
 		 Type=LEC, Enrollment:68/72
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:62/72
-	1094 in SURREY by -unknown-
-		 Type=LEC, Enrollment:27/30
 	1094 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:34/45
+	1094 in SURREY by -unknown-
+		 Type=LEC, Enrollment:27/30
 	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:64/72
 	1101 in BURNABY by -unknown-
@@ -7446,10 +7188,10 @@ CMPT 300
 		 Type=LEC, Enrollment:59/75
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:23/65
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:16/30
 	1067 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:14/65
+	1067 in SURREY by -unknown-
+		 Type=LEC, Enrollment:16/30
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:58/80
 	1074 in BURNABY by -unknown-
@@ -7464,28 +7206,28 @@ CMPT 300
 		 Type=LEC, Enrollment:53/55
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:72/72
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:33/48
 	1087 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:15/35
+	1087 in SURREY by -unknown-
+		 Type=LEC, Enrollment:33/48
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:56/60
 	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:85/85
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:58/58
 	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:78/85
+	1101 in SURREY by -unknown-
+		 Type=LEC, Enrollment:58/58
 	1104 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:83/85
 	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:83/85
 	1107 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:49/50
-	1111 in SURREY by -unknown-
-		 Type=LEC, Enrollment:44/46
 	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:54/60
+	1111 in SURREY by -unknown-
+		 Type=LEC, Enrollment:44/46
 	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:67/85
 	1117 in BURNABY by -unknown-
@@ -7518,10 +7260,10 @@ CMPT 300
 		 Type=LEC, Enrollment:94/95
 	1147 in BURNABY by Steven Pearce
 		 Type=LEC, Enrollment:100/100
-	1151 in SURREY by Brian Fraser
-		 Type=LEC, Enrollment:98/98
 	1151 in BURNABY by Ryan Shea
 		 Type=LEC, Enrollment:80/80
+	1151 in SURREY by Brian Fraser
+		 Type=LEC, Enrollment:98/98
 CMPT 301
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -7913,18 +7655,18 @@ CMPT 320
 		 Type=LEC, Enrollment:58/50
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:60/65
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:23/24
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:32/75
+	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:23/24
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:64/65
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:45/65
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:31/48
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:53/75
+	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:31/48
 	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:54/70
 	1087 in BURNABY by -unknown-
@@ -8075,12 +7817,12 @@ CMPT 354
 		 Type=LEC, Enrollment:17/40
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:52/75
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:20/60
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:32/65
 	1067 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:15/20
+	1067 in SURREY by -unknown-
+		 Type=LEC, Enrollment:20/60
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:35/65
 	1074 in BURNABY by -unknown-
@@ -8481,10 +8223,10 @@ CMPT 371
 		 Type=LEC, Enrollment:43/65
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:49/65
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:12/24
 	1071 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:14/20
+	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:12/24
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:44/45
 	1077 in BURNABY by -unknown-
@@ -8531,10 +8273,10 @@ CMPT 371
 		 Type=LEC, Enrollment:18/20
 	1131 in BURNABY by Ayse Ergun
 		 Type=LEC, Enrollment:83/80
-	1134 in SURREY by Mohamed Hefeeda
-		 Type=LEC, Enrollment:46/48
 	1134 in BURNABY by Janice Regan
 		 Type=LEC, Enrollment:64/75
+	1134 in SURREY by Mohamed Hefeeda
+		 Type=LEC, Enrollment:46/48
 	1137 in BURNABY by Jiangchuan Liu
 		 Type=LEC, Enrollment:90/90
 	1141 in BURNABY by Jiangchuan Liu
@@ -8545,10 +8287,10 @@ CMPT 371
 		 Type=LEC, Enrollment:85/85
 	1147 in BURNABY by Jiangchuan Liu
 		 Type=LEC, Enrollment:85/85
-	1151 in SURREY by Joseph Peters
-		 Type=LEC, Enrollment:60/60
 	1151 in HRBRCNTR by Balbir Gill
 		 Type=LEC, Enrollment:71/75
+	1151 in SURREY by Joseph Peters
+		 Type=LEC, Enrollment:60/60
 CMPT 373
 	1097 in SURREY by -unknown-
 		 Type=LAB, Enrollment:6/24
@@ -8714,10 +8456,10 @@ CMPT 383
 		 Type=LEC, Enrollment:65/65
 	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:57/65
-	1121 in SURREY by Fred Popowich
-		 Type=LEC, Enrollment:23/24
 	1121 in HRBRCNTR by Gregory Baker
 		 Type=LEC, Enrollment:66/70
+	1121 in SURREY by Fred Popowich
+		 Type=LEC, Enrollment:23/24
 	1124 in BURNABY by Gregory Baker
 		 Type=LEC, Enrollment:101/100
 	1127 in BURNABY by Piper Jackson
@@ -9438,131 +9180,83 @@ CMPT 426
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:36/36
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:6/25
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/15
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:23/30
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
+		 Type=SEC, Enrollment:3/30
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/15
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:21/22
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:12/13
+		 Type=SEC, Enrollment:12/14
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/2
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:32/31
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/5
+		 Type=SEC, Enrollment:4/8
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/5
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/3
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:30/30
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/10
+		 Type=SEC, Enrollment:12/20
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/5
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/10
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:39/35
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:9/10
+		 Type=SEC, Enrollment:11/15
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:8/10
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/5
 	1121 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:33/30
+		 Type=SEC, Enrollment:38/35
 	1121 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:13/15
-	1121 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:5/5
-	1121 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:14/20
 	1124 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:29/30
+		 Type=SEC, Enrollment:37/60
 	1124 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:2/15
-	1124 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:8/30
-	1124 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:4/15
+		 Type=SEC, Enrollment:6/30
 	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:29/28
+		 Type=SEC, Enrollment:37/40
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:10/12
-	1127 in METRO by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:8/12
-	1127 in OFF by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:11/17
 	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:27/30
+		 Type=SEC, Enrollment:30/60
 	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:6/15
-	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/15
+		 Type=SEC, Enrollment:7/30
 	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:42/41
+		 Type=SEC, Enrollment:45/46
 	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:9/10
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/5
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:44/30
-	1137 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:9/15
 	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:6/30
+		 Type=SEC, Enrollment:50/60
 	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
+		 Type=SEC, Enrollment:9/30
 	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:36/35
+		 Type=SEC, Enrollment:40/40
 	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:8/10
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:8/15
 	1144 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:32/30
 	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:7/10
+		 Type=SEC, Enrollment:8/15
 	1144 in VAN by Harriet Chicoine
 		 Type=SEC, Enrollment:9/10
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
 	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:47/50
+		 Type=SEC, Enrollment:51/80
 	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:8/10
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:4/30
-	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
+		 Type=SEC, Enrollment:8/25
 	1151 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:35/35
 	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:0/10
 	1151 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:8/10
-	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
 CMPT 427
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -9635,27 +9329,21 @@ CMPT 427
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:24/30
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:8/10
+		 Type=SEC, Enrollment:9/25
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/15
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/15
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:31/33
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/15
+		 Type=SEC, Enrollment:8/30
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:20/20
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/5
+		 Type=SEC, Enrollment:6/7
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/2
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/2
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:22/25
 	1111 in OFF by -unknown-
@@ -9665,99 +9353,57 @@ CMPT 427
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:28/30
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:4/15
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/5
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:23/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/10
+		 Type=SEC, Enrollment:10/18
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/5
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/8
 	1121 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:35/30
-	1121 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:10/15
-	1121 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:6/10
-	1121 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:0/5
-	1124 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:30/30
-	1124 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:8/15
-	1124 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:7/30
-	1124 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:2/15
-	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:31/20
-	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1127 in METRO by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:6/10
-	1127 in OFF by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:3/5
-	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:30/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:8/15
-	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:5/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/15
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:25/30
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:5/10
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/5
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:36/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/15
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:5/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:38/40
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:6/8
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:6/10
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
-	1144 in VAN by Harriet Chicoine
 		 Type=SEC, Enrollment:41/40
+	1121 in OFF by Cristina Eftenaru
+		 Type=SEC, Enrollment:10/20
+	1124 in METRO by Cristina Eftenaru
+		 Type=SEC, Enrollment:37/60
+	1124 in OFF by Cristina Eftenaru
+		 Type=SEC, Enrollment:10/30
+	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
+		 Type=SEC, Enrollment:37/30
+	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
+		 Type=SEC, Enrollment:7/10
+	1131 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:35/60
+	1131 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:9/30
+	1134 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:28/35
+	1134 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:5/15
+	1137 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:41/60
+	1137 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:1/30
+	1141 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:44/50
+	1141 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:7/13
 	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:5/10
+		 Type=SEC, Enrollment:5/15
 	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:45/45
 	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:29/30
+		 Type=SEC, Enrollment:33/38
 	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:6/5
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:4/8
-	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:8/10
 	1151 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:43/45
 	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:4/15
 	1151 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:5/5
-	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
 CMPT 428
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -9830,131 +9476,81 @@ CMPT 428
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:9/30
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/25
 	1101 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/15
-	1101 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/15
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:16/30
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:9/15
+		 Type=SEC, Enrollment:11/30
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/12
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/5
+		 Type=SEC, Enrollment:5/7
 	1107 in SURREY by -unknown-
-		 Type=SEC, Enrollment:1/2
-	1107 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/2
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:13/15
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/5
+		 Type=SEC, Enrollment:7/10
 	1111 in SURREY by -unknown-
-		 Type=SEC, Enrollment:3/5
-	1111 in OFF by -unknown-
 		 Type=SEC, Enrollment:3/5
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:16/20
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:2/10
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/5
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:10/12
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/3
+		 Type=SEC, Enrollment:3/5
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/2
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/2
 	1121 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:18/20
+		 Type=SEC, Enrollment:18/25
 	1121 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:6/10
-	1121 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:0/5
-	1121 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:2/5
-	1124 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:26/30
-	1124 in OFF by Cristina Eftenaru
 		 Type=SEC, Enrollment:8/15
-	1124 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:5/30
-	1124 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:0/15
+	1124 in METRO by Cristina Eftenaru
+		 Type=SEC, Enrollment:31/60
+	1124 in OFF by Cristina Eftenaru
+		 Type=SEC, Enrollment:8/30
 	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:21/20
+		 Type=SEC, Enrollment:23/25
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1127 in METRO by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:2/5
-	1127 in OFF by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:3/10
 	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:20/30
+		 Type=SEC, Enrollment:21/60
 	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:4/15
-	1131 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:7/30
+	1134 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:35/40
+	1134 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:11/15
+	1137 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:24/60
+	1137 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:1/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:3/15
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:28/30
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:9/10
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:7/10
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:21/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/15
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
 	1141 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:23/30
+	1141 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:2/10
+	1144 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:4/10
+	1144 in VAN by Harriet Chicoine
+		 Type=SEC, Enrollment:35/35
+	1147 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:19/25
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:31/30
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:16/20
 	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/5
-	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:2/10
 	1151 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:14/15
 	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:2/10
 	1151 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:5/8
-	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
 CMPT 429
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -10027,130 +9623,80 @@ CMPT 429
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:8/30
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
+		 Type=SEC, Enrollment:2/25
 	1101 in SURREY by -unknown-
-		 Type=SEC, Enrollment:1/15
-	1101 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/15
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/30
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/15
+		 Type=SEC, Enrollment:2/30
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/15
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/10
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/7
+		 Type=SEC, Enrollment:6/8
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/1
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/1
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/5
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/3
+		 Type=SEC, Enrollment:1/4
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/3
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/15
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/10
+		 Type=SEC, Enrollment:8/15
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/5
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/5
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:10/15
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:0/10
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/5
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1121 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:8/12
+		 Type=SEC, Enrollment:9/17
 	1121 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:4/8
-	1121 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:1/5
-	1121 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:4/13
 	1124 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:15/30
+		 Type=SEC, Enrollment:15/60
 	1124 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:3/15
-	1124 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:0/30
-	1124 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:2/15
+		 Type=SEC, Enrollment:5/30
 	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:16/15
+		 Type=SEC, Enrollment:17/20
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:4/5
-	1127 in METRO by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:1/5
-	1127 in OFF by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:0/2
+		 Type=SEC, Enrollment:4/7
 	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:14/30
+		 Type=SEC, Enrollment:15/60
 	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
-	1131 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:1/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/15
 	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:14/20
+		 Type=SEC, Enrollment:14/25
 	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:2/10
 	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:13/30
+		 Type=SEC, Enrollment:17/60
 	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/15
-	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:4/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
+		 Type=SEC, Enrollment:2/30
 	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:21/25
+		 Type=SEC, Enrollment:23/30
 	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:10/12
+		 Type=SEC, Enrollment:2/10
 	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:3/10
 	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:3/5
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:13/17
 	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:15/15
+		 Type=SEC, Enrollment:18/20
 	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:3/5
-	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:2/10
 	1151 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:14/15
 	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:0/10
 	1151 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1151 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/5
 CMPT 430
 	1001 in BURNABY by -unknown-
@@ -10224,130 +9770,80 @@ CMPT 430
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:6/30
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/25
 	1101 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/15
-	1101 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/15
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/30
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/15
+		 Type=SEC, Enrollment:0/30
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/15
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:6/7
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
+		 Type=SEC, Enrollment:0/2
 	1107 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/1
-	1107 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/1
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:6/6
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/5
+		 Type=SEC, Enrollment:4/6
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/3
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:3/5
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:2/10
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/5
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:2/4
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/5
+		 Type=SEC, Enrollment:4/7
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/2
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/2
 	1121 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:4/5
-	1121 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:3/5
-	1121 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:2/5
-	1121 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:0/5
-	1124 in METRO by Cristina Eftenaru
-		 Type=SEC, Enrollment:4/30
-	1124 in OFF by Cristina Eftenaru
-		 Type=SEC, Enrollment:1/15
-	1124 in METRO by Frances McLafferty
-		 Type=SEC, Enrollment:1/30
-	1124 in OFF by Frances McLafferty
-		 Type=SEC, Enrollment:0/15
-	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
 		 Type=SEC, Enrollment:6/10
-	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1127 in METRO by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:1/2
-	1127 in OFF by Harriet Chicoine, John McDonald
-		 Type=SEC, Enrollment:0/2
-	1131 in METRO by Harriet Chicoine
+	1121 in OFF by Cristina Eftenaru
+		 Type=SEC, Enrollment:3/10
+	1124 in METRO by Cristina Eftenaru
+		 Type=SEC, Enrollment:5/60
+	1124 in OFF by Cristina Eftenaru
 		 Type=SEC, Enrollment:1/30
-	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:4/15
+	1127 in METRO by Cristina Eftenaru, Harriet Chicoine
+		 Type=SEC, Enrollment:7/12
+	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
+		 Type=SEC, Enrollment:2/7
 	1131 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:0/30
+		 Type=SEC, Enrollment:1/60
 	1131 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:9/12
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
-	1134 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
-	1134 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1137 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:4/30
-	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
+	1134 in METRO by Harriet Chicoine
+		 Type=SEC, Enrollment:10/17
+	1134 in OFF by Harriet Chicoine
+		 Type=SEC, Enrollment:1/10
 	1137 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:0/30
+		 Type=SEC, Enrollment:4/60
 	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/15
+		 Type=SEC, Enrollment:0/30
 	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:1/10
 	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1141 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:7/10
+		 Type=SEC, Enrollment:2/10
 	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:1/10
 	1144 in VAN by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1144 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:7/15
 	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:3/10
 	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/5
-	1147 in METRO by Harriet Chicoine
-		 Type=SEC, Enrollment:2/5
-	1147 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/2
+		 Type=SEC, Enrollment:1/7
 	1151 in METRO by Harriet Chicoine
 		 Type=SEC, Enrollment:5/8
 	1151 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
+		 Type=SEC, Enrollment:0/10
 	1151 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:0/5
-	1151 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/5
 CMPT 431
 	1091 in BURNABY by -unknown-
@@ -10457,10 +9953,10 @@ CMPT 454
 		 Type=LEC, Enrollment:32/40
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:56/60
-	1097 in SURREY by -unknown-
-		 Type=LEC, Enrollment:25/30
 	1097 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:40/45
+	1097 in SURREY by -unknown-
+		 Type=LEC, Enrollment:25/30
 	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:55/60
 	1107 in BURNABY by -unknown-
@@ -10743,10 +10239,10 @@ CMPT 471
 		 Type=LEC, Enrollment:27/60
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:18/30
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:11/24
 	1081 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:17/25
+	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:11/24
 	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:22/30
 	1087 in BURNABY by -unknown-
@@ -10765,10 +10261,10 @@ CMPT 471
 		 Type=LEC, Enrollment:28/30
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:52/55
-	1121 in SURREY by Louis Hafer
-		 Type=LEC, Enrollment:8/8
 	1121 in HRBRCNTR by Janice Regan
 		 Type=LEC, Enrollment:26/40
+	1121 in SURREY by Louis Hafer
+		 Type=LEC, Enrollment:8/8
 	1124 in BURNABY by Janice Regan
 		 Type=LEC, Enrollment:41/55
 	1127 in SURREY by Qianping Gu
@@ -10840,18 +10336,18 @@ CMPT 475
 		 Type=LEC, Enrollment:17/50
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:39/50
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:4/24
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:41/60
+	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:4/24
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:26/30
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:29/60
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:10/24
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:32/60
+	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:10/24
 	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:32/30
 	1087 in SURREY by -unknown-
@@ -11074,9 +10570,9 @@ CMPT 626
 		 Type=PRA, Enrollment:0/30
 	1124 in OFF by Cristina Eftenaru
 		 Type=PRA, Enrollment:3/30
-	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
-		 Type=PRA, Enrollment:0/2
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
+		 Type=PRA, Enrollment:0/2
+	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
 		 Type=PRA, Enrollment:0/2
 	1131 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:0/30
@@ -11094,10 +10590,10 @@ CMPT 626
 		 Type=PRA, Enrollment:5/5
 	1141 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:0/5
-	1144 in VAN by Harriet Chicoine
-		 Type=PRA, Enrollment:17/15
 	1144 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:2/5
+	1144 in VAN by Harriet Chicoine
+		 Type=PRA, Enrollment:17/15
 	1147 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:3/5
 	1147 in OFF by Harriet Chicoine
@@ -11111,10 +10607,10 @@ CMPT 627
 		 Type=PRA, Enrollment:0/30
 	1124 in OFF by Cristina Eftenaru
 		 Type=PRA, Enrollment:0/30
-	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
-		 Type=PRA, Enrollment:0/2
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
 		 Type=PRA, Enrollment:3/5
+	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
+		 Type=PRA, Enrollment:0/2
 	1131 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:0/30
 	1131 in OFF by Harriet Chicoine
@@ -11131,10 +10627,10 @@ CMPT 627
 		 Type=PRA, Enrollment:2/5
 	1141 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:1/5
-	1144 in VAN by Harriet Chicoine
-		 Type=PRA, Enrollment:1/5
 	1144 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:0/5
+	1144 in VAN by Harriet Chicoine
+		 Type=PRA, Enrollment:1/5
 	1147 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:13/15
 	1147 in OFF by Harriet Chicoine
@@ -11148,9 +10644,9 @@ CMPT 628
 		 Type=PRA, Enrollment:0/30
 	1124 in OFF by Cristina Eftenaru
 		 Type=PRA, Enrollment:0/30
-	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
-		 Type=PRA, Enrollment:0/2
 	1127 in OFF by Cristina Eftenaru, Harriet Chicoine
+		 Type=PRA, Enrollment:0/2
+	1127 in VAN by Cristina Eftenaru, Harriet Chicoine
 		 Type=PRA, Enrollment:0/2
 	1131 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:0/30
@@ -11168,10 +10664,10 @@ CMPT 628
 		 Type=PRA, Enrollment:1/5
 	1141 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:0/5
-	1144 in VAN by Harriet Chicoine
-		 Type=PRA, Enrollment:0/5
 	1144 in OFF by Harriet Chicoine
 		 Type=PRA, Enrollment:1/5
+	1144 in VAN by Harriet Chicoine
+		 Type=PRA, Enrollment:0/5
 	1147 in METRO by Harriet Chicoine
 		 Type=PRA, Enrollment:0/2
 	1147 in OFF by Harriet Chicoine
@@ -12417,21 +11913,19 @@ CMPT 889
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:2/15
 	1061 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:8/40
+		 Type=LEC, Enrollment:18/65
 	1061 in SURREY by -unknown-
 		 Type=LEC, Enrollment:3/20
-	1061 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:10/25
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:2/20
 	1067 in SURREY by -unknown-
 		 Type=LEC, Enrollment:3/20
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:6/10
-	1077 in SURREY by -unknown-
-		 Type=LEC, Enrollment:2/20
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:1/10
+	1077 in SURREY by -unknown-
+		 Type=LEC, Enrollment:2/20
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:8/15
 	1091 in BURNABY by -unknown-
@@ -12911,10 +12405,10 @@ CMPT 899
 		 Type=SEC, Enrollment:92/130
 	1141 in BURNABY by . Faculty
 		 Type=SEC, Enrollment:79/130
-	1141 in SURREY by . Faculty
-		 Type=SEC, Enrollment:12/15
 	1141 in OFF by . Faculty
 		 Type=SEC, Enrollment:4/4
+	1141 in SURREY by . Faculty
+		 Type=SEC, Enrollment:12/15
 	1144 in BURNABY by . Faculty
 		 Type=SEC, Enrollment:90/100
 	1147 in BURNABY by . Faculty
@@ -13499,11 +12993,9 @@ ENSC 194
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/25
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/50
 	1097 in OFF by -unknown-
@@ -13511,34 +13003,26 @@ ENSC 194
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/2
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/2
+		 Type=SEC, Enrollment:0/7
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/5
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/1
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
+		 Type=SEC, Enrollment:0/26
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/25
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/25
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/2
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/2
+		 Type=SEC, Enrollment:0/7
 	1107 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/5
-	1107 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/5
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/1
 	1111 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/1
 	1111 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/0
-	1111 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/0
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/5
@@ -13549,18 +13033,14 @@ ENSC 194
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/10
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1117 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/10
-	1117 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/10
 	1121 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1121 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/0
-	1121 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/0
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
@@ -13654,11 +13134,9 @@ ENSC 195
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/50
 	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/10
+		 Type=SEC, Enrollment:6/60
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:7/50
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/50
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:19/50
 	1097 in OFF by -unknown-
@@ -13666,83 +13144,63 @@ ENSC 195
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:30/30
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:13/13
+		 Type=SEC, Enrollment:13/33
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/20
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/20
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/13
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:11/11
+		 Type=SEC, Enrollment:12/36
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/50
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/25
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:21/22
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/8
+		 Type=SEC, Enrollment:11/18
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/10
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:36/40
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:10/15
+		 Type=SEC, Enrollment:13/25
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:8/10
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:21/20
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:12/10
+		 Type=SEC, Enrollment:19/40
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:13/35
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/30
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:30/30
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:11/25
+		 Type=SEC, Enrollment:13/50
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/25
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/25
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:30/30
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:17/15
+		 Type=SEC, Enrollment:23/25
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:10/15
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/10
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:23/25
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:18/20
+		 Type=SEC, Enrollment:27/35
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:14/50
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:9/15
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:36/35
 	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:17/25
+		 Type=SEC, Enrollment:21/45
 	1127 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/25
-	1127 in OFF by John Jones
-		 Type=SEC, Enrollment:4/20
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:26/30
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:13/30
+		 Type=SEC, Enrollment:21/40
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:12/15
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:8/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/25
 	1134 in OFF by -unknown-
@@ -13836,8 +13294,6 @@ ENSC 196
 		 Type=SEC, Enrollment:5/10
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:14/35
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/0
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:11/50
 	1097 in OFF by -unknown-
@@ -13845,67 +13301,51 @@ ENSC 196
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/5
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/2
+		 Type=SEC, Enrollment:2/12
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/10
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:26/23
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/2
+		 Type=SEC, Enrollment:7/12
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:18/35
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/10
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/14
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/4
+		 Type=SEC, Enrollment:2/14
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/10
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:10/15
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/5
+		 Type=SEC, Enrollment:2/10
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:10/10
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:24/25
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/5
+		 Type=SEC, Enrollment:13/35
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:19/35
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:9/30
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:14/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
+		 Type=SEC, Enrollment:4/20
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/10
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:13/20
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
+		 Type=SEC, Enrollment:3/15
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/5
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:20/25
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/10
+		 Type=SEC, Enrollment:6/20
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:12/50
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:13/25
 	1127 in SURREY by -unknown-
@@ -13913,11 +13353,9 @@ ENSC 196
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:8/20
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:7/20
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:8/10
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/25
 	1134 in OFF by -unknown-
@@ -14127,59 +13565,47 @@ ENSC 220
 		 Type=TUT, Enrollment:48/80
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:79/120
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:60/78
-		 Type=OPL, Enrollment:53/78
-	1087 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/120
 		 Type=TUT, Enrollment:79/120
 	1087 in SURREY by -unknown-
+		 Type=LEC, Enrollment:60/78
+		 Type=OPL, Enrollment:53/78
 		 Type=TUT, Enrollment:60/78
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:51/50
 		 Type=LEC, Enrollment:51/50
 		 Type=TUT, Enrollment:51/50
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:54/56
 	1097 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:90/100
 		 Type=LEC, Enrollment:90/100
-	1097 in SURREY by -unknown-
-		 Type=LEC, Enrollment:54/72
-	1097 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/100
 		 Type=TUT, Enrollment:90/100
+	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:54/56
+		 Type=LEC, Enrollment:54/72
 	1104 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:73/73
 		 Type=LEC, Enrollment:73/73
 		 Type=TUT, Enrollment:73/73
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:89/91
+		 Type=LEC, Enrollment:89/91
+		 Type=TUT, Enrollment:89/91
 	1107 in SURREY by -unknown-
 		 Type=LAB, Enrollment:68/70
 		 Type=LEC, Enrollment:68/70
-	1107 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:89/91
-	1107 in SURREY by -unknown-
 		 Type=TUT, Enrollment:68/75
-	1107 in BURNABY by -unknown-
-		 Type=TUT, Enrollment:89/91
 	1114 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:79/85
 		 Type=LEC, Enrollment:79/85
 		 Type=TUT, Enrollment:79/85
 	1117 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:0/50
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:87/100
-	1117 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:104/128
+		 Type=LAB, Enrollment:104/178
 		 Type=LEC, Enrollment:104/103
-	1117 in SURREY by -unknown-
-		 Type=LEC, Enrollment:87/100
-	1117 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:104/103
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:87/100
+		 Type=LEC, Enrollment:87/100
 		 Type=TUT, Enrollment:87/100
 	1124 in BURNABY by John Bird
 		 Type=LAB, Enrollment:80/85
@@ -14187,15 +13613,11 @@ ENSC 220
 		 Type=TUT, Enrollment:80/85
 	1127 in BURNABY by . Tbd
 		 Type=LAB, Enrollment:104/99
+		 Type=LEC, Enrollment:105/99
+		 Type=TUT, Enrollment:104/99
 	1127 in SURREY by . Tbd, Ahmad Rad
 		 Type=LAB, Enrollment:99/100
-	1127 in BURNABY by Atousa Hajshirmohammadi
-		 Type=LEC, Enrollment:105/99
-	1127 in SURREY by Ahmad Rad
 		 Type=LEC, Enrollment:99/100
-	1127 in BURNABY by Atousa Hajshirmohammadi
-		 Type=TUT, Enrollment:104/99
-	1127 in SURREY by Ahmad Rad
 		 Type=TUT, Enrollment:99/100
 	1134 in BURNABY by Meenakshinathan Parameswaran
 		 Type=LAB, Enrollment:117/117
@@ -14667,8 +14089,6 @@ ENSC 295
 		 Type=SEC, Enrollment:3/10
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/20
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/0
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/50
 	1097 in OFF by -unknown-
@@ -14676,83 +14096,63 @@ ENSC 295
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:19/19
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/2
+		 Type=SEC, Enrollment:7/22
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:11/20
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/20
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:33/32
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:8/8
+		 Type=SEC, Enrollment:10/18
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/20
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/10
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:18/19
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/6
+		 Type=SEC, Enrollment:7/16
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/10
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:22/25
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/10
+		 Type=SEC, Enrollment:14/20
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:13/25
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/10
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:29/30
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:14/15
+		 Type=SEC, Enrollment:15/25
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:8/50
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:18/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:8/10
+		 Type=SEC, Enrollment:15/20
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/25
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:26/25
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/10
+		 Type=SEC, Enrollment:15/20
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:23/25
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:9/10
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:38/50
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:20/20
+		 Type=SEC, Enrollment:24/30
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:11/50
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:17/25
 	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/25
+		 Type=SEC, Enrollment:7/45
 	1127 in SURREY by -unknown-
 		 Type=SEC, Enrollment:13/25
-	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/20
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:31/25
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:13/10
+		 Type=SEC, Enrollment:17/20
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:19/25
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:35/50
 	1134 in OFF by -unknown-
@@ -14843,11 +14243,9 @@ ENSC 296
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:6/30
 	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
+		 Type=SEC, Enrollment:1/20
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/30
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/50
 	1097 in OFF by -unknown-
@@ -14855,83 +14253,63 @@ ENSC 296
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:2/2
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/2
+		 Type=SEC, Enrollment:1/12
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/20
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/3
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/1
+		 Type=SEC, Enrollment:1/11
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/30
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:3/5
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/2
+		 Type=SEC, Enrollment:2/12
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/10
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/5
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/5
+		 Type=SEC, Enrollment:4/15
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/20
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:3/5
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/5
+		 Type=SEC, Enrollment:5/15
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:7/30
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/10
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/10
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/20
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/20
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/30
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
+		 Type=SEC, Enrollment:1/20
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/50
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:5/25
 	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/1
+		 Type=SEC, Enrollment:1/21
 	1127 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/10
-	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/20
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/20
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:1/20
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/20
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/30
 	1134 in OFF by -unknown-
@@ -15860,37 +15238,30 @@ ENSC 380
 		 Type=TUT, Enrollment:48/49
 	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:93/100
+		 Type=TUT, Enrollment:93/100
 	1111 in SURREY by -unknown-
 		 Type=LEC, Enrollment:65/80
 		 Type=OPL, Enrollment:65/80
-	1111 in BURNABY by -unknown-
-		 Type=TUT, Enrollment:93/100
-	1111 in SURREY by -unknown-
 		 Type=TUT, Enrollment:65/80
 	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:40/45
 		 Type=TUT, Enrollment:40/45
-	1121 in SURREY by -unknown-
-		 Type=LAB, Enrollment:66/96
 	1121 in BURNABY by Shawn Stapleton
 		 Type=LEC, Enrollment:105/110
-	1121 in SURREY by Carlo Menon
-		 Type=LEC, Enrollment:66/96
-	1121 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:105/110
-	1121 in SURREY by Carlo Menon
+	1121 in SURREY by -unknown-
+		 Type=LAB, Enrollment:66/96
+		 Type=LEC, Enrollment:66/96
 		 Type=TUT, Enrollment:66/96
 	1124 in BURNABY by Paul Ho
 		 Type=LEC, Enrollment:42/50
 		 Type=TUT, Enrollment:42/50
 	1131 in BURNABY by Paul Ho
 		 Type=LEC, Enrollment:123/120
+		 Type=TUT, Enrollment:123/120
 	1131 in SURREY by Amr Marzouk
 		 Type=LEC, Enrollment:100/100
 		 Type=OPL, Enrollment:0/100
-	1131 in BURNABY by Paul Ho
-		 Type=TUT, Enrollment:123/120
-	1131 in SURREY by Amr Marzouk
 		 Type=TUT, Enrollment:100/100
 	1134 in BURNABY by Paul Ho
 		 Type=LEC, Enrollment:56/60
@@ -15982,46 +15353,37 @@ ENSC 383
 	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:37/70
 		 Type=OPL, Enrollment:0/70
-	1104 in SURREY by -unknown-
-		 Type=LAB, Enrollment:52/60
 	1104 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:69/69
-	1104 in SURREY by -unknown-
-		 Type=LEC, Enrollment:52/60
-	1104 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/1
 		 Type=TUT, Enrollment:69/69
 	1104 in SURREY by -unknown-
+		 Type=LAB, Enrollment:52/60
+		 Type=LEC, Enrollment:52/60
 		 Type=TUT, Enrollment:52/60
 	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:72/72
 		 Type=OPL, Enrollment:0/1
 		 Type=TUT, Enrollment:72/72
-	1114 in SURREY by -unknown-
-		 Type=LAB, Enrollment:43/90
 	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:40/45
-	1114 in SURREY by -unknown-
-		 Type=LEC, Enrollment:43/90
-	1114 in BURNABY by -unknown-
 		 Type=RQL, Enrollment:40/45
 		 Type=TUT, Enrollment:40/45
 	1114 in SURREY by -unknown-
+		 Type=LAB, Enrollment:43/90
+		 Type=LEC, Enrollment:43/90
 		 Type=TUT, Enrollment:43/90
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:67/75
 		 Type=RQL, Enrollment:67/75
 		 Type=TUT, Enrollment:67/75
-	1124 in SURREY by Siamak Arzanpour
-		 Type=LAB, Enrollment:70/75
 	1124 in BURNABY by Carlo Menon
 		 Type=LEC, Enrollment:50/50
-	1124 in SURREY by Siamak Arzanpour
-		 Type=LEC, Enrollment:70/90
-	1124 in BURNABY by -unknown-
 		 Type=RQL, Enrollment:50/50
 		 Type=TUT, Enrollment:50/50
 	1124 in SURREY by Siamak Arzanpour
+		 Type=LAB, Enrollment:70/75
+		 Type=LEC, Enrollment:70/90
 		 Type=TUT, Enrollment:70/90
 	1127 in BURNABY by Parvaneh Saeedi
 		 Type=LEC, Enrollment:68/75
@@ -16090,46 +15452,35 @@ ENSC 387
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:40/50
 		 Type=OPL, Enrollment:0/50
-	1097 in SURREY by -unknown-
-		 Type=LAB, Enrollment:52/72
 	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:46/50
-	1097 in SURREY by -unknown-
-		 Type=LEC, Enrollment:52/72
-	1097 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/50
-	1107 in SURREY by -unknown-
-		 Type=LAB, Enrollment:55/54
+	1097 in SURREY by -unknown-
+		 Type=LAB, Enrollment:52/72
+		 Type=LEC, Enrollment:52/72
 	1107 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:33/35
-	1107 in SURREY by -unknown-
-		 Type=LEC, Enrollment:55/54
-	1107 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/1
 		 Type=TUT, Enrollment:33/35
 	1107 in SURREY by -unknown-
+		 Type=LAB, Enrollment:55/54
+		 Type=LEC, Enrollment:55/54
 		 Type=TUT, Enrollment:55/54
-	1117 in SURREY by -unknown-
-		 Type=LAB, Enrollment:68/90
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:20/50
-	1117 in SURREY by -unknown-
-		 Type=LEC, Enrollment:68/90
-	1117 in BURNABY by -unknown-
 		 Type=RQL, Enrollment:20/50
 		 Type=TUT, Enrollment:20/50
 	1117 in SURREY by -unknown-
+		 Type=LAB, Enrollment:68/90
+		 Type=LEC, Enrollment:68/90
 		 Type=TUT, Enrollment:68/90
-	1127 in SURREY by . Tbd, Edward Park
-		 Type=LAB, Enrollment:63/72
 	1127 in BURNABY by Reza Sabzehgar
 		 Type=LEC, Enrollment:25/50
-	1127 in SURREY by Edward Park
-		 Type=LEC, Enrollment:63/72
-	1127 in BURNABY by . Faculty
 		 Type=RQL, Enrollment:25/50
 		 Type=TUT, Enrollment:25/50
-	1127 in SURREY by Edward Park
+	1127 in SURREY by . Tbd, Edward Park
+		 Type=LAB, Enrollment:63/72
+		 Type=LEC, Enrollment:63/72
 		 Type=TUT, Enrollment:63/72
 	1137 in BURNABY by . Sessional, Reza Sabzehgar
 		 Type=LEC, Enrollment:27/50
@@ -16222,11 +15573,9 @@ ENSC 395
 	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:22/25
 	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
+		 Type=SEC, Enrollment:4/20
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/25
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/50
 	1097 in OFF by -unknown-
@@ -16236,83 +15585,63 @@ ENSC 395
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:12/11
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/2
+		 Type=SEC, Enrollment:3/12
 	1101 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/30
-	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:21/21
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/7
+		 Type=SEC, Enrollment:7/17
 	1104 in SURREY by -unknown-
 		 Type=SEC, Enrollment:3/25
-	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:11/12
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/6
+		 Type=SEC, Enrollment:7/16
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:16/20
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:11/15
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:6/10
+		 Type=SEC, Enrollment:10/20
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/20
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:26/25
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:7/10
+		 Type=SEC, Enrollment:11/20
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:6/25
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:10/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:7/20
 	1117 in SURREY by -unknown-
 		 Type=SEC, Enrollment:13/20
-	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:3/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:16/20
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:11/10
+		 Type=SEC, Enrollment:13/20
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:9/20
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/10
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:28/30
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/10
+		 Type=SEC, Enrollment:6/20
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:9/50
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:19/25
 	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:5/25
+		 Type=SEC, Enrollment:17/45
 	1127 in SURREY by -unknown-
 		 Type=SEC, Enrollment:21/20
-	1127 in OFF by -unknown-
-		 Type=SEC, Enrollment:12/20
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:22/20
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
+		 Type=SEC, Enrollment:8/20
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:7/20
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:4/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:31/25
 	1134 in OFF by -unknown-
@@ -16406,8 +15735,6 @@ ENSC 396
 		 Type=SEC, Enrollment:0/10
 	1094 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/10
-	1094 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/0
 	1097 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/50
 	1097 in OFF by -unknown-
@@ -16415,81 +15742,63 @@ ENSC 396
 	1101 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/2
 	1101 in OFF by -unknown-
-		 Type=SEC, Enrollment:2/2
+		 Type=SEC, Enrollment:2/32
 	1101 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/30
-	1101 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/30
 	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/1
 	1104 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/1
+		 Type=SEC, Enrollment:0/11
 	1104 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/10
-	1104 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1107 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:2/4
 	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/3
+		 Type=SEC, Enrollment:1/13
 	1107 in SURREY by -unknown-
 		 Type=SEC, Enrollment:2/10
-	1107 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1111 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/5
 	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:1/15
 	1111 in SURREY by -unknown-
 		 Type=SEC, Enrollment:4/20
-	1111 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1114 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/5
 	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/5
+		 Type=SEC, Enrollment:2/15
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/20
-	1114 in OFF by -unknown-
-		 Type=SEC, Enrollment:1/10
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/25
 	1117 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:2/20
 	1117 in SURREY by -unknown-
-		 Type=SEC, Enrollment:2/10
-	1117 in OFF by -unknown-
 		 Type=SEC, Enrollment:2/10
 	1121 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/20
 	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1121 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/20
-	1121 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1124 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1124 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/20
-	1124 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1127 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:0/25
-	1127 in SURREY by -unknown-
-		 Type=SEC, Enrollment:5/10
 	1127 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/10
+	1127 in SURREY by -unknown-
+		 Type=SEC, Enrollment:5/10
 	1131 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:1/20
 	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
+		 Type=SEC, Enrollment:0/20
 	1131 in SURREY by -unknown-
 		 Type=SEC, Enrollment:0/20
-	1131 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1134 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/10
 	1134 in OFF by -unknown-
@@ -16722,11 +16031,9 @@ ENSC 406
 		 Type=TUT, Enrollment:42/50
 	1131 in BURNABY by Michael Sjoerdsma
 		 Type=LEC, Enrollment:96/98
-	1131 in SURREY by Maureen Hindy
-		 Type=LEC, Enrollment:75/70
-	1131 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:96/105
 	1131 in SURREY by Maureen Hindy
+		 Type=LEC, Enrollment:75/70
 		 Type=TUT, Enrollment:75/66
 	1141 in BURNABY by Michael Sjoerdsma
 		 Type=LEC, Enrollment:132/145
@@ -17328,21 +16635,18 @@ ENSC 460
 		 Type=LAB, Enrollment:31/40
 		 Type=LEC, Enrollment:31/40
 		 Type=TUT, Enrollment:31/40
-	1121 in SURREY by Majid Bahrami
-		 Type=LEC, Enrollment:1/25
 	1121 in BURNABY by Marek Syrzycki
 		 Type=LEC, Enrollment:3/20
-	1121 in SURREY by Siamak Arzanpour
-		 Type=LEC, Enrollment:27/30
+	1121 in SURREY by Majid Bahrami
+		 Type=LEC, Enrollment:28/55
 		 Type=OPL, Enrollment:0/0
 		 Type=TUT, Enrollment:27/30
+	1124 in BURNABY by -unknown-
+		 Type=TUT, Enrollment:0/20
 	1124 in SURREY by -unknown-
 		 Type=LAB, Enrollment:13/51
 		 Type=LEC, Enrollment:13/65
 		 Type=SEM, Enrollment:0/30
-	1124 in BURNABY by -unknown-
-		 Type=TUT, Enrollment:0/20
-	1124 in SURREY by -unknown-
 		 Type=TUT, Enrollment:13/31
 	1127 in BURNABY by Meenakshinathan Parameswaran
 		 Type=SEC, Enrollment:11/10
@@ -17583,11 +16887,10 @@ ENSC 483
 		 Type=TUT, Enrollment:37/55
 	1131 in BURNABY by Mehran Shirazi
 		 Type=LEC, Enrollment:43/48
-	1131 in SURREY by Mehrdad Moallem
-		 Type=LEC, Enrollment:24/35
-	1131 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/50
 		 Type=TUT, Enrollment:43/48
+	1131 in SURREY by Mehrdad Moallem
+		 Type=LEC, Enrollment:24/35
 	1141 in BURNABY by Mehran Shirazi
 		 Type=LEC, Enrollment:60/60
 		 Type=OPL, Enrollment:0/60
@@ -17899,10 +17202,10 @@ ENSC 494
 		 Type=SEC, Enrollment:4/5
 	1114 in SURREY by -unknown-
 		 Type=SEC, Enrollment:5/5
-	1117 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/5
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:7/5
+	1117 in SURREY by -unknown-
+		 Type=SEC, Enrollment:0/5
 	1124 in BURNABY by . Faculty
 		 Type=SEC, Enrollment:7/10
 	1124 in SURREY by Edward Park, Erik Kjeang, Farid Golnaraghi
@@ -19093,12 +18396,10 @@ ENSC 893
 		 Type=LEC, Enrollment:11/15
 	1097 in SURREY by -unknown-
 		 Type=LEC, Enrollment:4/10
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:7/15
 	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:7/10
 	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:10/15
+		 Type=LEC, Enrollment:17/30
 	1111 in SURREY by -unknown-
 		 Type=LAB, Enrollment:7/10
 		 Type=LEC, Enrollment:7/10
@@ -19155,11 +18456,9 @@ ENSC 894
 		 Type=LEC, Enrollment:12/15
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:7/6
-		 Type=LEC, Enrollment:7/7
+		 Type=LEC, Enrollment:20/37
 	1087 in SURREY by -unknown-
 		 Type=LEC, Enrollment:0/15
-	1087 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:13/30
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:9/20
 	1097 in BURNABY by -unknown-
@@ -19173,12 +18472,11 @@ ENSC 894
 		 Type=LAB, Enrollment:20/20
 		 Type=LEC, Enrollment:24/29
 		 Type=TUT, Enrollment:20/10
-	1111 in SURREY by -unknown-
-		 Type=LAB, Enrollment:8/10
-		 Type=LEC, Enrollment:8/10
 	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:11/10
 	1111 in SURREY by -unknown-
+		 Type=LAB, Enrollment:8/10
+		 Type=LEC, Enrollment:8/10
 		 Type=TUT, Enrollment:8/10
 	1114 in SURREY by -unknown-
 		 Type=LAB, Enrollment:10/15
@@ -19188,16 +18486,11 @@ ENSC 894
 		 Type=LAB, Enrollment:5/14
 		 Type=LEC, Enrollment:17/24
 		 Type=TUT, Enrollment:12/16
+	1121 in BURNABY by Ljiljana Trajkovic
+		 Type=LEC, Enrollment:14/17
 	1121 in SURREY by -unknown-
 		 Type=LAB, Enrollment:1/2
-	1121 in BURNABY by Ljiljana Trajkovic
-		 Type=LEC, Enrollment:5/6
-	1121 in SURREY by Edward Park
-		 Type=LEC, Enrollment:1/11
-	1121 in BURNABY by Marinko Sarunic
-		 Type=LEC, Enrollment:9/11
-	1121 in SURREY by Mehrdad Moallem
-		 Type=LEC, Enrollment:10/10
+		 Type=LEC, Enrollment:11/21
 		 Type=TUT, Enrollment:1/1
 	1124 in SURREY by -unknown-
 		 Type=LAB, Enrollment:19/18
@@ -19266,15 +18559,12 @@ ENSC 895
 		 Type=LAB, Enrollment:3/8
 		 Type=LEC, Enrollment:9/23
 		 Type=TUT, Enrollment:9/23
-	1121 in SURREY by -unknown-
-		 Type=LAB, Enrollment:11/10
 	1121 in BURNABY by Parvaneh Saeedi
 		 Type=LEC, Enrollment:5/20
-	1121 in SURREY by Gary Wang
-		 Type=LEC, Enrollment:11/10
-	1121 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:5/20
 	1121 in SURREY by -unknown-
+		 Type=LAB, Enrollment:11/10
+		 Type=LEC, Enrollment:11/10
 		 Type=TUT, Enrollment:11/10
 	1124 in SURREY by -unknown-
 		 Type=LAB, Enrollment:9/15
@@ -19284,11 +18574,10 @@ ENSC 895
 		 Type=LAB, Enrollment:19/20
 		 Type=LEC, Enrollment:19/20
 		 Type=TUT, Enrollment:19/20
-	1131 in SURREY by Gary Wang
-		 Type=LAB, Enrollment:0/15
 	1131 in BURNABY by Parvaneh Saeedi
 		 Type=LEC, Enrollment:4/10
 	1131 in SURREY by Gary Wang
+		 Type=LAB, Enrollment:0/15
 		 Type=LEC, Enrollment:11/25
 		 Type=TUT, Enrollment:11/30
 	1137 in BURNABY by Marinko Sarunic
@@ -19297,23 +18586,20 @@ ENSC 895
 		 Type=TUT, Enrollment:8/9
 	1141 in BURNABY by Lesley Shannon
 		 Type=LAB, Enrollment:1/3
-		 Type=LEC, Enrollment:1/5
+		 Type=LEC, Enrollment:2/10
+		 Type=TUT, Enrollment:2/8
 	1141 in SUR by Ryan D'Arcy
 		 Type=LEC, Enrollment:8/7
-	1141 in BURNABY by Mirza Beg
-		 Type=LEC, Enrollment:1/5
-		 Type=TUT, Enrollment:2/8
 	1147 in BURNABY by Marinko Sarunic
 		 Type=LAB, Enrollment:3/5
 		 Type=LEC, Enrollment:3/5
 		 Type=TUT, Enrollment:3/5
 	1151 in BURNABY by Fabio Campi
 		 Type=LAB, Enrollment:12/15
-	1151 in SUR by Ryan D'Arcy
-		 Type=LEC, Enrollment:5/6
-	1151 in BURNABY by Mirza Beg
 		 Type=LEC, Enrollment:20/20
 		 Type=TUT, Enrollment:12/15
+	1151 in SUR by Ryan D'Arcy
+		 Type=LEC, Enrollment:5/6
 ENSC 896
 	1047 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:4/20
@@ -19542,11 +18828,9 @@ ENSC 898
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:94/100
 	1121 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:65/100
+		 Type=SEC, Enrollment:85/150
 	1121 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/0
-	1121 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:20/50
 	1124 in BURNABY by . Faculty
 		 Type=SEC, Enrollment:72/120
 	1124 in SURREY by -unknown-
@@ -19661,11 +18945,9 @@ ENSC 899
 	1117 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:94/100
 	1121 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:58/100
+		 Type=SEC, Enrollment:93/150
 	1121 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/20
-	1121 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:35/50
 	1124 in BURNABY by . Faculty
 		 Type=SEC, Enrollment:63/120
 	1124 in SURREY by -unknown-
@@ -20177,11 +19459,10 @@ IART 218
 IART 219
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/2997
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:91/72
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:91/72
 		 Type=OPL, Enrollment:0/0
 		 Type=WKS, Enrollment:0/0
 	1041 in SURREY by -unknown-
@@ -20191,11 +19472,10 @@ IART 219
 IART 220
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/3996
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:92/72
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:92/72
 		 Type=OPL, Enrollment:0/0
 		 Type=WKS, Enrollment:0/0
 	1041 in SURREY by -unknown-
@@ -20205,11 +19485,10 @@ IART 220
 IART 221
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/2997
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:91/72
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:91/72
 		 Type=OPL, Enrollment:0/0
 		 Type=WKS, Enrollment:0/0
 	1041 in SURREY by -unknown-
@@ -22625,11 +21904,10 @@ INTD 312
 	1047 in SURREY by -unknown-
 		 Type=INS, Enrollment:124/144
 INTD 401
-	1027 in SURREY by -unknown-
-		 Type=INS, Enrollment:56/56
 	1027 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/2
 	1027 in SURREY by -unknown-
+		 Type=INS, Enrollment:56/56
 		 Type=OPL, Enrollment:0/0
 	1037 in SURREY by -unknown-
 		 Type=INS, Enrollment:60/168
@@ -22641,11 +21919,10 @@ INTD 401
 		 Type=INS, Enrollment:119/144
 		 Type=WKS, Enrollment:119/144
 INTD 402
-	1027 in SURREY by -unknown-
-		 Type=INS, Enrollment:56/28
 	1027 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/2
 	1027 in SURREY by -unknown-
+		 Type=INS, Enrollment:56/28
 		 Type=OPL, Enrollment:0/0
 	1037 in SURREY by -unknown-
 		 Type=INS, Enrollment:-1/96
@@ -22657,11 +21934,10 @@ INTD 402
 		 Type=INS, Enrollment:116/144
 		 Type=WKS, Enrollment:116/144
 INTD 403
-	1027 in SURREY by -unknown-
-		 Type=INS, Enrollment:56/56
 	1027 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/2
 	1027 in SURREY by -unknown-
+		 Type=INS, Enrollment:56/56
 		 Type=OPL, Enrollment:0/0
 	1037 in SURREY by -unknown-
 		 Type=INS, Enrollment:-1/96
@@ -22673,11 +21949,10 @@ INTD 403
 		 Type=INS, Enrollment:116/144
 		 Type=WKS, Enrollment:116/142
 INTD 404
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:55/56
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:55/56
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:58/72
@@ -22689,11 +21964,10 @@ INTD 404
 		 Type=INS, Enrollment:112/135
 		 Type=STL, Enrollment:111/180
 INTD 405
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:55/56
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:55/56
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:58/72
@@ -22705,11 +21979,10 @@ INTD 405
 		 Type=INS, Enrollment:112/135
 		 Type=STL, Enrollment:111/180
 INTD 406
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:55/56
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:55/56
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:58/72
@@ -23277,11 +22550,10 @@ ITEC 271
 		 Type=CNV, Enrollment:0/9999
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/1998
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:64/96
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:1/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:64/96
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:55/144
@@ -23294,11 +22566,10 @@ ITEC 272
 		 Type=CNV, Enrollment:0/9999
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/1998
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:60/96
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:1/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:60/96
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:58/144
@@ -23311,11 +22582,10 @@ ITEC 273
 		 Type=CNV, Enrollment:0/9999
 	1021 in SURREY by -unknown-
 		 Type=INS, Enrollment:0/999
-	1031 in SURREY by -unknown-
-		 Type=INS, Enrollment:57/96
 	1031 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:1/5
 	1031 in SURREY by -unknown-
+		 Type=INS, Enrollment:57/96
 		 Type=OPL, Enrollment:0/0
 	1041 in SURREY by -unknown-
 		 Type=INS, Enrollment:55/144
@@ -23481,11 +22751,10 @@ ITEC 321
 ITEC 322
 	1017 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
-	1027 in SURREY by -unknown-
-		 Type=INS, Enrollment:45/48
 	1027 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1027 in SURREY by -unknown-
+		 Type=INS, Enrollment:45/48
 		 Type=OPL, Enrollment:0/0
 		 Type=WKS, Enrollment:0/0
 	1037 in SURREY by -unknown-
@@ -23500,11 +22769,10 @@ ITEC 322
 ITEC 323
 	1017 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
-	1027 in SURREY by -unknown-
-		 Type=INS, Enrollment:37/48
 	1027 in BURNABY by -unknown-
 		 Type=OPL, Enrollment:0/5
 	1027 in SURREY by -unknown-
+		 Type=INS, Enrollment:37/48
 		 Type=OPL, Enrollment:0/0
 		 Type=WKS, Enrollment:0/0
 	1037 in SURREY by -unknown-
@@ -24658,44 +23926,35 @@ KIN 110
 		 Type=TUT, Enrollment:38/34
 	1037 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:293/296
-	1037 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:29/30
-	1037 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:216/216
 	1037 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:29/30
 		 Type=TUT, Enrollment:29/30
 	1041 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:190/192
-	1041 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/45
-	1041 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:98/100
 		 Type=TUT, Enrollment:190/192
 	1041 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/45
 		 Type=TUT, Enrollment:34/45
-	1044 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:29/30
 	1044 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:79/80
 	1044 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:29/30
 		 Type=TUT, Enrollment:29/30
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:212/216
-	1047 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:29/30
-	1047 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:54/60
 		 Type=TUT, Enrollment:212/216
 	1047 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:29/30
 		 Type=TUT, Enrollment:29/30
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:199/204
-	1051 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/34
-	1051 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:75/80
 		 Type=TUT, Enrollment:199/204
 	1051 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/34
 		 Type=TUT, Enrollment:34/34
 	1054 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:35/45
@@ -24703,111 +23962,87 @@ KIN 110
 		 Type=TUT, Enrollment:35/45
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:215/216
-	1057 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:36/36
-	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:58/60
 		 Type=TUT, Enrollment:215/216
 	1057 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:36/36
 		 Type=TUT, Enrollment:36/36
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:204/204
-	1061 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/34
-	1061 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:81/80
 		 Type=TUT, Enrollment:204/204
 	1061 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/34
 		 Type=TUT, Enrollment:34/34
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:49/51
-	1064 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:36/36
-	1064 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:93/100
 		 Type=TUT, Enrollment:49/51
 	1064 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:36/36
 		 Type=TUT, Enrollment:36/36
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:211/216
-	1067 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/36
-	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:78/80
 		 Type=TUT, Enrollment:211/216
 	1067 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/36
 		 Type=TUT, Enrollment:34/36
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:213/216
-	1071 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:55/54
-	1071 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:81/80
 		 Type=TUT, Enrollment:213/216
 	1071 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:55/54
 		 Type=TUT, Enrollment:55/54
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:50/51
-	1074 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:32/36
-	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:113/120
 		 Type=TUT, Enrollment:50/68
 	1074 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:32/36
 		 Type=TUT, Enrollment:33/36
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:213/216
-	1077 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1077 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:107/110
 		 Type=TUT, Enrollment:213/216
 	1077 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:223/234
-	1081 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:41/54
-	1081 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:94/100
 		 Type=TUT, Enrollment:223/234
 	1081 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:41/54
 		 Type=TUT, Enrollment:41/54
 	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:60/60
-	1084 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:99/110
 		 Type=TUT, Enrollment:60/60
 	1084 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:265/270
-	1087 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:114/120
 		 Type=TUT, Enrollment:265/270
 	1087 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:267/270
-	1091 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:52/54
-	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:117/120
 		 Type=TUT, Enrollment:267/270
 	1091 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:52/54
 		 Type=TUT, Enrollment:52/54
 	1094 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:44/51
-	1094 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:112/120
 		 Type=TUT, Enrollment:44/51
 	1094 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 KIN 111
 	1001 in BURNABY by -unknown-
@@ -24868,166 +24103,130 @@ KIN 140
 		 Type=TUT, Enrollment:61/72
 	1037 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:151/152
-	1037 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:27/30
-	1037 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:71/72
 	1037 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:27/30
 		 Type=TUT, Enrollment:27/30
 	1041 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:131/136
-	1041 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:24/30
-	1041 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:97/100
 		 Type=TUT, Enrollment:131/136
 	1041 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:24/30
 		 Type=TUT, Enrollment:24/30
 	1044 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:69/72
-	1044 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:30/30
-	1044 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:78/80
 		 Type=TUT, Enrollment:69/72
 	1044 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:30/30
 		 Type=TUT, Enrollment:30/30
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:72/72
-	1047 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:26/30
-	1047 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:78/80
 		 Type=TUT, Enrollment:72/72
 	1047 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:26/30
 		 Type=TUT, Enrollment:26/30
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:95/102
-	1051 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/34
-	1051 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:81/80
 		 Type=TUT, Enrollment:95/102
 	1051 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/34
 		 Type=TUT, Enrollment:34/34
 	1054 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:68/72
-	1054 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:30/34
-	1054 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:77/80
 		 Type=TUT, Enrollment:68/72
 	1054 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:30/34
 		 Type=TUT, Enrollment:30/34
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:71/72
-	1057 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:36/36
-	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:78/80
 		 Type=TUT, Enrollment:71/72
 	1057 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:36/36
 		 Type=TUT, Enrollment:36/36
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:101/102
-	1061 in SURREY by -unknown-
-		 Type=LEC, Enrollment:31/30
-	1061 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:79/80
 		 Type=TUT, Enrollment:101/102
 	1061 in SURREY by -unknown-
+		 Type=LEC, Enrollment:31/30
 		 Type=TUT, Enrollment:31/30
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:50/54
-	1064 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:29/30
-	1064 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:79/80
 		 Type=TUT, Enrollment:50/54
 	1064 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:29/30
 		 Type=TUT, Enrollment:29/30
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:70/72
-	1067 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:34/36
-	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:79/80
 		 Type=TUT, Enrollment:70/72
 	1067 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:34/36
 		 Type=TUT, Enrollment:34/36
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:107/108
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:34/34
-	1071 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:84/85
 		 Type=TUT, Enrollment:107/108
 	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:34/34
 		 Type=TUT, Enrollment:34/34
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:71/72
-	1074 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1074 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:80/80
 		 Type=TUT, Enrollment:71/72
 	1074 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:108/108
-	1077 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:35/36
-	1077 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:120/120
 		 Type=TUT, Enrollment:108/108
 	1077 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:35/36
 		 Type=TUT, Enrollment:35/36
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:125/126
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:53/54
-	1081 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:98/100
 		 Type=TUT, Enrollment:125/126
 	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:53/54
 		 Type=TUT, Enrollment:53/54
 	1084 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:74/72
-	1084 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:37/36
-	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:107/110
 		 Type=TUT, Enrollment:74/72
 	1084 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:37/36
 		 Type=TUT, Enrollment:37/36
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:150/152
-	1087 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:36/36
-	1087 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:119/120
 		 Type=TUT, Enrollment:150/152
 	1087 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:36/36
 		 Type=TUT, Enrollment:36/36
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:143/144
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:55/54
-	1091 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:118/120
 		 Type=TUT, Enrollment:143/144
-	1091 in SURREY by -unknown-
-		 Type=TUT, Enrollment:55/54
 	1091 in HRBRCNTR by -unknown-
 		 Type=TUT, Enrollment:0/18
+	1091 in SURREY by -unknown-
+		 Type=LEC, Enrollment:55/54
+		 Type=TUT, Enrollment:55/54
 	1094 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:51/51
-	1094 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:36/36
-	1094 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:119/120
 		 Type=TUT, Enrollment:51/51
 	1094 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:36/36
 		 Type=TUT, Enrollment:36/36
 KIN 142
 	1001 in BURNABY by -unknown-
@@ -25078,119 +24277,87 @@ KIN 142
 		 Type=SEC, Enrollment:52/55
 	1054 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:41/45
+		 Type=LEC, Enrollment:41/45
+		 Type=SEC, Enrollment:40/50
 	1054 in SURREY by -unknown-
 		 Type=LAB, Enrollment:30/36
-	1054 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:41/45
-	1054 in SURREY by -unknown-
 		 Type=LEC, Enrollment:30/36
-	1054 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:40/50
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:170/180
+		 Type=LEC, Enrollment:170/180
+		 Type=SEC, Enrollment:52/55
 	1057 in SURREY by -unknown-
 		 Type=LAB, Enrollment:34/36
-	1057 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:170/180
-	1057 in SURREY by -unknown-
 		 Type=LEC, Enrollment:34/36
-	1057 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:52/55
 	1061 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:179/180
 		 Type=LEC, Enrollment:179/180
 		 Type=SEC, Enrollment:54/55
 	1064 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:54/54
+		 Type=LEC, Enrollment:54/54
+		 Type=SEC, Enrollment:45/50
 	1064 in SURREY by -unknown-
 		 Type=LAB, Enrollment:33/38
-	1064 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:54/54
-	1064 in SURREY by -unknown-
 		 Type=LEC, Enrollment:33/38
-	1064 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:45/50
 	1067 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:0/179
-	1067 in SURREY by -unknown-
-		 Type=LAB, Enrollment:40/45
-	1067 in BURNABY by -unknown-
-		 Type=LAB, Enrollment:174/180
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:40/45
-	1067 in BURNABY by -unknown-
+		 Type=LAB, Enrollment:174/359
 		 Type=LEC, Enrollment:174/180
 		 Type=SEC, Enrollment:48/55
+	1067 in SURREY by -unknown-
+		 Type=LAB, Enrollment:40/45
+		 Type=LEC, Enrollment:40/45
 	1071 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:176/180
 		 Type=LEC, Enrollment:176/180
 		 Type=SEC, Enrollment:49/55
 	1074 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:50/54
+		 Type=LEC, Enrollment:50/54
+		 Type=SEC, Enrollment:65/70
 	1074 in SURREY by -unknown-
 		 Type=LAB, Enrollment:29/36
-	1074 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:50/54
-	1074 in SURREY by -unknown-
 		 Type=LEC, Enrollment:29/36
-	1074 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:65/70
 	1077 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:186/190
+		 Type=LEC, Enrollment:186/190
+		 Type=SEC, Enrollment:53/55
 	1077 in SURREY by -unknown-
 		 Type=LAB, Enrollment:46/48
-	1077 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:186/190
-	1077 in SURREY by -unknown-
 		 Type=LEC, Enrollment:46/48
-	1077 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:53/55
 	1081 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:183/190
-	1081 in SURREY by -unknown-
-		 Type=LAB, Enrollment:44/45
-	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:240/250
 	1081 in SURREY by -unknown-
+		 Type=LAB, Enrollment:44/45
 		 Type=LEC, Enrollment:44/45
 	1084 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:52/54
+		 Type=LEC, Enrollment:52/54
+		 Type=SEC, Enrollment:51/55
 	1084 in SURREY by -unknown-
 		 Type=LAB, Enrollment:30/36
-	1084 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:52/54
-	1084 in SURREY by -unknown-
 		 Type=LEC, Enrollment:30/36
-	1084 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:51/55
 	1087 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:225/228
+		 Type=LEC, Enrollment:225/228
+		 Type=SEC, Enrollment:49/55
 	1087 in SURREY by -unknown-
 		 Type=LAB, Enrollment:57/57
-	1087 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:225/228
-	1087 in SURREY by -unknown-
 		 Type=LEC, Enrollment:57/57
-	1087 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:49/55
 	1091 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:181/190
-	1091 in SURREY by -unknown-
-		 Type=LAB, Enrollment:44/51
-	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:237/250
 	1091 in SURREY by -unknown-
+		 Type=LAB, Enrollment:44/51
 		 Type=LEC, Enrollment:44/51
 	1094 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:52/54
+		 Type=LEC, Enrollment:52/54
+		 Type=SEC, Enrollment:52/55
 	1094 in SURREY by -unknown-
 		 Type=LAB, Enrollment:38/51
-	1094 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:52/54
-	1094 in SURREY by -unknown-
 		 Type=LEC, Enrollment:38/51
-	1094 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:52/55
 KIN 143
 	1001 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -25244,11 +24411,11 @@ KIN 143
 		 Type=LAB, Enrollment:117/120
 		 Type=LEC, Enrollment:117/120
 		 Type=SEC, Enrollment:80/80
+	1064 in BURNABY by -unknown-
+		 Type=SEC, Enrollment:79/80
 	1064 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:24/24
 		 Type=LEC, Enrollment:24/24
-	1064 in BURNABY by -unknown-
-		 Type=SEC, Enrollment:79/80
 	1067 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:116/120
 		 Type=LEC, Enrollment:116/120
@@ -25793,22 +24960,18 @@ KIN 305
 		 Type=TUT, Enrollment:42/54
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:46/54
-	1047 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:15/18
-	1047 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:46/54
 	1047 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:15/18
 		 Type=TUT, Enrollment:15/18
 	1054 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:38/51
 		 Type=TUT, Enrollment:38/51
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:55/54
-	1057 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:15/15
-	1057 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:55/54
 	1057 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:15/15
 		 Type=TUT, Enrollment:15/15
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:51/54
@@ -25864,22 +25027,18 @@ KIN 306
 		 Type=TUT, Enrollment:41/54
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:49/54
-	1051 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:22/30
-	1051 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:49/54
 	1051 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:22/30
 		 Type=TUT, Enrollment:22/30
 	1057 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:41/54
 		 Type=TUT, Enrollment:41/54
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:53/53
-	1061 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:24/30
-	1061 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:53/53
 	1061 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:24/30
 		 Type=TUT, Enrollment:24/31
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:59/72
@@ -28347,12 +27506,9 @@ MACM 101
 	1037 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:211/350
 	1041 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:106/160
+		 Type=LEC, Enrollment:107/165
 	1041 in SURREY by -unknown-
 		 Type=LEC, Enrollment:158/384
-	1041 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:1/5
-	1041 in SURREY by -unknown-
 		 Type=TUT, Enrollment:158/384
 	1044 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:89/160
@@ -28361,11 +27517,9 @@ MACM 101
 		 Type=TUT, Enrollment:9/24
 	1047 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:173/180
-	1047 in SURREY by -unknown-
-		 Type=LEC, Enrollment:89/192
-	1047 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:29/75
 	1047 in SURREY by -unknown-
+		 Type=LEC, Enrollment:89/192
 		 Type=TUT, Enrollment:89/192
 	1051 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:109/160
@@ -28380,102 +27534,78 @@ MACM 101
 	1057 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:172/180
 		 Type=LEC, Enrollment:172/180
-	1057 in SURREY by -unknown-
-		 Type=LEC, Enrollment:64/168
-	1057 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:16/50
 	1057 in SURREY by -unknown-
+		 Type=LEC, Enrollment:64/168
 		 Type=TUT, Enrollment:64/120
-	1061 in SURREY by -unknown-
-		 Type=LAB, Enrollment:56/100
 	1061 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:108/125
-	1061 in SURREY by -unknown-
-		 Type=LEC, Enrollment:56/100
-	1061 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:108/125
-	1064 in SURREY by -unknown-
-		 Type=LEC, Enrollment:18/24
+	1061 in SURREY by -unknown-
+		 Type=LAB, Enrollment:56/100
+		 Type=LEC, Enrollment:56/100
 	1064 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:69/100
-	1064 in SURREY by -unknown-
-		 Type=TUT, Enrollment:18/24
-	1064 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:69/100
+	1064 in SURREY by -unknown-
+		 Type=LEC, Enrollment:18/24
+		 Type=TUT, Enrollment:18/24
 	1067 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:182/200
-	1067 in SURREY by -unknown-
-		 Type=LEC, Enrollment:64/100
-	1067 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:9/20
-	1067 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:13/40
 		 Type=TUT, Enrollment:182/200
-	1067 in SURREY by -unknown-
-		 Type=TUT, Enrollment:64/75
 	1067 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:9/20
 		 Type=TUT, Enrollment:9/20
+	1067 in SURREY by -unknown-
+		 Type=LEC, Enrollment:64/100
+		 Type=TUT, Enrollment:64/75
 	1071 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:96/125
-	1071 in SURREY by -unknown-
-		 Type=LEC, Enrollment:38/100
-	1071 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:96/125
 	1071 in SURREY by -unknown-
+		 Type=LEC, Enrollment:38/100
 		 Type=TUT, Enrollment:38/50
 	1074 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:68/100
-	1074 in SURREY by -unknown-
-		 Type=LEC, Enrollment:30/48
-	1074 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:68/100
 	1074 in SURREY by -unknown-
+		 Type=LEC, Enrollment:30/48
 		 Type=TUT, Enrollment:30/48
-	1077 in SURREY by -unknown-
-		 Type=LAB, Enrollment:66/72
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:179/182
-	1077 in SURREY by -unknown-
-		 Type=LEC, Enrollment:66/72
-	1077 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:24/30
-	1077 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:111/112
 	1077 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:24/30
 		 Type=TUT, Enrollment:24/30
+	1077 in SURREY by -unknown-
+		 Type=LAB, Enrollment:66/72
+		 Type=LEC, Enrollment:66/72
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:140/141
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:65/96
-	1081 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:140/141
 	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:65/96
 		 Type=TUT, Enrollment:65/72
-	1084 in SURREY by -unknown-
-		 Type=LEC, Enrollment:35/48
 	1084 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:71/100
 	1084 in SURREY by -unknown-
+		 Type=LEC, Enrollment:35/48
 		 Type=TUT, Enrollment:35/48
-	1087 in SURREY by -unknown-
-		 Type=LAB, Enrollment:88/96
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:142/150
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:88/96
-	1087 in HRBRCNTR by -unknown-
-		 Type=LEC, Enrollment:31/50
-	1087 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:142/150
 	1087 in HRBRCNTR by -unknown-
+		 Type=LEC, Enrollment:31/50
 		 Type=TUT, Enrollment:31/50
+	1087 in SURREY by -unknown-
+		 Type=LAB, Enrollment:88/96
+		 Type=LEC, Enrollment:88/96
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:179/190
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:86/96
-	1091 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:179/190
 	1091 in SURREY by -unknown-
+		 Type=LEC, Enrollment:86/96
 		 Type=TUT, Enrollment:86/96
 	1094 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:97/104
@@ -28483,52 +27613,40 @@ MACM 101
 		 Type=TUT, Enrollment:97/104
 	1097 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:139/144
-	1097 in SURREY by -unknown-
-		 Type=LEC, Enrollment:125/144
+		 Type=TUT, Enrollment:139/144
 	1097 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:46/50
-	1097 in BURNABY by -unknown-
-		 Type=TUT, Enrollment:139/144
-	1097 in SURREY by -unknown-
-		 Type=TUT, Enrollment:125/144
-	1097 in HRBRCNTR by -unknown-
 		 Type=TUT, Enrollment:46/50
+	1097 in SURREY by -unknown-
+		 Type=LEC, Enrollment:125/144
+		 Type=TUT, Enrollment:125/144
 	1101 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:200/216
-	1101 in SURREY by -unknown-
-		 Type=LEC, Enrollment:94/98
-	1101 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:200/216
 	1101 in SURREY by -unknown-
+		 Type=LEC, Enrollment:94/98
 		 Type=TUT, Enrollment:94/98
 	1104 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:107/120
-	1104 in SURREY by -unknown-
-		 Type=LEC, Enrollment:88/96
-	1104 in BURNABY by -unknown-
 		 Type=SEC, Enrollment:67/80
 		 Type=TUT, Enrollment:107/120
 	1104 in SURREY by -unknown-
+		 Type=LEC, Enrollment:88/96
 		 Type=TUT, Enrollment:88/96
 	1107 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:178/168
-	1107 in SURREY by -unknown-
-		 Type=LAB, Enrollment:95/100
+		 Type=LEC, Enrollment:178/168
 	1107 in HRBRCNTR by -unknown-
 		 Type=LAB, Enrollment:47/48
-	1107 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:178/168
-	1107 in SURREY by -unknown-
-		 Type=LEC, Enrollment:95/100
-	1107 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:47/48
+	1107 in SURREY by -unknown-
+		 Type=LAB, Enrollment:95/100
+		 Type=LEC, Enrollment:95/100
 	1111 in BURNABY by -unknown-
 		 Type=LAB, Enrollment:148/150
-	1111 in SURREY by -unknown-
-		 Type=LAB, Enrollment:99/100
-	1111 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:148/150
 	1111 in SURREY by -unknown-
+		 Type=LAB, Enrollment:99/100
 		 Type=LEC, Enrollment:99/100
 	1114 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:118/144
@@ -28536,16 +27654,13 @@ MACM 101
 		 Type=TUT, Enrollment:118/144
 	1117 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:191/192
-	1117 in SURREY by -unknown-
-		 Type=LEC, Enrollment:91/97
+		 Type=TUT, Enrollment:191/192
 	1117 in HRBRCNTR by -unknown-
 		 Type=LEC, Enrollment:44/48
-	1117 in BURNABY by -unknown-
-		 Type=TUT, Enrollment:191/192
-	1117 in SURREY by -unknown-
-		 Type=TUT, Enrollment:91/96
-	1117 in HRBRCNTR by -unknown-
 		 Type=TUT, Enrollment:44/48
+	1117 in SURREY by -unknown-
+		 Type=LEC, Enrollment:91/97
+		 Type=TUT, Enrollment:91/96
 	1121 in BURNABY by Bradley Bart
 		 Type=LEC, Enrollment:224/230
 	1121 in SURREY by Kay Wiese
@@ -28557,23 +27672,18 @@ MACM 101
 		 Type=TUT, Enrollment:137/150
 	1127 in BURNABY by Andrei Bulatov
 		 Type=LEC, Enrollment:192/192
-	1127 in SURREY by Steven Pearce
-		 Type=LEC, Enrollment:93/100
+		 Type=TUT, Enrollment:192/192
 	1127 in HRBRCNTR by Evgenia Ternovska, Steven Pearce
 		 Type=LEC, Enrollment:43/48
-	1127 in BURNABY by Andrei Bulatov
-		 Type=TUT, Enrollment:192/192
-	1127 in SURREY by Steven Pearce
-		 Type=TUT, Enrollment:93/100
-	1127 in HRBRCNTR by Evgenia Ternovska
 		 Type=TUT, Enrollment:43/48
+	1127 in SURREY by Steven Pearce
+		 Type=LEC, Enrollment:93/100
+		 Type=TUT, Enrollment:93/100
 	1131 in BURNABY by Bradley Bart
 		 Type=LEC, Enrollment:225/245
-	1131 in SURREY by Kay Wiese
-		 Type=LEC, Enrollment:142/148
-	1131 in BURNABY by Bradley Bart
 		 Type=TUT, Enrollment:225/245
 	1131 in SURREY by Kay Wiese
+		 Type=LEC, Enrollment:142/148
 		 Type=TUT, Enrollment:142/148
 	1134 in BURNABY by Steven Pearce
 		 Type=LEC, Enrollment:130/144
@@ -28581,43 +27691,35 @@ MACM 101
 		 Type=TUT, Enrollment:130/144
 	1137 in BURNABY by Andrei Bulatov
 		 Type=LEC, Enrollment:192/192
-	1137 in SURREY by Kay Wiese
-		 Type=LEC, Enrollment:99/100
+		 Type=TUT, Enrollment:192/192
 	1137 in HRBRCNTR by Pavol Hell
 		 Type=LEC, Enrollment:59/60
-	1137 in BURNABY by Andrei Bulatov
-		 Type=TUT, Enrollment:192/192
 	1137 in SURREY by Kay Wiese
+		 Type=LEC, Enrollment:99/100
 		 Type=TUT, Enrollment:99/99
 	1141 in BURNABY by Binay Bhattacharya
 		 Type=LEC, Enrollment:252/288
-	1141 in SURREY by Steven Pearce
-		 Type=LEC, Enrollment:77/96
-	1141 in BURNABY by Binay Bhattacharya
 		 Type=TUT, Enrollment:252/288
 	1141 in SURREY by Steven Pearce
+		 Type=LEC, Enrollment:77/96
 		 Type=TUT, Enrollment:77/96
 	1144 in BURNABY by Steven Pearce
 		 Type=LEC, Enrollment:133/144
 		 Type=SEC, Enrollment:64/75
 		 Type=TUT, Enrollment:133/144
-	1147 in SURREY by Kay Wiese
-		 Type=LAB, Enrollment:93/96
 	1147 in BURNABY by Andrei Bulatov
 		 Type=LEC, Enrollment:190/192
-	1147 in SURREY by Kay Wiese
-		 Type=LEC, Enrollment:93/96
+		 Type=TUT, Enrollment:190/193
 	1147 in HRBRCNTR by Jane Huang
 		 Type=LEC, Enrollment:71/75
-	1147 in BURNABY by Andrei Bulatov
-		 Type=TUT, Enrollment:190/193
+	1147 in SURREY by Kay Wiese
+		 Type=LAB, Enrollment:93/96
+		 Type=LEC, Enrollment:93/96
 	1151 in BURNABY by Binay Bhattacharya
 		 Type=LEC, Enrollment:251/288
-	1151 in SURREY by Kay Wiese
-		 Type=LEC, Enrollment:90/96
-	1151 in BURNABY by Binay Bhattacharya
 		 Type=TUT, Enrollment:251/288
 	1151 in SURREY by Kay Wiese
+		 Type=LEC, Enrollment:90/96
 		 Type=TUT, Enrollment:90/96
 MACM 300
 	1054 in BURNABY by -unknown-
@@ -28685,9 +27787,9 @@ MSE 193
 		 Type=SEC, Enrollment:0/10
 	1141 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:0/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:0/10
 	1144 in OFF by -unknown-
+		 Type=SEC, Enrollment:0/10
+	1144 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:0/10
 	1147 in SURREY by Stephanie DeRapp
 		 Type=SEC, Enrollment:0/10
@@ -28736,11 +27838,11 @@ MSE 250
 		 Type=LAB, Enrollment:86/100
 		 Type=LEC, Enrollment:86/100
 		 Type=TUT, Enrollment:86/100
+	1147 in BURNABY by -unknown-
+		 Type=LEC, Enrollment:1/1
 	1147 in SURREY by Mohammad Narimani
 		 Type=LAB, Enrollment:99/114
 		 Type=LEC, Enrollment:99/114
-	1147 in BURNABY by -unknown-
-		 Type=LEC, Enrollment:1/1
 MSE 251
 	1141 in SURREY by Behraad Bahreyni
 		 Type=LAB, Enrollment:124/130
@@ -28758,53 +27860,53 @@ MSE 280
 		 Type=LEC, Enrollment:94/130
 		 Type=OPL, Enrollment:0/130
 MSE 293
-	1134 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:19/20
 	1134 in OFF by -unknown-
 		 Type=SEC, Enrollment:13/20
-	1137 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:6/45
+	1134 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:19/20
 	1137 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:2/10
-	1141 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:13/10
+	1137 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:6/45
 	1141 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:3/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:16/20
+	1141 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:13/10
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:11/25
-	1147 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:6/25
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:16/20
 	1147 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:6/25
-	1151 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:17/10
+	1147 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:6/25
 	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:8/10
+	1151 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:17/10
 MSE 294
+	1134 in OFF by -unknown-
+		 Type=SEC, Enrollment:0/10
 	1134 in SURREY by -unknown-
 		 Type=SEC, Enrollment:13/0
-	1134 in OFF by -unknown-
+	1137 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
 	1137 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:5/20
-	1137 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
 	1141 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:8/20
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:12/50
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/25
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:12/50
+	1147 in OFF by Stephanie DeRapp
+		 Type=SEC, Enrollment:0/10
 	1147 in SURREY by Stephanie DeRapp
 		 Type=SEC, Enrollment:7/10
-	1147 in OFF by Stephanie DeRapp
+	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:0/10
 	1151 in SURREY by Stephanie DeRapp
 		 Type=SEC, Enrollment:13/10
-	1151 in OFF by Stephanie DeRapp
-		 Type=SEC, Enrollment:0/10
 MSE 300
 	1134 in SURREY by Kevin Oldknow
 		 Type=LEC, Enrollment:74/80
@@ -28898,53 +28000,53 @@ MSE 391
 		 Type=LEC, Enrollment:139/148
 		 Type=TUT, Enrollment:139/148
 MSE 393
-	1134 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:13/20
 	1134 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:6/20
-	1137 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:19/45
+	1134 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:13/20
 	1137 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:7/10
-	1141 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:18/10
+	1137 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:19/45
 	1141 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:5/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:14/20
+	1141 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:18/10
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:2/25
-	1147 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:14/25
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:14/20
 	1147 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:8/25
-	1151 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:20/10
+	1147 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:14/25
 	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:10/10
+	1151 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:20/10
 MSE 394
 	1134 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/20
+	1137 in OFF by -unknown-
+		 Type=SEC, Enrollment:0/10
 	1137 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:5/20
-	1137 in OFF by -unknown-
+	1141 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/10
 	1141 in SURREY by Harriet Chicoine
 		 Type=SEC, Enrollment:3/10
-	1141 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:0/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:2/50
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/25
-	1147 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:4/10
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:2/50
 	1147 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:0/10
-	1151 in SURREY by Stephanie DeRapp
+	1147 in SURREY by Stephanie DeRapp
 		 Type=SEC, Enrollment:4/10
 	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:0/10
+	1151 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:4/10
 MSE 400
 	1134 in SURREY by Maureen Hindy
 		 Type=LEC, Enrollment:78/100
@@ -29093,59 +28195,53 @@ MSE 492
 		 Type=SEM, Enrollment:58/75
 		 Type=TUT, Enrollment:58/75
 MSE 493
-	1134 in SURREY by -unknown-
-		 Type=SEC, Enrollment:13/20
 	1134 in OFF by -unknown-
 		 Type=SEC, Enrollment:4/20
-	1137 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:27/55
+	1134 in SURREY by -unknown-
+		 Type=SEC, Enrollment:13/20
 	1137 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:8/20
-	1141 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:10/10
+	1137 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:27/55
 	1141 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:3/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:12/20
+	1141 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:10/10
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:2/25
-	1147 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:22/35
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:12/20
 	1147 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:8/20
-	1151 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:9/10
+	1147 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:22/35
 	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:4/10
+	1151 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:9/10
 MSE 494
 	1134 in SURREY by -unknown-
 		 Type=SEC, Enrollment:1/20
-	1137 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:2/20
 	1137 in OFF by Harriet Chicoine
-		 Type=SEC, Enrollment:1/20
-	1137 in SURREY by -unknown-
-		 Type=SEC, Enrollment:0/10
-	1137 in OFF by -unknown-
-		 Type=SEC, Enrollment:0/10
-	1141 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:3/10
+		 Type=SEC, Enrollment:1/30
+	1137 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:2/30
 	1141 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:1/10
-	1144 in SURREY by Harriet Chicoine
-		 Type=SEC, Enrollment:1/50
+	1141 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:3/10
 	1144 in OFF by Harriet Chicoine
 		 Type=SEC, Enrollment:0/25
-	1144 in SURREY by -unknown-
+	1144 in SURREY by Harriet Chicoine
+		 Type=SEC, Enrollment:1/60
+	1147 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:0/10
 	1147 in SURREY by Stephanie DeRapp
 		 Type=SEC, Enrollment:4/10
-	1147 in OFF by Stephanie DeRapp
-		 Type=SEC, Enrollment:0/10
-	1151 in SURREY by Stephanie DeRapp
-		 Type=SEC, Enrollment:9/10
 	1151 in OFF by Stephanie DeRapp
 		 Type=SEC, Enrollment:2/10
+	1151 in SURREY by Stephanie DeRapp
+		 Type=SEC, Enrollment:9/10
 MSE 495
 	1134 in SURREY by -unknown-
 		 Type=LAB, Enrollment:0/20
@@ -29321,10 +28417,10 @@ MSE 898
 		 Type=SEC, Enrollment:32/35
 	1144 in SURREY by . Tbd
 		 Type=SEC, Enrollment:28/50
-	1147 in SURREY by -unknown-
-		 Type=SEC, Enrollment:33/100
 	1147 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/10
+	1147 in SURREY by -unknown-
+		 Type=SEC, Enrollment:33/100
 	1151 in SURREY by -unknown-
 		 Type=SEC, Enrollment:33/35
 MSE 899
@@ -29336,14 +28432,14 @@ MSE 899
 		 Type=SEC, Enrollment:60/65
 	1144 in SURREY by . Tbd
 		 Type=SEC, Enrollment:59/70
-	1147 in SURREY by -unknown-
-		 Type=SEC, Enrollment:57/100
 	1147 in OFF by -unknown-
 		 Type=SEC, Enrollment:2/10
-	1151 in SURREY by -unknown-
-		 Type=SEC, Enrollment:55/65
+	1147 in SURREY by -unknown-
+		 Type=SEC, Enrollment:57/100
 	1151 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/5
+	1151 in SURREY by -unknown-
+		 Type=SEC, Enrollment:55/65
 MTEC 210
 	1007 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/9999
@@ -30084,35 +29180,27 @@ REM 100
 		 Type=TUT, Enrollment:115/144
 	1077 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:138/144
-	1077 in SURREY by -unknown-
-		 Type=LEC, Enrollment:46/54
-	1077 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:138/144
 	1077 in SURREY by -unknown-
+		 Type=LEC, Enrollment:46/54
 		 Type=TUT, Enrollment:46/54
 	1081 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:140/144
-	1081 in SURREY by -unknown-
-		 Type=LEC, Enrollment:39/54
-	1081 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:140/144
 	1081 in SURREY by -unknown-
+		 Type=LEC, Enrollment:39/54
 		 Type=TUT, Enrollment:39/54
 	1087 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:180/180
-	1087 in SURREY by -unknown-
-		 Type=LEC, Enrollment:53/54
-	1087 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:180/180
 	1087 in SURREY by -unknown-
+		 Type=LEC, Enrollment:53/54
 		 Type=TUT, Enrollment:53/54
 	1091 in BURNABY by -unknown-
 		 Type=LEC, Enrollment:174/180
-	1091 in SURREY by -unknown-
-		 Type=LEC, Enrollment:35/54
-	1091 in BURNABY by -unknown-
 		 Type=TUT, Enrollment:174/180
 	1091 in SURREY by -unknown-
+		 Type=LEC, Enrollment:35/54
 		 Type=TUT, Enrollment:35/36
 REM 311
 	1001 in BURNABY by -unknown-
@@ -32261,18 +31349,18 @@ WKTM 100
 		 Type=SEC, Enrollment:17/50
 	1084 in SURREY by -unknown-
 		 Type=SEC, Enrollment:28/50
-	1087 in SURREY by -unknown-
-		 Type=SEC, Enrollment:11/50
 	1087 in OFF by -unknown-
 		 Type=SEC, Enrollment:3/10
-	1091 in SURREY by -unknown-
-		 Type=SEC, Enrollment:8/50
+	1087 in SURREY by -unknown-
+		 Type=SEC, Enrollment:11/50
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:2/10
-	1094 in SURREY by -unknown-
-		 Type=SEC, Enrollment:14/50
+	1091 in SURREY by -unknown-
+		 Type=SEC, Enrollment:8/50
 	1094 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/50
+	1094 in SURREY by -unknown-
+		 Type=SEC, Enrollment:14/50
 WKTM 101
 	1014 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/29997
@@ -32321,18 +31409,18 @@ WKTM 200
 		 Type=SEC, Enrollment:8/50
 	1084 in SURREY by -unknown-
 		 Type=SEC, Enrollment:14/50
-	1087 in SURREY by -unknown-
-		 Type=SEC, Enrollment:16/50
 	1087 in OFF by -unknown-
 		 Type=SEC, Enrollment:8/10
-	1091 in SURREY by -unknown-
-		 Type=SEC, Enrollment:8/50
+	1087 in SURREY by -unknown-
+		 Type=SEC, Enrollment:16/50
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/10
-	1094 in SURREY by -unknown-
-		 Type=SEC, Enrollment:7/50
+	1091 in SURREY by -unknown-
+		 Type=SEC, Enrollment:8/50
 	1094 in OFF by -unknown-
 		 Type=SEC, Enrollment:3/50
+	1094 in SURREY by -unknown-
+		 Type=SEC, Enrollment:7/50
 WKTM 300
 	1014 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/29997
@@ -32376,18 +31464,18 @@ WKTM 300
 		 Type=SEC, Enrollment:9/50
 	1084 in SURREY by -unknown-
 		 Type=SEC, Enrollment:10/50
-	1087 in SURREY by -unknown-
-		 Type=SEC, Enrollment:3/50
 	1087 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
-	1091 in SURREY by -unknown-
-		 Type=SEC, Enrollment:13/50
+	1087 in SURREY by -unknown-
+		 Type=SEC, Enrollment:3/50
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:5/10
-	1094 in SURREY by -unknown-
-		 Type=SEC, Enrollment:5/50
+	1091 in SURREY by -unknown-
+		 Type=SEC, Enrollment:13/50
 	1094 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/50
+	1094 in SURREY by -unknown-
+		 Type=SEC, Enrollment:5/50
 WKTM 400
 	1014 in BURNABY by -unknown-
 		 Type=CNV, Enrollment:0/29997
@@ -32431,15 +31519,15 @@ WKTM 400
 		 Type=SEC, Enrollment:5/50
 	1084 in SURREY by -unknown-
 		 Type=SEC, Enrollment:9/50
-	1087 in SURREY by -unknown-
-		 Type=SEC, Enrollment:5/50
 	1087 in OFF by -unknown-
 		 Type=SEC, Enrollment:1/10
-	1091 in SURREY by -unknown-
-		 Type=SEC, Enrollment:2/50
+	1087 in SURREY by -unknown-
+		 Type=SEC, Enrollment:5/50
 	1091 in OFF by -unknown-
 		 Type=SEC, Enrollment:0/10
-	1094 in SURREY by -unknown-
-		 Type=SEC, Enrollment:9/50
+	1091 in SURREY by -unknown-
+		 Type=SEC, Enrollment:2/50
 	1094 in OFF by -unknown-
 		 Type=SEC, Enrollment:3/50
+	1094 in SURREY by -unknown-
+		 Type=SEC, Enrollment:9/50
