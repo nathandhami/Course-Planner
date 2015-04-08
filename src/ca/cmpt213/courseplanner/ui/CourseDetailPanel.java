@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
+import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
 
 public class CourseDetailPanel extends CoursePlannerPanel {
 	
@@ -20,6 +21,8 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		// TODO Auto-generated constructor stub
 		modifyUserContentPanel();
 		setPreferredSize(new Dimension(200, 200));
+		registerAsOfferingChangeObserver();
+		registerAsCourseChangeObserver();
 	}
 
 	@Override
@@ -50,4 +53,36 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 	}
 	
 	
+	private void registerAsOfferingChangeObserver(){
+		
+		getModel().addOfferingChangeObserver(new CourseDataExtractorObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				updateTextArea();
+			}
+		});
+	}
+	
+	private void registerAsCourseChangeObserver(){
+		getModel().addCourseChangeObserver(new CourseDataExtractorObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				textBoxDisplay.setText(" ");
+			}
+		});
+	}
+	
+	
+	private void updateTextArea(){
+		textBoxDisplay.setText(getModel().getChosenOfferedCourse().getFullCourseName() + "\n" +
+							   getModel().getChosenOfferedCourse().getSemesterId() + "\n" +
+							   getModel().getChosenOfferedCourse().getLocation() + "\n" +
+							   getModel().getChosenOfferedCourse().getInstuctorName());
+							   
+		System.out.println("ROFL");
+	}
 }

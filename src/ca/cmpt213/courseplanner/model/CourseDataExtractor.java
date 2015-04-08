@@ -28,6 +28,8 @@ public class CourseDataExtractor {
 	private List<CourseDataExtractorObserver> courseChangeObservers = new ArrayList<CourseDataExtractorObserver>();
 	private List<CourseDataExtractorObserver> offeringChangeObservers = new ArrayList<CourseDataExtractorObserver>();
 	private List<CourseDataExtractorObserver> departmentChangeObservers = new ArrayList<CourseDataExtractorObserver>();
+
+	private Course chosenOfferedCourse;
 	
 	public void courseDataExtractorInit(){
 
@@ -220,6 +222,16 @@ public class CourseDataExtractor {
 				}
 			}
 		}
+	}
+	
+	
+	public void setChosenOfferedCourse(Course chosenOfferedCourse){
+		
+		this.chosenOfferedCourse = chosenOfferedCourse;
+	}
+	
+	public Course getChosenOfferedCourse(){
+		return chosenOfferedCourse;
 	}
 	
 	

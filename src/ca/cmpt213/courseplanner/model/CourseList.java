@@ -93,7 +93,6 @@ public class CourseList implements Iterable<Course> {
 			bw.write(content + "\n");
 			
 			
-			
 			content = "\t" + courses.get(0).getSemesterId() + " in " + courses.get(0).getLocation()
 					+ " by " + courses.get(0).getInstuctorName();
 			System.out.println(content);

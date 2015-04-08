@@ -7,6 +7,8 @@ import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
@@ -55,11 +57,16 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		
 		selectedCourse = getModel().getSelOfferedCourse();
 		coursesBySemester = selectedCourse.getIndividualCourses();
-		for(int i=0; i<coursesBySemester.size(); i++){
-			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
-				coursesBySemester.remove(i);
-			}
+		for(int i =0; i < coursesBySemester.size();i++){
+			System.out.println("Course Offering " + (i+1) + ": " +  coursesBySemester.get(i));
 		}
+		
+		System.out.println("Number of offerings: " + coursesBySemester.size());
+//		for(int i=0; i<coursesBySemester.size(); i++){
+//			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
+//				coursesBySemester.remove(i);
+//			}
+//		}
 		setRows();
 		
 		for(Course c : coursesBySemester){
@@ -147,16 +154,16 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 							int mon = Integer.parseInt(coursesBySemester.get(t).
 										getSemesterId().substring(3, 4));
 							if(mon == 1 && j == 0){
-								add_panel.add(makeButton(coursesBySemester.get(t).getSemesterId()));
-								System.out.println("adding button to i="+i+" j="+j);
+								add_panel.add(makeButton(coursesBySemester.get(t).getSemesterId(),coursesBySemester.get(t)));
+//								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 4 && j == 1){
-								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
-								System.out.println("adding button to i="+i+" j="+j);
+								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus(),coursesBySemester.get(t)));
+//								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 7 && j == 2){
-								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
-								System.out.println("adding button to i="+i+" j="+j);
+								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus(),coursesBySemester.get(t)));
+//								System.out.println("adding button to i="+i+" j="+j);
 							}
 							
 				
@@ -172,10 +179,25 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 	}
 	
 	
-	private JButton makeButton(String label){
+	private JButton makeButton(String label, Course getCourse){
 		JButton button = new JButton(label);
 		setComponentToFixedSize(button);
+		setupButtonActionListener(button,getCourse);
 		return button;
+	}
+	
+	private void setupButtonActionListener(JButton button, Course getCourse){
+		
+		button.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				getModel().setChosenOfferedCourse(getCourse);
+				getModel().notifyOfferingChangeObservers();
+			}
+		});
+		
 	}
 	
 	private JPanel returnGridPanel(String label){

@@ -5,13 +5,19 @@ import java.awt.Color;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 
+import ca.cmpt213.bargraph.BarGraphIcon;
+import ca.cmpt213.bargraph.BarGraphModel;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 
 public class BarGraphPanel extends CoursePlannerPanel {
+	
+	BarGraphIcon icon;
+	BarGraphModel graphModel;
 
 	public BarGraphPanel(String title,CourseDataExtractor model) {
 		super(title,model);
 		// TODO Auto-generated constructor stub
+	
 		modifyUserContentPanel();
 	}
 
@@ -22,6 +28,12 @@ public class BarGraphPanel extends CoursePlannerPanel {
 		panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
 		panel.setBackground(Color.WHITE);
 		makeUserContentPanel(panel);
+	}
+	
+	
+	
+	private void initializeGraphModel(){
+		
 	}
 
 }
