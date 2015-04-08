@@ -55,6 +55,11 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		
 		selectedCourse = getModel().getSelOfferedCourse();
 		coursesBySemester = selectedCourse.getIndividualCourses();
+		for(int i=0; i<coursesBySemester.size(); i++){
+			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
+				coursesBySemester.remove(i);
+			}
+		}
 		setRows();
 		
 		for(Course c : coursesBySemester){
@@ -142,7 +147,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 							int mon = Integer.parseInt(coursesBySemester.get(t).
 										getSemesterId().substring(3, 4));
 							if(mon == 1 && j == 0){
-								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()));
+								add_panel.add(makeButton(coursesBySemester.get(t).getSemesterId()));
 								System.out.println("adding button to i="+i+" j="+j);
 							}
 							else if(mon == 4 && j == 1){

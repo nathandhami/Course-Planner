@@ -165,10 +165,8 @@ public class CourseList implements Iterable<Course> {
 		
 		for(int i=0; i<courses.size(); i++){
 			
-			if(type.equals("LAB" + courses.get(i).getLocation()) 
-					|| type.equals("TUT" + courses.get(i).getLocation())){
-				
-				if(type.equals(courses.get(i).getCourseType()+courses.get(i).getLocation())){
+				if(type.equals(courses.get(i).getCourseType()+courses.get(i).getCourseAndCampus()
+						+ courses.get(i).getSemesterId())){
 					
 					int val = Integer.parseInt(courses.get(i).getEnrollmentCapacity());
 					courses.get(i-1).setEnrollmentCapacity(val);
@@ -179,9 +177,10 @@ public class CourseList implements Iterable<Course> {
 					courses.remove(i);
 					i--;
 				}
-			}
 			
-			type = courses.get(i).getCourseType() + courses.get(i).getLocation();
+			
+			type = courses.get(i).getCourseType() + courses.get(i).getCourseAndCampus()
+					+ courses.get(i).getSemesterId();
 		}
 	}
 
