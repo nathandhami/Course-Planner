@@ -54,10 +54,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
 		setRows();
 		
-		for(Course c : coursesBySemester){
-			System.out.println(c.getSemesterId());
-		}
-		
 		addCenterPanel();
 		modifyUserContentPanel();
 	}
@@ -92,14 +88,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 	private void initialiseCenterPanel(){
 		centerPanel.setLayout(new GridBagLayout());
 		setPreferredSize(new Dimension(500,500));
-		
-		for(int i=Row_Start; i <= Row_End; i++){
-			
-			for(int j=0; j<NUM_OF_COLS; j++){
-				
-
-			}
-		}
 	}
 	
 	private void addCenterPanel(){
@@ -127,8 +115,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 						
 						for(int t=0; t<coursesBySemester.size(); t++){
 							
-		
-							System.out.println(ShouldBeDisplayed);
 							if(!(coursesBySemester.get(t).getCourseAndCampus() + 
 									coursesBySemester.get(t).getSemesterId())
 									.equals(ShouldBeDisplayed)){

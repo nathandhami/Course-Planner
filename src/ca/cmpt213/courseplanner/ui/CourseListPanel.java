@@ -41,7 +41,6 @@ public class CourseListPanel extends CoursePlannerPanel {
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
 				selectedCourse = list.getSelectedValue();
-				System.out.println(selectedCourse);
 				getModel().setSelOfferedCourse(selectedCourse);
 				getModel().notifyCourseChangeObservers();
 			}
@@ -75,7 +74,6 @@ public class CourseListPanel extends CoursePlannerPanel {
 			
 			@Override
 			public void stateChanged() {
-				// TODO Auto-generated method stub
 				updateCourseList();
 
 			}

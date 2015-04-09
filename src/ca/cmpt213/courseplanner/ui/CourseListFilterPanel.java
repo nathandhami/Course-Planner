@@ -74,7 +74,6 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 	public static String whichDepartment(){
 		//need to get department from filter and pass it to courseListPanel
 		String selectedDep = (String) comboBox.getSelectedItem();
-		System.out.println(selectedDep);
 		return selectedDep;
 	}
 	
@@ -103,7 +102,6 @@ public class CourseListFilterPanel extends CoursePlannerPanel{
 		filterPanel.add(panel);
 		filterPanel.add(panel2);
 		filterPanel.add(button);
-		Dimension prefSize = filterPanel.getPreferredSize();
 		makeUserContentPanel(filterPanel);
 	}
 	

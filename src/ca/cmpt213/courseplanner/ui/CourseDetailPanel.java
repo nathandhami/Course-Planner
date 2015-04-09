@@ -134,7 +134,6 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		
 		for(int i=0; i<sameCourses.size(); i++){
 			
-			System.out.println(sameCourses.get(i));
 			if(sameCourses.get(i).getSemesterId()
 					.equals(c.getSemesterId()) && sameCourses.get(i).getCourseAndCampus()
 					.equals(c.getCourseAndCampus())){
