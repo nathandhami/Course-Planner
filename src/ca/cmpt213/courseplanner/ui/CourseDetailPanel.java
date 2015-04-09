@@ -1,7 +1,6 @@
 package ca.cmpt213.courseplanner.ui;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.util.ArrayList;
@@ -16,10 +15,14 @@ import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
 
+@SuppressWarnings("serial")
 public class CourseDetailPanel extends CoursePlannerPanel {
 	
 	private JTextArea textBoxDisplay = new JTextArea();
-	JPanel southPanel = new JPanel();
+	private JPanel mainPanel = new JPanel();
+	private JPanel westPanel = new JPanel();
+	private JPanel eastPanel = new JPanel();
+	private JPanel southPanel = new JPanel();
 	private ArrayList<CourseByNames> allCourses = new ArrayList<CourseByNames>();
 	private ArrayList<String> sectionDetail = new ArrayList<String>();
 	private ArrayList<String> enrollDetail = new ArrayList<String>();
@@ -27,7 +30,15 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 	public CourseDetailPanel(String title, CourseDataExtractor model) {
 		super(title, model);
 		allCourses = getModel().getSingleCourses();
+		
+		mainPanel.setLayout(new BorderLayout());	
+		westPanel.setLayout(new BoxLayout(westPanel,BoxLayout.PAGE_AXIS));
+		eastPanel.setLayout(new BoxLayout(eastPanel,BoxLayout.PAGE_AXIS));
 		southPanel.setLayout(new GridLayout(0,2));
+		
+		addWestPanelDetails();
+		addEastPanelDetails();
+		
 		modifyUserContentPanel();
 		setPreferredSize(new Dimension(160, 160));
 		setMaximumSize(new Dimension(200, 200));
@@ -37,31 +48,29 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 
 	@Override
 	void modifyUserContentPanel() {
-		// TODO Auto-generated method stub
-		JPanel mainPanel = new JPanel();
-		mainPanel.setLayout(new BorderLayout());
-		JPanel westPanel = new JPanel();
-		westPanel.setLayout(new BoxLayout(westPanel,BoxLayout.PAGE_AXIS));
-//		panel.setBackground(Color.WHITE);
-		westPanel.add(new JLabel("Course Name:"));
-		westPanel.add(new JLabel("Semester:"));
-		westPanel.add(new JLabel("Location:"));
-		westPanel.add(new JLabel("Instructors:"));
-		westPanel.add(new JLabel("Section Type:"));
 		
 		mainPanel.add(westPanel,BorderLayout.WEST);
+	
+		mainPanel.add(eastPanel,BorderLayout.EAST);
 		
-		JPanel eastPanel = new JPanel();
-		eastPanel.setLayout(new BoxLayout(eastPanel,BoxLayout.PAGE_AXIS));
+		mainPanel.add(southPanel,BorderLayout.SOUTH);
+		makeUserContentPanel(mainPanel);
+	}
+
+	private void addEastPanelDetails() {
 		textBoxDisplay.setColumns(4);
 		textBoxDisplay.setRows(1);
 		textBoxDisplay.setLineWrap(true);
 		textBoxDisplay.setWrapStyleWord(true);
 		eastPanel.add(textBoxDisplay);
-		mainPanel.add(eastPanel,BorderLayout.EAST);
-		
-		mainPanel.add(southPanel,BorderLayout.SOUTH);
-		makeUserContentPanel(mainPanel);
+	}
+
+	private void addWestPanelDetails() {
+		westPanel.add(new JLabel("Course Name:"));
+		westPanel.add(new JLabel("Semester:"));
+		westPanel.add(new JLabel("Location:"));
+		westPanel.add(new JLabel("Instructors:"));
+		westPanel.add(new JLabel("Section Type:"));
 	}
 	
 	
@@ -71,7 +80,6 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 			
 			@Override
 			public void stateChanged() {
-				// TODO Auto-generated method stub
 				updateTextArea();
 			}
 		});
@@ -82,7 +90,6 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 			
 			@Override
 			public void stateChanged() {
-				// TODO Auto-generated method stub
 				textBoxDisplay.setText(" ");
 			}
 		});
@@ -110,7 +117,6 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 			southPanel.add(jDetail);
 			
 		}
-		System.out.println(sectionDetail);
 	}
 	
 	private void getSectionDetail(Course c){

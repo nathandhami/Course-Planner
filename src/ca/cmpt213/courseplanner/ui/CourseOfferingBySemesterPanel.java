@@ -2,11 +2,9 @@ package ca.cmpt213.courseplanner.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.ComponentOrientation;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -15,15 +13,12 @@ import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
-import javax.swing.JList;
 import javax.swing.JPanel;
-import javax.swing.border.Border;
 
 import ca.cmpt213.courseplanner.model.Course;
 import ca.cmpt213.courseplanner.model.CourseByNames;
 import ca.cmpt213.courseplanner.model.CourseDataExtractor;
 import ca.cmpt213.courseplanner.model.CourseDataExtractorObserver;
-import ca.cmpt213.courseplanner.model.Semester;
 
 @SuppressWarnings("serial")
 public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
@@ -46,7 +41,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
 		addMainPanel();
 		addTopPanel();
-		//addWestPanel();
 		initialiseCenterPanel();
 		
 		registerAsObserver();
@@ -57,22 +51,13 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		
 		selectedCourse = getModel().getSelOfferedCourse();
 		coursesBySemester = selectedCourse.getIndividualCourses();
-		for(int i =0; i < coursesBySemester.size();i++){
-			System.out.println("Course Offering " + (i+1) + ": " +  coursesBySemester.get(i));
-		}
-		
-		System.out.println("Number of offerings: " + coursesBySemester.size());
-		for(int i=0; i<coursesBySemester.size(); i++){
-			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
-				//coursesBySemester.remove(i);
-			}
-		}
+
 		setRows();
 		
 		for(Course c : coursesBySemester){
 			System.out.println(c.getSemesterId());
 		}
-		//addWestPanel();
+		
 		addCenterPanel();
 		modifyUserContentPanel();
 	}
@@ -82,7 +67,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			
 			@Override
 			public void stateChanged() {
-				// TODO Auto-generated method stub
 				updateCourseOffering();
 
 			}
@@ -103,17 +87,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		topPanel.add(new JLabel("Spring"),forTop);
 		topPanel.add(new JLabel("Summer"), makeConstraints(1,0));
 		topPanel.add(new JLabel("Fall"),makeConstraints(2,0));
-	}
-	
-	private void addWestPanel(){
-		westPanel.removeAll();
-		westPanel.setLayout(new GridBagLayout());
-		westPanel.setBackground(Color.WHITE);
-		
-		for(int i =Row_Start ; i <= Row_End; i++){
-			int year = 2000 + i;
-			westPanel.add(new JLabel(String.valueOf(year)),makeConstraints(0,i));
-		}
 	}
 	
 	private void initialiseCenterPanel(){
@@ -141,16 +114,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 					JPanel add_panel = new JPanel();
 					
 					if(j == 0){
-						int year = 2000 + i;
-						JPanel py = new JPanel();
-						py.setLayout(new BorderLayout());
-						py.add(new JLabel(String.valueOf(year)),BorderLayout.CENTER);
-						py.setBackground(Color.white);
-						GridBagConstraints gc =makeConstraints(j,i);
-						gc.fill = GridBagConstraints.BOTH;
-						
-						gc.ipadx = 0;
-						centerPanel.add(py,gc);
+						addYears(i, j);
 					}
 					else{
 						
@@ -159,36 +123,19 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 						centerPanel.add(label,c);
 						
 						add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.PAGE_AXIS));
+						String ShouldBeDisplayed = " ";
 						
 						for(int t=0; t<coursesBySemester.size(); t++){
 							
-							if(coursesBySemester.get(t).getCourseType().equals("LEC")){
-								int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
-								
-								if(y == i){
-									
-									int mon = Integer.parseInt(coursesBySemester.get(t).
-												getSemesterId().substring(3, 4));
-									if(mon == 1 && j == 1){
-										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
-															,coursesBySemester.get(t)));
-//										System.out.println("adding button to i="+i+" j="+j);
-									}
-									else if(mon == 4 && j == 2){
-										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
-															,coursesBySemester.get(t)));
-//										System.out.println("adding button to i="+i+" j="+j);
-									}
-									else if(mon == 7 && j == 3){
-										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
-															,coursesBySemester.get(t)));
-//										System.out.println("adding button to i="+i+" j="+j);
-									}
-									
-						
-								}
+		
+							System.out.println(ShouldBeDisplayed);
+							if(!(coursesBySemester.get(t).getCourseAndCampus() + 
+									coursesBySemester.get(t).getSemesterId())
+									.equals(ShouldBeDisplayed)){
+								displayOfferings(i, j, add_panel, t);
 							}
-
+							ShouldBeDisplayed = coursesBySemester.get(t).getCourseAndCampus() +
+												coursesBySemester.get(t).getSemesterId();
 						}
 					}
 
@@ -196,6 +143,43 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 					
 				}
 			}
+	}
+
+	private void addYears(int i, int j) {
+		int year = 2000 + i;
+		JPanel py = new JPanel();
+		py.setLayout(new BorderLayout());
+		py.add(new JLabel(String.valueOf(year)),BorderLayout.CENTER);
+		py.setBackground(Color.white);
+		GridBagConstraints gc =makeConstraints(j,i);
+		gc.fill = GridBagConstraints.BOTH;
+		
+		gc.ipadx = 0;
+		centerPanel.add(py,gc);
+	}
+
+	private void displayOfferings(int i, int j, JPanel add_panel, int t) {
+		int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
+		
+		if(y == i){
+			
+			int mon = Integer.parseInt(coursesBySemester.get(t).
+						getSemesterId().substring(3, 4));
+			if(mon == 1 && j == 1){
+				add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+									,coursesBySemester.get(t)));
+			}
+			else if(mon == 4 && j == 2){
+				add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+									,coursesBySemester.get(t)));
+			}
+			else if(mon == 7 && j == 3){
+				add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+									,coursesBySemester.get(t)));
+			}
+			
+
+		}
 	}
 	
 	
@@ -212,24 +196,13 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				getModel().setChosenOfferedCourse(getCourse);
 				getModel().notifyOfferingChangeObservers();
 			}
 		});
 		
 	}
-	
-	private JPanel returnGridPanel(String label){
-		
-	        JPanel panel = new JPanel();
-	        panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
-	        JButton button = new JButton(label);
-	        setComponentToFixedSize(button);
-	        panel.add(button);
-	        return panel;
 
-	}
 	
 	private void setRows(){
 		

@@ -54,10 +54,7 @@ public class CourseList implements Iterable<Course> {
 				}
 			}
 		}
-		
-			System.out.println(deps);
-		
-		
+	
 		return deps;
 	}
 	
@@ -85,67 +82,7 @@ public class CourseList implements Iterable<Course> {
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			BufferedWriter bw = new BufferedWriter(fw);
 			
-			String checkName = courses.get(0).getFullCourseName();
-			String checkSemester = courses.get(0).getSemesterId() + courses.get(0).getLocation();
-			String checkType = "";
-			String content = checkName + "\n";
-			System.out.println(checkName);
-			bw.write(content + "\n");
-			
-			
-			content = "\t" + courses.get(0).getSemesterId() + " in " + courses.get(0).getLocation()
-					+ " by " + courses.get(0).getInstuctorName();
-			System.out.println(content);
-			bw.write(content + "\n");
-			
-			for(Course c: courses){
-				
-				String courseSemesterAndLocation = c.getSemesterId() + c.getLocation(); 
-				
-				
-				if(c.getFullCourseName().equals(checkName)){
-					
-					if(courseSemesterAndLocation.equals(checkSemester)){
-						
-						content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
-								+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
-						System.out.println(content);
-						bw.write(content + "\n");
-					}
-					else{
-						
-						content = "\t" + c.getSemesterId() + " in " + c.getLocation()
-								+ " by " + c.getInstuctorName();
-						System.out.println(content);
-						bw.write(content + "\n");
-						
-						content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
-								+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
-						System.out.println(content);
-						bw.write(content + "\n");
-						
-						checkSemester = c.getSemesterId() + c.getLocation();
-					}
-					
-					
-				}
-				else{
-					checkName = c.getFullCourseName();
-					System.out.println("\n" + checkName);
-					bw.write(checkName + "\n");
-					content = "\t" + c.getSemesterId() + " in " + c.getLocation()
-							+ " by " + c.getInstuctorName();
-					System.out.println(content);
-					bw.write(content + "\n");
-					
-					content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
-							+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
-					System.out.println(content);
-					bw.write(content + "\n");
-					
-					checkSemester = c.getSemesterId() + c.getLocation();
-				}
-		   }
+			writeToFle(bw);
 			
 			bw.close();
 			System.out.println("Done");
@@ -156,6 +93,61 @@ public class CourseList implements Iterable<Course> {
 		
 		
 		
+	}
+
+	private void writeToFle(BufferedWriter bw) throws IOException {
+		String checkName = courses.get(0).getFullCourseName();
+		String checkSemester = courses.get(0).getSemesterId() + courses.get(0).getLocation();
+		String content = checkName + "\n";
+		bw.write(content + "\n");
+		
+		
+		content = "\t" + courses.get(0).getSemesterId() + " in " + courses.get(0).getLocation()
+				+ " by " + courses.get(0).getInstuctorName();
+		bw.write(content + "\n");
+		
+		for(Course c: courses){
+			
+			String courseSemesterAndLocation = c.getSemesterId() + c.getLocation(); 
+			
+			
+			if(c.getFullCourseName().equals(checkName)){
+				
+				if(courseSemesterAndLocation.equals(checkSemester)){
+					
+					content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
+							+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
+					bw.write(content + "\n");
+				}
+				else{
+					
+					content = "\t" + c.getSemesterId() + " in " + c.getLocation()
+							+ " by " + c.getInstuctorName();
+					bw.write(content + "\n");
+					
+					content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
+							+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
+					bw.write(content + "\n");
+					
+					checkSemester = c.getSemesterId() + c.getLocation();
+				}
+				
+				
+			}
+			else{
+				checkName = c.getFullCourseName();
+				bw.write(checkName + "\n");
+				content = "\t" + c.getSemesterId() + " in " + c.getLocation()
+						+ " by " + c.getInstuctorName();
+				bw.write(content + "\n");
+				
+				content = "\t\t Type=" + c.getCourseType() + ", Enrollment:"
+						+ c.getEnrollmentTotal() + "/" + c.getEnrollmentCapacity();
+				bw.write(content + "\n");
+				
+				checkSemester = c.getSemesterId() + c.getLocation();
+			}
+   }
 	}
 	
 	public void addEnrollment(){

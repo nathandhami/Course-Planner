@@ -34,9 +34,12 @@ public class CourseDataExtractor {
 	public void courseDataExtractorInit(){
 
 		loadCoursesFromExcelFile();
+		
 		courses.sortByName();
 		allDeps = courses.getDepartments();
+		
 		courses.addEnrollment();
+		
 		dumpModel();
 		for(String s:allDeps){
 			joinSameCourses(s);
@@ -71,12 +74,7 @@ public class CourseDataExtractor {
 	
 				if (rowHasMultipleInstructors) {
 					words = new ArrayList<String>(Arrays.asList(line.split(",", finalColumnIndex)));
-					for (int i = 0; i < words.size(); i++) {
-						System.out.println(words.get(i));
-					}
-					System.out.println(words.size());
-
-					System.out.println();
+					
 				} else {
 					words = new ArrayList<String>(Arrays.asList(line.split(",", finalColumnIndex - 1)));
 					for (int i = 0; i < words.size(); i++) {
@@ -97,10 +95,8 @@ public class CourseDataExtractor {
 
 						}
 
-						System.out.println(words.get(i));
 					}
-					System.out.println(words.size());
-					System.out.println();
+					
 				}
 
 				courses.insert(new Course(words.get(semesterId), words
@@ -112,7 +108,6 @@ public class CourseDataExtractor {
 			}
 			scanner.close();
 
-			System.out.println(courses.size());
 		}
 
 		catch (FileNotFoundException e) {
