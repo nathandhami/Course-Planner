@@ -30,7 +30,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
 	CourseByNames selectedCourse;
 	ArrayList<Course> coursesBySemester = new ArrayList<Course>();
-	private final int NUM_OF_COLS = 3;
+	private final int NUM_OF_COLS = 4;
 	private int Row_Start = 0;
 	private int Row_End = 15;
 	
@@ -46,7 +46,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 
 		addMainPanel();
 		addTopPanel();
-		addWestPanel();
+		//addWestPanel();
 		initialiseCenterPanel();
 		
 		registerAsObserver();
@@ -62,17 +62,17 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		}
 		
 		System.out.println("Number of offerings: " + coursesBySemester.size());
-//		for(int i=0; i<coursesBySemester.size(); i++){
-//			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
-//				coursesBySemester.remove(i);
-//			}
-//		}
+		for(int i=0; i<coursesBySemester.size(); i++){
+			if(!coursesBySemester.get(i).getCourseType().equals("LEC")){
+				//coursesBySemester.remove(i);
+			}
+		}
 		setRows();
 		
 		for(Course c : coursesBySemester){
 			System.out.println(c.getSemesterId());
 		}
-		addWestPanel();
+		//addWestPanel();
 		addCenterPanel();
 		modifyUserContentPanel();
 	}
@@ -97,8 +97,10 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		topPanel.setBackground(Color.WHITE);
 		topPanel.setLayout(new GridBagLayout());
 		
-		
-		topPanel.add(new JLabel("Spring"),makeConstraints(0,0));
+		GridBagConstraints forTop = makeConstraints(0,0);
+		forTop.anchor = GridBagConstraints.CENTER;
+		forTop.weightx = 1;
+		topPanel.add(new JLabel("Spring"),forTop);
 		topPanel.add(new JLabel("Summer"), makeConstraints(1,0));
 		topPanel.add(new JLabel("Fall"),makeConstraints(2,0));
 	}
@@ -121,8 +123,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		for(int i=Row_Start; i <= Row_End; i++){
 			
 			for(int j=0; j<NUM_OF_COLS; j++){
-			    c = makeConstraints(j,i);
-				c.fill = GridBagConstraints.BOTH;
+				
 
 			}
 		}
@@ -135,44 +136,63 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			for(int i =Row_Start; i <= Row_End; i++){
 			
 				for(int j =0; j < NUM_OF_COLS; j++){
-					 c = makeConstraints(j,i);
+					c = makeConstraints(j,i);
 					c.fill = GridBagConstraints.BOTH;
-					
-					JLabel label = new JLabel();
-					label.setBorder(BorderFactory.createLineBorder(Color.BLACK));
-					centerPanel.add(label,c);
-					
 					JPanel add_panel = new JPanel();
-					add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.PAGE_AXIS));
 					
-					for(int t=0; t<coursesBySemester.size(); t++){
+					if(j == 0){
+						int year = 2000 + i;
+						JPanel py = new JPanel();
+						py.setLayout(new BorderLayout());
+						py.add(new JLabel(String.valueOf(year)),BorderLayout.CENTER);
+						py.setBackground(Color.white);
+						GridBagConstraints gc =makeConstraints(j,i);
+						gc.fill = GridBagConstraints.BOTH;
 						
-						int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
+						gc.ipadx = 0;
+						centerPanel.add(py,gc);
+					}
+					else{
 						
-						if(y == i){
+						JLabel label = new JLabel();
+						label.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+						centerPanel.add(label,c);
+						
+						add_panel.setLayout(new BoxLayout(add_panel, BoxLayout.PAGE_AXIS));
+						
+						for(int t=0; t<coursesBySemester.size(); t++){
 							
-							int mon = Integer.parseInt(coursesBySemester.get(t).
-										getSemesterId().substring(3, 4));
-							if(mon == 1 && j == 0){
-								add_panel.add(makeButton(coursesBySemester.get(t).getSemesterId(),coursesBySemester.get(t)));
-//								System.out.println("adding button to i="+i+" j="+j);
+							if(coursesBySemester.get(t).getCourseType().equals("LEC")){
+								int y = Integer.parseInt(coursesBySemester.get(t).getSemesterId().substring(1, 3));
+								
+								if(y == i){
+									
+									int mon = Integer.parseInt(coursesBySemester.get(t).
+												getSemesterId().substring(3, 4));
+									if(mon == 1 && j == 1){
+										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+															,coursesBySemester.get(t)));
+//										System.out.println("adding button to i="+i+" j="+j);
+									}
+									else if(mon == 4 && j == 2){
+										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+															,coursesBySemester.get(t)));
+//										System.out.println("adding button to i="+i+" j="+j);
+									}
+									else if(mon == 7 && j == 3){
+										add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus()
+															,coursesBySemester.get(t)));
+//										System.out.println("adding button to i="+i+" j="+j);
+									}
+									
+						
+								}
 							}
-							else if(mon == 4 && j == 1){
-								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus(),coursesBySemester.get(t)));
-//								System.out.println("adding button to i="+i+" j="+j);
-							}
-							else if(mon == 7 && j == 2){
-								add_panel.add(makeButton(coursesBySemester.get(t).getCourseAndCampus(),coursesBySemester.get(t)));
-//								System.out.println("adding button to i="+i+" j="+j);
-							}
-							
-				
+
 						}
 					}
-					
-					
+
 					centerPanel.add(add_panel,c);
-//					c.fill = GridBagConstraints.HORIZONTAL;
 					
 				}
 			}
@@ -186,7 +206,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		return button;
 	}
 	
-	private void setupButtonActionListener(JButton button, Course getCourse){
+	private void setupButtonActionListener(JButton button, final Course getCourse){
 		
 		button.addActionListener(new ActionListener() {
 			
@@ -223,8 +243,6 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			
 			mainPanel.add(topPanel,BorderLayout.NORTH);
 			mainPanel.add(westPanel,BorderLayout.WEST);
-			//centerPanel.show();
-			centerPanel.setVisible(true);
 			mainPanel.add(centerPanel,BorderLayout.CENTER);
 			makeUserContentPanel(mainPanel);
 		
@@ -237,9 +255,15 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		c.gridx = j;
 		c.gridy = i;
 		
-		//Other settings on c go here.
-		c.weightx = 1;
-		c.weighty = 1;
+		if(c.gridx == 0){
+			c.anchor = GridBagConstraints.LINE_START;
+			c.weightx = 0.02;
+		}
+		else{
+			c.weightx = 1;
+			c.weighty = 1;
+		}
+		
 		
 		return c;
 	}
