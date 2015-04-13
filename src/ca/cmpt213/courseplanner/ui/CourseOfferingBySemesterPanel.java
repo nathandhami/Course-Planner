@@ -44,6 +44,7 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 		initialiseCenterPanel();
 		
 		registerAsObserver();
+		registerAsDepartmentChangeObserver();
 		modifyUserContentPanel();
 	}
 
@@ -65,6 +66,17 @@ public class CourseOfferingBySemesterPanel extends CoursePlannerPanel {
 			public void stateChanged() {
 				updateCourseOffering();
 
+			}
+		});
+	}
+	
+	private void registerAsDepartmentChangeObserver(){
+		getModel().addDepartmentChangeObserver(new CourseDataExtractorObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				mainPanel.removeAll();
 			}
 		});
 	}

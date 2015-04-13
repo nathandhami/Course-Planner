@@ -1,6 +1,8 @@
 package ca.cmpt213.courseplanner.ui;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
+
 import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -13,7 +15,7 @@ public class CoursePlannerFrame extends JFrame{
 	public CoursePlannerFrame(String title,CourseDataExtractor model){
 		setTitle(title);
 		setLayout(new BorderLayout());
-		
+		setPreferredSize(new Dimension(1300,720));
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel,BoxLayout.PAGE_AXIS));
 		panel.add(new CourseListFilterPanel("Course List Filter", model));

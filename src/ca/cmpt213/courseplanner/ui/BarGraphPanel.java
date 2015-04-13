@@ -22,16 +22,19 @@ public class BarGraphPanel extends CoursePlannerPanel {
 	private BarGraphModel graphModel1;
 	private BarGraphModel graphModel2;
 	ArrayList<Course> coursesBySemester = new ArrayList<Course>();
+	ArrayList<Course> noReplicatedCoursesBySemester = new ArrayList<Course>();
 	private JLabel courseLabel;
 
 	private JPanel panel = new JPanel();
 	public BarGraphPanel(String title,CourseDataExtractor model) {
 		super(title,model);
 		// TODO Auto-generated constructor stub
-		setPreferredSize(new Dimension(200,200));
+//		setPreferredSize(new Dimension(200,200));
+		setMaximumSize(new Dimension(200, 200));
 		initializeGraphModel();
 		modifyUserContentPanel();
 		registerAsObserver();
+		registerAsDepartmentChangeObserver();
 	}
 
 	@Override
@@ -76,15 +79,50 @@ public class BarGraphPanel extends CoursePlannerPanel {
 		});
 	}
 	
+	private void registerAsDepartmentChangeObserver(){
+		getModel().addDepartmentChangeObserver(new CourseDataExtractorObserver() {
+			
+			@Override
+			public void stateChanged() {
+				// TODO Auto-generated method stub
+				clearUi();
+				makeUserContentPanel(panel);
+				
+			}
+		});
+	}
+	
+	private void clearUi(){
+		int data1[] = {0,0,0};
+		int data2[] = {0,0,0,0}; 
+		graphModel1.setData(data1);
+		graphModel2.setData(data2);
+	
+	}
+	
 	private void updateUi(){
 		courseLabel.setText("Course: " + getModel().getSelOfferedCourse().getCourseName());
 		coursesBySemester = getModel().getSelOfferedCourse().getIndividualCourses();
+		noReplicatedCoursesBySemester.clear();
+		String shouldBeDisplayed = " ";
+		for(int t =0; t < coursesBySemester.size();t++){
+			if(!(coursesBySemester.get(t).getCourseAndCampus() + 
+					coursesBySemester.get(t).getSemesterId())
+					.equals(shouldBeDisplayed)){
+				noReplicatedCoursesBySemester.add(coursesBySemester.get(t));
+			}
+			shouldBeDisplayed = coursesBySemester.get(t).getCourseAndCampus() +
+								coursesBySemester.get(t).getSemesterId();
+		}
+		
+		
+	
 		int springNum = 0;
 		int summerNum = 0;
 		int fallNum = 0;
 		
-		for(int i =0; i < coursesBySemester.size();i++){
-			Course course = coursesBySemester.get(i);
+		for(int i =0; i < noReplicatedCoursesBySemester.size();i++){
+			Course course = noReplicatedCoursesBySemester.get(i);
 			Semester currentSemester = new Semester(course.getSemesterId());
 			
 			if(currentSemester.getSemesterMonth().equals("Spring")){
@@ -103,8 +141,8 @@ public class BarGraphPanel extends CoursePlannerPanel {
 		int numOfBurnabyCourses = 0;
 		int numOfOtherCourses = 0;
 		
-		for(int i =0; i < coursesBySemester.size();i++){
-			Course course = coursesBySemester.get(i);
+		for(int i =0; i < noReplicatedCoursesBySemester.size();i++){
+			Course course = noReplicatedCoursesBySemester.get(i);
 			
 			if(course.getLocation().equals("SURREY")){
 				numOfSurreyCourses++;
@@ -114,6 +152,7 @@ public class BarGraphPanel extends CoursePlannerPanel {
 			}
 			else if(course.getLocation().equals("BURNABY")){
 				numOfBurnabyCourses++;
+				System.out.println(numOfBurnabyCourses);
 			}
 			else {
 				numOfOtherCourses++;

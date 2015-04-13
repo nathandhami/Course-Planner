@@ -5,6 +5,7 @@ import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.util.ArrayList;
 
+import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -26,6 +27,7 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 	private ArrayList<CourseByNames> allCourses = new ArrayList<CourseByNames>();
 	private ArrayList<String> sectionDetail = new ArrayList<String>();
 	private ArrayList<String> enrollDetail = new ArrayList<String>();
+	private JLabel jDetail;
 
 	public CourseDetailPanel(String title, CourseDataExtractor model) {
 		super(title, model);
@@ -41,7 +43,7 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		
 		modifyUserContentPanel();
 		setPreferredSize(new Dimension(160, 160));
-		setMaximumSize(new Dimension(200, 200));
+//		setMaximumSize(new Dimension(200, 200));
 		registerAsOfferingChangeObserver();
 		registerAsCourseChangeObserver();
 	}
@@ -54,6 +56,7 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		mainPanel.add(eastPanel,BorderLayout.EAST);
 		
 		mainPanel.add(southPanel,BorderLayout.SOUTH);
+		
 		makeUserContentPanel(mainPanel);
 	}
 
@@ -70,6 +73,7 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 		westPanel.add(new JLabel("Semester:"));
 		westPanel.add(new JLabel("Location:"));
 		westPanel.add(new JLabel("Instructors:"));
+		westPanel.add(new JLabel(" "));
 		westPanel.add(new JLabel("Section Type:"));
 	}
 	
@@ -91,6 +95,7 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 			@Override
 			public void stateChanged() {
 				textBoxDisplay.setText(" ");
+				southPanel.removeAll();
 			}
 		});
 	}
@@ -99,11 +104,13 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 	private void updateTextArea(){
 		
 		Course courseDisplay = getModel().getChosenOfferedCourse();
+						
 
 		textBoxDisplay.setText( courseDisplay.getFullCourseName() + "\n" +
 								courseDisplay.getSemesterId() + "\n" +
 								courseDisplay.getLocation() + "\n" +
 								courseDisplay.getInstuctorName());
+		
 				
 		sectionDetail.removeAll(sectionDetail);
 		enrollDetail.removeAll(enrollDetail);
@@ -115,7 +122,6 @@ public class CourseDetailPanel extends CoursePlannerPanel {
 			southPanel.add(jDetail);
 			jDetail = new JLabel(enrollDetail.get(i));
 			southPanel.add(jDetail);
-			
 		}
 	}
 	
