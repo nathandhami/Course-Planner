@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * 
- * Holds list of courses
+ * Holds a complete list of courses
  *
  */
 public class CourseList implements Iterable<Course> {

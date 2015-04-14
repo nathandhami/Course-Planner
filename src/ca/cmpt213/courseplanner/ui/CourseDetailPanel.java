@@ -1,5 +1,9 @@
 package ca.cmpt213.courseplanner.ui;
 
+/*
+ * updates details panel everytime course is selected. 
+ * */
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;

@@ -1,5 +1,9 @@
 package ca.cmpt213.courseplanner.ui;
 
+/*
+ * Updates course grid every time a course is selected in the left panel.
+ * */
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;

@@ -1,5 +1,9 @@
 package ca.cmpt213.courseplanner.ui;
 
+/*
+ * Creates java frame.
+ * */
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 

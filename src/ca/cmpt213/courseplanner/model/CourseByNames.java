@@ -1,5 +1,9 @@
 package ca.cmpt213.courseplanner.model;
 
+/*
+ * Every specific course is stored with all its offerings from every semester. Removes duplication
+ * */
+
 import java.util.ArrayList;
 
 public class CourseByNames {
